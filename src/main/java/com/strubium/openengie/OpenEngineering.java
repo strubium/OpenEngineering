@@ -32,7 +32,13 @@ public class OpenEngineering {
             "ore_lead",
             "ore_nickel",
             "ore_silver",
-            "ore_uranium"
+            "ore_uranium",
+            "sheetmetal_aluminum",
+            "sheetmetal_steel",
+            "storage_aluminum",
+            "stone_decoration_alloybrick",
+            "stone_decoration_blastbrick",
+            "stone_decoration_coke"
     };
 
     // Array to hold block instances

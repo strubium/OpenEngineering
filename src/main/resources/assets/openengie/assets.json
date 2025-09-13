@@ -34,6 +34,36 @@
       "name": "ore_uranium",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_uranium.png",
       "path": "textures/blocks/ore_uranium.png"
+    },
+    {
+      "name": "sheetmetal_aluminum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
+      "path": "textures/blocks/sheetmetal_aluminum.png"
+    },
+    {
+      "name": "sheetmetal_steel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_steel.png",
+      "path": "textures/blocks/sheetmetal_steel.png"
+    },
+    {
+      "name": "storage_aluminum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_aluminum.png",
+      "path": "textures/blocks/storage_aluminum.png"
+    },
+    {
+      "name": "stone_decoration_alloybrick",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_alloybrick.png",
+      "path": "textures/blocks/stone_decoration_alloybrick.png"
+    },
+    {
+      "name": "stone_decoration_blastbrick",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick.png",
+      "path": "textures/blocks/stone_decoration_blastbrick.png"
+    },
+    {
+      "name": "stone_decoration_coke",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_coke.png",
+      "path": "textures/blocks/stone_decoration_coke.png"
     }
   ],
   "models": [
@@ -84,6 +114,48 @@
       "blockModelPath": "models/block/ore_uranium.json",
       "itemModelPath": "models/item/ore_uranium.json",
       "blockStatePath": "blockstates/ore_uranium.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "sheetmetal_aluminum",
+      "blockModelPath": "models/block/sheetmetal_aluminum.json",
+      "itemModelPath": "models/item/sheetmetal_aluminum.json",
+      "blockStatePath": "blockstates/sheetmetal_aluminum.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "sheetmetal_steel",
+      "blockModelPath": "models/block/sheetmetal_steel.json",
+      "itemModelPath": "models/item/sheetmetal_steel.json",
+      "blockStatePath": "blockstates/sheetmetal_steel.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "storage_aluminum",
+      "blockModelPath": "models/block/storage_aluminum.json",
+      "itemModelPath": "models/item/storage_aluminum.json",
+      "blockStatePath": "blockstates/storage_aluminum.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "stone_decoration_alloybrick",
+      "blockModelPath": "models/block/stone_decoration_alloybrick.json",
+      "itemModelPath": "models/item/stone_decoration_alloybrick.json",
+      "blockStatePath": "blockstates/stone_decoration_alloybrick.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "stone_decoration_blastbrick",
+      "blockModelPath": "models/block/stone_decoration_blastbrick.json",
+      "itemModelPath": "models/item/stone_decoration_blastbrick.json",
+      "blockStatePath": "blockstates/stone_decoration_blastbrick.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "stone_decoration_coke",
+      "blockModelPath": "models/block/stone_decoration_coke.json",
+      "itemModelPath": "models/item/stone_decoration_coke.json",
+      "blockStatePath": "blockstates/stone_decoration_coke.json",
       "parentBlockModel": "block/cube_all"
     }
   ]
