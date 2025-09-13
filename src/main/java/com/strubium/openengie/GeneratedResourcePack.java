@@ -1,7 +1,7 @@
-package com.example.modid;
+package com.strubium.openengie;
 
 import com.google.common.collect.ImmutableSet;
-import com.google.gson.JsonObject;
+import com.strubium.immersiveengineering.Tags;
 import net.minecraft.client.resources.IResourcePack;
 import net.minecraft.client.resources.data.IMetadataSection;
 import net.minecraft.client.resources.data.MetadataSerializer;
@@ -38,7 +38,7 @@ public class GeneratedResourcePack implements IResourcePack {
 
     @Override
     public Set<String> getResourceDomains() {
-        return ImmutableSet.of(Tags.MOD_ID); // Make sure this matches your modid
+        return ImmutableSet.of(Tags.MOD_ID);
     }
 
     @Nullable

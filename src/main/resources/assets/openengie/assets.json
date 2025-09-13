@@ -1,0 +1,90 @@
+{
+  "textures": [
+    {
+      "name": "treated_wood",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood.png",
+      "path": "textures/blocks/treated_wood.png"
+    },
+    {
+      "name": "ore_aluminum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_aluminum.png",
+      "path": "textures/blocks/ore_aluminum.png"
+    },
+    {
+      "name": "ore_copper",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_copper.png",
+      "path": "textures/blocks/ore_copper.png"
+    },
+    {
+      "name": "ore_lead",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_lead.png",
+      "path": "textures/blocks/ore_lead.png"
+    },
+    {
+      "name": "ore_nickel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_nickel.png",
+      "path": "textures/blocks/ore_nickel.png"
+    },
+    {
+      "name": "ore_silver",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_silver.png",
+      "path": "textures/blocks/ore_silver.png"
+    },
+    {
+      "name": "ore_uranium",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_uranium.png",
+      "path": "textures/blocks/ore_uranium.png"
+    }
+  ],
+  "models": [
+    {
+      "name": "treated_wood",
+      "blockModelPath": "models/block/treated_wood.json",
+      "itemModelPath": "models/item/treated_wood.json",
+      "blockStatePath": "blockstates/treated_wood.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "ore_aluminum",
+      "blockModelPath": "models/block/ore_aluminum.json",
+      "itemModelPath": "models/item/ore_aluminum.json",
+      "blockStatePath": "blockstates/ore_aluminum.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "ore_copper",
+      "blockModelPath": "models/block/ore_copper.json",
+      "itemModelPath": "models/item/ore_copper.json",
+      "blockStatePath": "blockstates/ore_copper.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "ore_lead",
+      "blockModelPath": "models/block/ore_lead.json",
+      "itemModelPath": "models/item/ore_lead.json",
+      "blockStatePath": "blockstates/ore_lead.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "ore_nickel",
+      "blockModelPath": "models/block/ore_nickel.json",
+      "itemModelPath": "models/item/ore_nickel.json",
+      "blockStatePath": "blockstates/ore_nickel.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "ore_silver",
+      "blockModelPath": "models/block/ore_silver.json",
+      "itemModelPath": "models/item/ore_silver.json",
+      "blockStatePath": "blockstates/ore_silver.json",
+      "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "ore_uranium",
+      "blockModelPath": "models/block/ore_uranium.json",
+      "itemModelPath": "models/item/ore_uranium.json",
+      "blockStatePath": "blockstates/ore_uranium.json",
+      "parentBlockModel": "block/cube_all"
+    }
+  ]
+}
