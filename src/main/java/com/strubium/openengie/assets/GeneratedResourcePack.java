@@ -1,4 +1,4 @@
-package com.strubium.openengie;
+package com.strubium.openengie.assets;
 
 import com.google.common.collect.ImmutableSet;
 import com.strubium.immersiveengineering.Tags;

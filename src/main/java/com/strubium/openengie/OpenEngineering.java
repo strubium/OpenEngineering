@@ -1,6 +1,7 @@
 package com.strubium.openengie;
 
 import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.assets.RuntimeAssets;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -24,26 +25,6 @@ public class OpenEngineering {
 
     public static final Logger LOGGER = LogManager.getLogger(Tags.MOD_NAME);
 
-    // Define block names
-    public static final String[] BLOCK_NAMES = {
-            "treated_wood",
-            "ore_aluminum",
-            "ore_copper",
-            "ore_lead",
-            "ore_nickel",
-            "ore_silver",
-            "ore_uranium",
-            "sheetmetal_aluminum",
-            "sheetmetal_steel",
-            "storage_aluminum",
-            "stone_decoration_alloybrick",
-            "stone_decoration_blastbrick",
-            "stone_decoration_coke"
-    };
-
-    // Array to hold block instances
-    public static final Block[] BLOCKS = new Block[BLOCK_NAMES.length];
-
     @Mod.EventHandler
     public void construct(FMLConstructionEvent event){
         RuntimeAssets.downloadAssets();
@@ -58,38 +39,5 @@ public class OpenEngineering {
         }
     }
 
-    // Register blocks dynamically
-    @SubscribeEvent
-    public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        for (int i = 0; i < BLOCK_NAMES.length; i++) {
-            BLOCKS[i] = new Block(Material.ROCK)
-                    .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
-                    .setRegistryName(Tags.MOD_ID + ":" + BLOCK_NAMES[i])
-                    .setTranslationKey(Tags.MOD_ID + "." + BLOCK_NAMES[i]);
-            event.getRegistry().register(BLOCKS[i]);
-        }
-    }
 
-    // Register corresponding item blocks
-    @SubscribeEvent
-    public static void registerItems(RegistryEvent.Register<Item> event) {
-        for (Block block : BLOCKS) {
-            ItemBlock itemBlock = new ItemBlock(block);
-            itemBlock.setRegistryName(block.getRegistryName());
-            event.getRegistry().register(itemBlock);
-        }
-    }
-
-    // Register models for all blocks
-    @SideOnly(Side.CLIENT)
-    @SubscribeEvent
-    public static void registerModels(ModelRegistryEvent event) {
-        for (Block block : BLOCKS) {
-            ModelLoader.setCustomModelResourceLocation(
-                    Item.getItemFromBlock(block),
-                    0,
-                    new net.minecraft.client.renderer.block.model.ModelResourceLocation(block.getRegistryName(), "inventory")
-            );
-        }
-    }
 }

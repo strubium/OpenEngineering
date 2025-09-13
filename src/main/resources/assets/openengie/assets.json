@@ -155,7 +155,7 @@
       "name": "stone_decoration_coke",
       "blockModelPath": "models/block/stone_decoration_coke.json",
       "itemModelPath": "models/item/stone_decoration_coke.json",
-      "blockStatePath": "blockstates/stone_decoration_coke.json",
+      "blockStatePa th": "blockstates/stone_decoration_coke.json",
       "parentBlockModel": "block/cube_all"
     }
   ]

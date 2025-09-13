@@ -1,7 +1,8 @@
-package com.strubium.openengie;
+package com.strubium.openengie.assets;
 
 import com.google.gson.*;
 import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.OpenEngineering;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.SimpleReloadableResourceManager;
 import net.minecraftforge.fml.relauncher.Side;
@@ -17,9 +18,8 @@ public class RuntimeAssets {
     /** Load assets.json from inside the JAR */
     private static JsonObject loadAssetsJson() throws IOException {
         try (InputStream in = RuntimeAssets.class.getResourceAsStream("/assets/openengie/assets.json")) {
-            if (in == null) throw new FileNotFoundException("assets.json not found in JAR!");
             try (Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8)) {
-                com.google.gson.JsonParser parser = new com.google.gson.JsonParser();
+                JsonParser parser = new JsonParser();
                 return parser.parse(reader).getAsJsonObject();
             }
         }
