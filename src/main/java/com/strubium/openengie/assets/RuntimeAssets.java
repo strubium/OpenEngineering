@@ -58,6 +58,7 @@ public class RuntimeAssets {
     }
 
     /** Generate blockstates/models from assets.json */
+    /** Generate blockstates/models from assets.json */
     public static void generateRuntimeModels() {
         try {
             JsonObject assetsJson = loadAssetsJson();
@@ -67,40 +68,67 @@ public class RuntimeAssets {
             for (JsonElement elem : models) {
                 JsonObject model = elem.getAsJsonObject();
                 String name = model.get("name").getAsString();
-                String blockStatePath = model.get("blockStatePath").getAsString();
-                String blockModelPath = model.get("blockModelPath").getAsString();
-                String itemModelPath = model.get("itemModelPath").getAsString();
-                String parentBlockModel = model.get("parentBlockModel").getAsString();
+                String type = model.has("type") ? model.get("type").getAsString() : "block"; // default to block
 
-                // blockstates
-                File blockstateFile = new File(baseDir, blockStatePath);
-                blockstateFile.getParentFile().mkdirs();
-                JsonObject blockstateJson = new JsonObject();
-                JsonObject variants = new JsonObject();
-                JsonObject variant = new JsonObject();
-                variant.addProperty("model", Tags.MOD_ID + ":" + name);
-                variants.add("normal", variant);
-                blockstateJson.add("variants", variants);
-                writeJson(blockstateFile, blockstateJson);
+                if (type.equalsIgnoreCase("block")) {
+                    // --- BLOCK HANDLING ---
+                    String blockStatePath = model.get("blockStatePath").getAsString();
+                    String blockModelPath = model.get("blockModelPath").getAsString();
+                    String itemModelPath = model.get("itemModelPath").getAsString();
+                    String parentBlockModel = model.get("parentBlockModel").getAsString();
 
-                // block model
-                File blockModelFile = new File(baseDir, blockModelPath);
-                blockModelFile.getParentFile().mkdirs();
-                JsonObject blockModelJson = new JsonObject();
-                blockModelJson.addProperty("parent", parentBlockModel);
-                JsonObject textures = new JsonObject();
-                textures.addProperty("all", Tags.MOD_ID + ":blocks/" + name);
-                blockModelJson.add("textures", textures);
-                writeJson(blockModelFile, blockModelJson);
+                    // blockstates
+                    File blockstateFile = new File(baseDir, blockStatePath);
+                    blockstateFile.getParentFile().mkdirs();
+                    JsonObject blockstateJson = new JsonObject();
+                    JsonObject variants = new JsonObject();
+                    JsonObject variant = new JsonObject();
+                    variant.addProperty("model", Tags.MOD_ID + ":" + name);
+                    variants.add("normal", variant);
+                    blockstateJson.add("variants", variants);
+                    writeJson(blockstateFile, blockstateJson);
 
-                // item model
-                File itemModelFile = new File(baseDir, itemModelPath);
-                itemModelFile.getParentFile().mkdirs();
-                JsonObject itemModelJson = new JsonObject();
-                itemModelJson.addProperty("parent", Tags.MOD_ID + ":block/" + name);
-                writeJson(itemModelFile, itemModelJson);
+                    // block model
+                    File blockModelFile = new File(baseDir, blockModelPath);
+                    blockModelFile.getParentFile().mkdirs();
+                    JsonObject blockModelJson = new JsonObject();
+                    blockModelJson.addProperty("parent", parentBlockModel);
+                    JsonObject textures = new JsonObject();
+                    textures.addProperty("all", Tags.MOD_ID + ":blocks/" + name);
+                    blockModelJson.add("textures", textures);
+                    writeJson(blockModelFile, blockModelJson);
 
-                OpenEngineering.LOGGER.info("Generated runtime models for {}", name);
+                    // item model (references block model)
+                    File itemModelFile = new File(baseDir, itemModelPath);
+                    itemModelFile.getParentFile().mkdirs();
+                    JsonObject itemModelJson = new JsonObject();
+                    itemModelJson.addProperty("parent", Tags.MOD_ID + ":block/" + name);
+                    writeJson(itemModelFile, itemModelJson);
+
+                    OpenEngineering.LOGGER.info("Generated runtime block models for {}", name);
+
+                } else if (type.equalsIgnoreCase("item")) {
+                    // --- ITEM HANDLING ---
+                    String itemModelPath = model.get("itemModelPath").getAsString();
+                    String parentItemModel = model.has("parentItemModel")
+                            ? model.get("parentItemModel").getAsString()
+                            : "item/generated";
+
+                    File itemModelFile = new File(baseDir, itemModelPath);
+                    itemModelFile.getParentFile().mkdirs();
+
+                    JsonObject itemModelJson = new JsonObject();
+                    itemModelJson.addProperty("parent", parentItemModel);
+
+                    // Optional textures for items
+                    JsonObject textures = new JsonObject();
+                    textures.addProperty("layer0", Tags.MOD_ID + ":items/" + name);
+                    itemModelJson.add("textures", textures);
+
+                    writeJson(itemModelFile, itemModelJson);
+
+                    OpenEngineering.LOGGER.info("Generated runtime item model for {}", name);
+                }
             }
         } catch (Exception e) {
             OpenEngineering.LOGGER.error("Failed to generate runtime models!", e);
