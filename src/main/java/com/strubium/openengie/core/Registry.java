@@ -21,6 +21,8 @@ public class Registry {
 
     /** Holds all registered blocks dynamically */
     private static final List<Block> BLOCKS = new ArrayList<>();
+    private static final List<Item> ITEMS = new ArrayList<>();
+
 
     /**
      * Add an already-constructed block to the registry list.
@@ -28,6 +30,14 @@ public class Registry {
      */
     public static void addBlock(Block block) {
         BLOCKS.add(block);
+    }
+
+    /**
+     * Add an already-constructed block to the registry list.
+     * Call this during preInit or static initialization.
+     */
+    public static void addItem(Item item) {
+        ITEMS.add(item);
     }
 
     /** Helper to get block by registry name */
@@ -63,6 +73,9 @@ public class Registry {
                 ItemBlock itemBlock = new ItemBlock(block);
                 itemBlock.setRegistryName(block.getRegistryName());
                 event.getRegistry().register(itemBlock);
+            }
+            for (Item item : ITEMS){
+                event.getRegistry().register(item);
             }
         }
 
