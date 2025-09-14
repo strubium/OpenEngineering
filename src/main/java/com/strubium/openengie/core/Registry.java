@@ -1,6 +1,8 @@
 package com.strubium.openengie.core;
 
+import com.strubium.openengie.core.blocks.BlockTreatedWood;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -49,6 +51,9 @@ public class Registry {
         public static void registerBlocks(RegistryEvent.Register<Block> event) {
             for (Block block : BLOCKS) {
                 event.getRegistry().register(block);
+                if(block instanceof BlockTreatedWood){
+                    Blocks.FIRE.setFireInfo(ModBlocks.TREATED_WOOD, 0, 0); // No chance to catch or spread fire
+                }
             }
         }
 
