@@ -51,22 +51,12 @@ public class BlockAlloyBrick extends Block {
                 if (formed) {
                     player.sendMessage(new TextComponentString("Alloy Kiln formed!"));
                 } else {
-                    player.sendMessage(new TextComponentString("Nah"));
+                    player.sendMessage(new TextComponentString("Incorrect Placment"));
                 }
             }
             return true;
         }
 
-        // If the player is not holding another alloykiln block, do nothing when clicked to allow building. Else send a message
-        if (!held.isEmpty() && held.getItem() instanceof ItemBlock) {
-            Block heldBlock = ((ItemBlock) held.getItem()).getBlock();
-            if (heldBlock != this) {
-                if (!world.isRemote) {
-                    player.sendMessage(new TextComponentString("You need the hammer to form this!"));
-                }
-                return true; // Warned player, prevent other action
-            }
-        }
 
         // Return false to allow normal block placement or other interaction
         return false;
