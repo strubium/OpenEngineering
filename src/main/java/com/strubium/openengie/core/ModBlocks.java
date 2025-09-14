@@ -3,6 +3,8 @@ package com.strubium.openengie.core;
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.BlockTreatedWood;
+import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
+import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -51,10 +53,8 @@ public class ModBlocks {
             .setRegistryName(Tags.MOD_ID, "sheetmetal_steel")
             .setTranslationKey(Tags.MOD_ID + ".sheetmetal_steel");
 
-    public static final Block SD_ALLOYBRICK = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
-            .setRegistryName(Tags.MOD_ID, "stone_decoration_alloybrick")
-            .setTranslationKey(Tags.MOD_ID + ".stone_decoration_alloybrick");
+    public static final BlockAlloyBrick SD_ALLOYBRICK = new BlockAlloyBrick();
+    public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
     public static final Block SD_BLASTBRICK = new Block(Material.ROCK)
             .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
@@ -77,6 +77,7 @@ public class ModBlocks {
         Registry.addBlock(SHEETMETAL_ALUMINUM);
         Registry.addBlock(SHEETMETAT_STEEL);
         Registry.addBlock(SD_ALLOYBRICK);
+        Registry.addBlock(ALLOY_KILN_FORMED);
         Registry.addBlock(SD_BLASTBRICK);
         Registry.addBlock(SD_COKE);
     }
