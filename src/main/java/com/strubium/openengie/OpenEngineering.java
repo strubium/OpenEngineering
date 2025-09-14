@@ -2,6 +2,10 @@ package com.strubium.openengie;
 
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.assets.RuntimeAssets;
+import com.strubium.openengie.core.ModBlocks;
+import com.strubium.openengie.core.Registry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -14,6 +18,13 @@ public class OpenEngineering {
 
     public static final Logger LOGGER = LogManager.getLogger(Tags.MOD_NAME);
 
+    public static final CreativeTabs CREATIVE_TAB = new CreativeTabs("ie") {
+        @Override
+        public ItemStack createIcon() {
+            return Registry.getItem("treated_wood").getDefaultInstance();
+        }
+    };
+
     @Mod.EventHandler
     public void construct(FMLConstructionEvent event){
         RuntimeAssets.checkAssets();
@@ -22,6 +33,7 @@ public class OpenEngineering {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         RuntimeAssets.generateRuntimeModels();
+        ModBlocks.init();
 
         if (event.getSide().isClient()) {
             RuntimeAssets.registerGeneratedResourcePack();
