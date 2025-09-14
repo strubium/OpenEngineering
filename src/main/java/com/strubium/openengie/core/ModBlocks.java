@@ -8,13 +8,6 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class ModBlocks {
 
-    private static final String[] BLOCK_NAMES = {
-            "stone_decoration_alloybrick",
-            "stone_decoration_blastbrick",
-            "stone_decoration_coke"
-    };
-
-
     public static final Block TREATED_WOOD = new Block(Material.WOOD)
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "treated_wood")
