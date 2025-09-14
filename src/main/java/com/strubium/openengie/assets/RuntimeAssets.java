@@ -147,7 +147,7 @@ public class RuntimeAssets {
                     + "You can choose to download them directly from the official sources "
                     + "by clicking 'Download Missing Assets', or continue without them by "
                     + "clicking 'Ignore' (visual issues may occur).\n"
-                    + "You will need to reopen the game if choose to download these textures";
+                    + "You will need to reopen the game if you choose to download these textures";
 
             int response = JOptionPane.showOptionDialog(
                     getPopupFrame(),

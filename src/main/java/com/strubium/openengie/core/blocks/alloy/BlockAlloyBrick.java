@@ -51,7 +51,7 @@ public class BlockAlloyBrick extends Block {
                 if (formed) {
                     player.sendMessage(new TextComponentString("Alloy Kiln formed!"));
                 } else {
-                    player.sendMessage(new TextComponentString("Incorrect Placment"));
+                    player.sendMessage(new TextComponentString("Incorrect Placement"));
                 }
             }
             return true;
