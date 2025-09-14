@@ -2,16 +2,14 @@ package com.strubium.openengie.core;
 
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;
+import com.strubium.openengie.core.blocks.BlockTreatedWood;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
 public class ModBlocks {
 
-    public static final Block TREATED_WOOD = new Block(Material.WOOD)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "treated_wood")
-            .setTranslationKey(Tags.MOD_ID + ".treated_wood");
+    public static final Block TREATED_WOOD = new BlockTreatedWood();
 
     public static final Block ORE_ALUMINUM = new Block(Material.ROCK)
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
