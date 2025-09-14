@@ -3,12 +3,16 @@ package com.strubium.openengie.core.blocks.alloy;
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.ModBlocks;
+import com.strubium.openengie.core.ModItems;
+import com.strubium.openengie.core.Registry;
 import com.strubium.openengie.core.multi.Multiblock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
@@ -37,15 +41,34 @@ public class BlockAlloyBrick extends Block {
     public boolean onBlockActivated(World world, BlockPos pos, IBlockState state,
                                     EntityPlayer player, EnumHand hand,
                                     EnumFacing facing, float hitX, float hitY, float hitZ) {
-        if (!world.isRemote) {
-            boolean formed = alloyKilnMultiblock.tryForm(world, pos,
-                    ModBlocks.ALLOY_KILN_FORMED.getDefaultState(), 3);
-            if (formed) {
-                player.sendMessage(new TextComponentString("Alloy Kiln formed!"));
-            } else {
-                player.sendMessage(new TextComponentString("Nah"));
+        ItemStack held = player.getHeldItem(hand); // get the item in the player's hand
+
+        // Check if the player is holding the specific item (replace ModItems.TOOL_HAMMER with your item)
+        if (!held.isEmpty() && held.getItem() == ModItems.TOOL_HAMMER) {
+            if (!world.isRemote) {
+                boolean formed = alloyKilnMultiblock.tryForm(world, pos,
+                        ModBlocks.ALLOY_KILN_FORMED.getDefaultState(), 3);
+                if (formed) {
+                    player.sendMessage(new TextComponentString("Alloy Kiln formed!"));
+                } else {
+                    player.sendMessage(new TextComponentString("Nah"));
+                }
+            }
+            return true;
+        }
+
+        // If the player is not holding another alloykiln block, do nothing when clicked to allow building. Else send a message
+        if (!held.isEmpty() && held.getItem() instanceof ItemBlock) {
+            Block heldBlock = ((ItemBlock) held.getItem()).getBlock();
+            if (heldBlock != this) {
+                if (!world.isRemote) {
+                    player.sendMessage(new TextComponentString("You need the hammer to form this!"));
+                }
+                return true; // Warned player, prevent other action
             }
         }
-        return true;
+
+        // Return false to allow normal block placement or other interaction
+        return false;
     }
 }
