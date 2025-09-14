@@ -16,7 +16,7 @@ public class OpenEngineering {
 
     @Mod.EventHandler
     public void construct(FMLConstructionEvent event){
-        RuntimeAssets.downloadAssets();
+        RuntimeAssets.checkAssets();
     }
 
     @Mod.EventHandler
