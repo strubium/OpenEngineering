@@ -1,6 +1,12 @@
 {
   "textures": [
     {
+      "name": "tool_hammer",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/tool_hammer.png",
+      "path": "textures/items/tool_hammer.png",
+      "type": "item"
+    },
+    {
       "name": "treated_wood",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood.png",
       "path": "textures/blocks/treated_wood.png",
@@ -154,6 +160,12 @@
       "type": "item",
       "name": "copper_ingot",
       "itemModelPath": "models/item/copper_ingot.json",
+      "parentItemModel": "item/generated"
+    },
+    {
+      "type": "item",
+      "name": "tool_hammer",
+      "itemModelPath": "models/item/tool_hammer.json",
       "parentItemModel": "item/generated"
     },
     {

@@ -89,6 +89,14 @@ public class Registry {
                         new net.minecraft.client.renderer.block.model.ModelResourceLocation(block.getRegistryName(), "inventory")
                 );
             }
+            for (Item item : ITEMS) {
+                ModelLoader.setCustomModelResourceLocation(
+                        item,
+                        0,
+                        new net.minecraft.client.renderer.block.model.ModelResourceLocation(item.getRegistryName(), "inventory")
+                );
+            }
         }
+
     }
 }

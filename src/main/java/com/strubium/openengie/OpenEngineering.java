@@ -3,6 +3,7 @@ package com.strubium.openengie;
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.ModBlocks;
+import com.strubium.openengie.core.ModItems;
 import com.strubium.openengie.core.Registry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -34,6 +35,7 @@ public class OpenEngineering {
     public void preInit(FMLPreInitializationEvent event) {
         RuntimeAssets.generateRuntimeModels();
         ModBlocks.init();
+        ModItems.init();
 
         if (event.getSide().isClient()) {
             RuntimeAssets.registerGeneratedResourcePack();
