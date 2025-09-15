@@ -37,6 +37,36 @@
       "type": "item"
     },
     {
+      "name": "uranium_ingot",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_uranium.png",
+      "path": "textures/items/uranium_ingot.png",
+      "type": "item"
+    },
+    {
+      "name": "silver_ingot",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_silver.png",
+      "path": "textures/items/silver_ingot.png",
+      "type": "item"
+    },
+    {
+      "name": "nickel_ingot",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_nickel.png",
+      "path": "textures/items/nickel_ingot.png",
+      "type": "item"
+    },
+    {
+      "name": "lead_ingot",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_lead.png",
+      "path": "textures/items/lead_ingot.png",
+      "type": "item"
+    },
+    {
+      "name": "aluminum_ingot",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_aluminum.png",
+      "path": "textures/items/aluminum_ingot.png",
+      "type": "item"
+    },
+    {
       "name": "sheetmetal_aluminum",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
       "path": "textures/blocks/sheetmetal_aluminum.png",
@@ -185,6 +215,36 @@
       "type": "item",
       "name": "copper_ingot",
       "itemModelPath": "models/item/copper_ingot.json",
+      "parentItemModel": "item/generated"
+    },
+    {
+      "type": "item",
+      "name": "uranium_ingot",
+      "itemModelPath": "models/item/uranium_ingot.json",
+      "parentItemModel": "item/generated"
+    },
+    {
+      "type": "item",
+      "name": "aluminum_ingot",
+      "itemModelPath": "models/item/aluminum_ingot.json",
+      "parentItemModel": "item/generated"
+    },
+    {
+      "type": "item",
+      "name": "silver_ingot",
+      "itemModelPath": "models/item/silver_ingot.json",
+      "parentItemModel": "item/generated"
+    },
+    {
+      "type": "item",
+      "name": "lead_ingot",
+      "itemModelPath": "models/item/lead_ingot.json",
+      "parentItemModel": "item/generated"
+    },
+    {
+      "type": "item",
+      "name": "nickel_ingot",
+      "itemModelPath": "models/item/nickel_ingot.json",
       "parentItemModel": "item/generated"
     },
     {
