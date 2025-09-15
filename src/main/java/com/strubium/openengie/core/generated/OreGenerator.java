@@ -10,10 +10,7 @@ import net.minecraft.block.Block;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import java.util.Random;
 
-
-
-
-public class oreGenerator implements IWorldGenerator {
+public class OreGenerator implements IWorldGenerator {
     public static final int copperSpawnsPerChunk = 10;
     public static final int aluminumSpawnsPerChunk = 10;
     public static final int leadSpawnsPerChunk = 10;

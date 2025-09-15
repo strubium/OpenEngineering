@@ -5,7 +5,7 @@ import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.ModBlocks;
 import com.strubium.openengie.core.ModItems;
 import com.strubium.openengie.core.Registry;
-import com.strubium.openengie.core.generated.oreGenerator;
+import com.strubium.openengie.core.generated.OreGenerator;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -46,7 +46,7 @@ public class OpenEngineering {
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-        GameRegistry.registerWorldGenerator(new oreGenerator(), 0);
+        GameRegistry.registerWorldGenerator(new OreGenerator(), 0);
 
 
         GameRegistry.addSmelting(ModBlocks.ORE_ALUMINUM, new ItemStack(ModItems.INGOT_ALUMINUM), 0.7f);
