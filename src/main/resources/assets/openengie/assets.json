@@ -89,6 +89,31 @@
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick.png",
       "path": "textures/blocks/stone_decoration_blastbrick.png",
       "type": "block"
+    },
+    {
+      "name": "stone_device_allloy_smelter_bottom",
+      "path": "textures/blocks/stone_device_allloy_smelter_bottom.png",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_bottom.png"
+    },
+    {
+      "name": "stone_device_allloy_smelter_off",
+      "path": "textures/blocks/stone_device_allloy_smelter_off.png",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_off.png"
+    },
+    {
+      "name": "stone_device_allloy_smelter_on",
+      "path": "textures/blocks/stone_device_allloy_smelter_on.png",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_on.png"
+    },
+    {
+      "name": "stone_device_allloy_smelter_side",
+      "path": "textures/blocks/stone_device_allloy_smelter_side.png",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_side.png"
+    },
+    {
+      "name": "stone_device_allloy_smelter_top",
+      "path": "textures/blocks/stone_device_allloy_smelter_top.png",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_top.png"
     }
   ],
   "models": [
@@ -199,6 +224,22 @@
       "itemModelPath": "models/item/stone_decoration_alloybrick.json",
       "blockStatePath": "blockstates/stone_decoration_alloybrick.json",
       "parentBlockModel": "block/cube_all"
+    },
+    {
+      "name": "alloy_kiln_formed",
+      "type": "block",
+      "blockStatePath": "blockstates/alloy_kiln_formed.json",
+      "blockModelPath": "models/block/alloy_kiln_formed.json",
+      "itemModelPath": "models/item/alloy_kiln_formed.json",
+      "parentBlockModel": "block/cube",
+      "textures": {
+        "down": "immersiveengineering:blocks/stone_device_allloy_smelter_bottom",
+        "up": "immersiveengineering:blocks/stone_device_allloy_smelter_top",
+        "north": "immersiveengineering:blocks/stone_device_allloy_smelter_off",
+        "south": "immersiveengineering:blocks/stone_device_allloy_smelter_side",
+        "west": "immersiveengineering:blocks/stone_device_allloy_smelter_side",
+        "east": "immersiveengineering:blocks/stone_device_allloy_smelter_side"
+      }
     },
     {
       "type": "block",

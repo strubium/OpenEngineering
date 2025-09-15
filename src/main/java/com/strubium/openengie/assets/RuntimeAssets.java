@@ -13,6 +13,7 @@ import java.awt.*;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.Map;
 
 @SideOnly(Side.CLIENT)
 public class RuntimeAssets {
@@ -60,11 +61,22 @@ public class RuntimeAssets {
                     // block model
                     File blockModelFile = new File(baseDir, blockModelPath);
                     blockModelFile.getParentFile().mkdirs();
+
                     JsonObject blockModelJson = new JsonObject();
                     blockModelJson.addProperty("parent", parentBlockModel);
+
                     JsonObject textures = new JsonObject();
-                    textures.addProperty("all", Tags.MOD_ID + ":blocks/" + name);
+                    if (model.has("textures")) {
+                        JsonObject customTextures = model.getAsJsonObject("textures");
+                        for (Map.Entry<String, JsonElement> entry : customTextures.entrySet()) {
+                            textures.addProperty(entry.getKey(), entry.getValue().getAsString());
+                        }
+                    } else {
+                        // fallback: assume single "all" texture
+                        textures.addProperty("all", Tags.MOD_ID + ":blocks/" + name);
+                    }
                     blockModelJson.add("textures", textures);
+
                     writeJson(blockModelFile, blockModelJson);
 
                     // item model (references block model)
