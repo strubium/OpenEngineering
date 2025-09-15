@@ -47,5 +47,13 @@ public class OpenEngineering {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
         GameRegistry.registerWorldGenerator(new oreGenerator(), 0);
+
+
+        GameRegistry.addSmelting(ModBlocks.ORE_ALUMINUM, new ItemStack(ModItems.INGOT_ALUMINUM), 0.7f);
+        GameRegistry.addSmelting(ModBlocks.ORE_COPPER, new ItemStack(ModItems.INGOT_COPPER), 0.7f);
+        GameRegistry.addSmelting(ModBlocks.ORE_LEAD, new ItemStack(ModItems.INGOT_LEAD), 0.7f);
+        GameRegistry.addSmelting(ModBlocks.ORE_NICKEL, new ItemStack(ModItems.INGOT_NICKEL), 0.7f);
+        GameRegistry.addSmelting(ModBlocks.ORE_SILVER, new ItemStack(ModItems.INGOT_SILVER), 0.7f);
+        GameRegistry.addSmelting(ModBlocks.ORE_URANIUM, new ItemStack(ModItems.INGOT_URANIUM), 0.7f);
     }
 }

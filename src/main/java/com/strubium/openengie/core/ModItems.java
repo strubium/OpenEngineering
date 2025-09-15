@@ -61,11 +61,6 @@ public class ModItems {
         Registry.addItem(INGOT_URANIUM);
 
         // Furnace recipes
-        GameRegistry.addSmelting(ModBlocks.ORE_ALUMINUM, new ItemStack(INGOT_ALUMINUM), 0.7f);
-        GameRegistry.addSmelting(ModBlocks.ORE_COPPER, new ItemStack(INGOT_COPPER), 0.7f);
-        GameRegistry.addSmelting(ModBlocks.ORE_LEAD, new ItemStack(INGOT_LEAD), 0.7f);
-        GameRegistry.addSmelting(ModBlocks.ORE_NICKEL, new ItemStack(INGOT_NICKEL), 0.7f);
-        GameRegistry.addSmelting(ModBlocks.ORE_SILVER, new ItemStack(INGOT_SILVER), 0.7f);
-        GameRegistry.addSmelting(ModBlocks.ORE_URANIUM, new ItemStack(INGOT_URANIUM), 0.7f);
+
     }
 }
