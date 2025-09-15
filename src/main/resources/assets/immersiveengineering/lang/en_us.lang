@@ -1,4 +1,11 @@
 item.immersiveengineering.tool_hammer.name=Hammer
+item.immersiveengineering.aluminum_ingot.name=Aluminum Ingot
+item.immersiveengineering.copper_ingot.name=Copper Ingot
+item.immersiveengineering.lead_ingot.name=Lead Ingot
+item.immersiveengineering.nickel_ingot.name=Nickel Ingot
+item.immersiveengineering.silver_ingot.name=Silver Ingot
+item.immersiveengineering.uranium_ingot.name=Uranium Ingot
+
 tile.immersiveengineering.ore_copper.name=Copper Ore
 tile.immersiveengineering.ore_silver.name=Silver Ore
 tile.immersiveengineering.ore_lead.name=Lead Ore
