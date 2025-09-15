@@ -67,7 +67,7 @@ public class ModBlocks {
             .setRegistryName(Tags.MOD_ID, "coke")
             .setTranslationKey(Tags.MOD_ID + ".coke");
 
-    public static void preInit() {
+    public static void init() {
         Registry.addBlock(TREATED_WOOD);
         Registry.addBlock(TREATED_WOOD_STAIRS);
         Registry.addBlock(ORE_ALUMINUM);

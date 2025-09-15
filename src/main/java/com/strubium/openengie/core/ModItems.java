@@ -3,7 +3,6 @@ package com.strubium.openengie.core;
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
 
 public class ModItems {
@@ -44,7 +43,7 @@ public class ModItems {
 
 
 
-    public static void preInit() {
+    public static void init() {
         Registry.addItem(TOOL_HAMMER);
         Registry.addItem(INGOT_ALUMINUM);
         Registry.addItem(INGOT_COPPER);
@@ -53,11 +52,7 @@ public class ModItems {
         Registry.addItem(INGOT_SILVER);
         Registry.addItem(INGOT_URANIUM);
 
-        Registry.addSmelting(ModBlocks.ORE_ALUMINUM, new ItemStack(ModItems.INGOT_ALUMINUM), 0.7f);
-        Registry.addSmelting(ModBlocks.ORE_COPPER, new ItemStack(ModItems.INGOT_COPPER), 0.7f);
-        Registry.addSmelting(ModBlocks.ORE_LEAD, new ItemStack(ModItems.INGOT_LEAD), 0.7f);
-        Registry.addSmelting(ModBlocks.ORE_NICKEL, new ItemStack(ModItems.INGOT_NICKEL), 0.7f);
-        Registry.addSmelting(ModBlocks.ORE_SILVER, new ItemStack(ModItems.INGOT_SILVER), 0.7f);
-        Registry.addSmelting(ModBlocks.ORE_URANIUM, new ItemStack(ModItems.INGOT_URANIUM), 0.7f);
+        // Furnace recipes
+
     }
 }
