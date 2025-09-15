@@ -41,74 +41,11 @@ public class RuntimeAssets {
                 String type = model.has("type") ? model.get("type").getAsString() : "block"; // default to block
 
                 if (type.equalsIgnoreCase("block")) {
-                    // --- BLOCK HANDLING ---
-                    String blockStatePath = model.get("blockStatePath").getAsString();
-                    String blockModelPath = model.get("blockModelPath").getAsString();
-                    String itemModelPath = model.get("itemModelPath").getAsString();
-                    String parentBlockModel = model.get("parentBlockModel").getAsString();
-
-                    // blockstates
-                    File blockstateFile = new File(baseDir, blockStatePath);
-                    blockstateFile.getParentFile().mkdirs();
-                    JsonObject blockstateJson = new JsonObject();
-                    JsonObject variants = new JsonObject();
-                    JsonObject variant = new JsonObject();
-                    variant.addProperty("model", Tags.MOD_ID + ":" + name);
-                    variants.add("normal", variant);
-                    blockstateJson.add("variants", variants);
-                    writeJson(blockstateFile, blockstateJson);
-
-                    // block model
-                    File blockModelFile = new File(baseDir, blockModelPath);
-                    blockModelFile.getParentFile().mkdirs();
-
-                    JsonObject blockModelJson = new JsonObject();
-                    blockModelJson.addProperty("parent", parentBlockModel);
-
-                    JsonObject textures = new JsonObject();
-                    if (model.has("textures")) {
-                        JsonObject customTextures = model.getAsJsonObject("textures");
-                        for (Map.Entry<String, JsonElement> entry : customTextures.entrySet()) {
-                            textures.addProperty(entry.getKey(), entry.getValue().getAsString());
-                        }
-                    } else {
-                        // fallback: assume single "all" texture
-                        textures.addProperty("all", Tags.MOD_ID + ":blocks/" + name);
-                    }
-                    blockModelJson.add("textures", textures);
-
-                    writeJson(blockModelFile, blockModelJson);
-
-                    // item model (references block model)
-                    File itemModelFile = new File(baseDir, itemModelPath);
-                    itemModelFile.getParentFile().mkdirs();
-                    JsonObject itemModelJson = new JsonObject();
-                    itemModelJson.addProperty("parent", Tags.MOD_ID + ":block/" + name);
-                    writeJson(itemModelFile, itemModelJson);
-
-                    OpenEngineering.LOGGER.info("Generated runtime block models for {}", name);
-
+                    generateBlockModel(model, baseDir, name);
                 } else if (type.equalsIgnoreCase("item")) {
-                    // --- ITEM HANDLING ---
-                    String itemModelPath = model.get("itemModelPath").getAsString();
-                    String parentItemModel = model.has("parentItemModel")
-                            ? model.get("parentItemModel").getAsString()
-                            : "item/generated";
-
-                    File itemModelFile = new File(baseDir, itemModelPath);
-                    itemModelFile.getParentFile().mkdirs();
-
-                    JsonObject itemModelJson = new JsonObject();
-                    itemModelJson.addProperty("parent", parentItemModel);
-
-                    // Optional textures for items
-                    JsonObject textures = new JsonObject();
-                    textures.addProperty("layer0", Tags.MOD_ID + ":items/" + name);
-                    itemModelJson.add("textures", textures);
-
-                    writeJson(itemModelFile, itemModelJson);
-
-                    OpenEngineering.LOGGER.info("Generated runtime item model for {}", name);
+                    generateItemModel(model, baseDir, name);
+                } else if (type.equalsIgnoreCase("stairs")) {
+                    generateStairModels(model, baseDir, name);
                 }
             }
         } catch (Exception e) {
@@ -116,6 +53,138 @@ public class RuntimeAssets {
         }
     }
 
+    private static void generateBlockModel(JsonObject model, File baseDir, String name) throws IOException {
+        String blockStatePath = model.get("blockStatePath").getAsString();
+        String blockModelPath = model.get("blockModelPath").getAsString();
+        String itemModelPath = model.get("itemModelPath").getAsString();
+        String parentBlockModel = model.get("parentBlockModel").getAsString();
+
+        // blockstate
+        File blockstateFile = new File(baseDir, blockStatePath);
+        blockstateFile.getParentFile().mkdirs();
+        JsonObject blockstateJson = new JsonObject();
+        JsonObject variants = new JsonObject();
+        JsonObject variant = new JsonObject();
+        variant.addProperty("model", Tags.MOD_ID + ":" + name);
+        variants.add("normal", variant);
+        blockstateJson.add("variants", variants);
+        writeJson(blockstateFile, blockstateJson);
+
+        // block model
+        File blockModelFile = new File(baseDir, blockModelPath);
+        blockModelFile.getParentFile().mkdirs();
+
+        JsonObject blockModelJson = new JsonObject();
+        blockModelJson.addProperty("parent", parentBlockModel);
+
+        JsonObject textures = new JsonObject();
+        if (model.has("textures")) {
+            JsonObject customTextures = model.getAsJsonObject("textures");
+            for (Map.Entry<String, JsonElement> entry : customTextures.entrySet()) {
+                textures.addProperty(entry.getKey(), entry.getValue().getAsString());
+            }
+        } else {
+            textures.addProperty("all", Tags.MOD_ID + ":blocks/" + name);
+        }
+        blockModelJson.add("textures", textures);
+
+        writeJson(blockModelFile, blockModelJson);
+
+        // item model
+        File itemModelFile = new File(baseDir, itemModelPath);
+        itemModelFile.getParentFile().mkdirs();
+        JsonObject itemModelJson = new JsonObject();
+        itemModelJson.addProperty("parent", Tags.MOD_ID + ":block/" + name);
+        writeJson(itemModelFile, itemModelJson);
+
+        OpenEngineering.LOGGER.info("Generated runtime block models for {}", name);
+    }
+
+    private static void generateItemModel(JsonObject model, File baseDir, String name) throws IOException {
+        String itemModelPath = model.get("itemModelPath").getAsString();
+        String parentItemModel = model.has("parentItemModel")
+                ? model.get("parentItemModel").getAsString()
+                : "item/generated";
+
+        File itemModelFile = new File(baseDir, itemModelPath);
+        itemModelFile.getParentFile().mkdirs();
+
+        JsonObject itemModelJson = new JsonObject();
+        itemModelJson.addProperty("parent", parentItemModel);
+
+        JsonObject textures = new JsonObject();
+        textures.addProperty("layer0", Tags.MOD_ID + ":items/" + name);
+        itemModelJson.add("textures", textures);
+
+        writeJson(itemModelFile, itemModelJson);
+
+        OpenEngineering.LOGGER.info("Generated runtime item model for {}", name);
+    }
+
+    private static void generateStairModels(JsonObject model, File baseDir, String name) throws IOException {
+        String blockStatePath = model.get("blockStatePath").getAsString();
+        String itemModelPath = model.get("itemModelPath").getAsString();
+        String texture = model.get("texture").getAsString();
+
+        // 1. Blockstate
+        File blockstateFile = new File(baseDir, blockStatePath);
+        blockstateFile.getParentFile().mkdirs();
+        JsonObject blockstateJson = new JsonObject();
+        JsonObject variants = new JsonObject();
+
+        String[] facings = {"north", "south", "west", "east"};
+        String[] halves = {"bottom", "top"};
+        String[] shapes = {"straight", "inner_left", "inner_right", "outer_left", "outer_right"};
+
+        for (String facing : facings) {
+            for (String half : halves) {
+                for (String shape : shapes) {
+                    JsonObject variant = new JsonObject();
+                    String modelName = Tags.MOD_ID + ":/" + name + "_" + shape;
+                    variant.addProperty("model", modelName);
+
+                    int yRot = 0;
+                    switch (facing) {
+                        case "east":  yRot = 90; break;
+                        case "south": yRot = 180; break;
+                        case "west":  yRot = 270; break;
+                    }
+                    if (yRot != 0) variant.addProperty("y", yRot);
+                    if (half.equals("top")) variant.addProperty("x", 180);
+
+                    variants.add("facing=" + facing + ",half=" + half + ",shape=" + shape, variant);
+                }
+            }
+        }
+        blockstateJson.add("variants", variants);
+        writeJson(blockstateFile, blockstateJson);
+
+        // 2. Model files (one per shape, all share same parent)
+        for (String shape : shapes) {
+            File modelFile = new File(baseDir, "models/block/" + name + "_" + shape + ".json");
+            modelFile.getParentFile().mkdirs();
+
+            JsonObject blockModelJson = new JsonObject();
+            blockModelJson.addProperty("parent", "minecraft:block/stairs"); // single parent for 1.12.2
+
+            JsonObject textures = new JsonObject();
+            textures.addProperty("bottom", texture);
+            textures.addProperty("top", texture);
+            textures.addProperty("side", texture);
+            blockModelJson.add("textures", textures);
+
+            writeJson(modelFile, blockModelJson);
+        }
+
+        // 3. Item model (points to straight variant)
+        File itemModelFile = new File(baseDir, itemModelPath);
+        itemModelFile.getParentFile().mkdirs();
+        JsonObject itemModelJson = new JsonObject();
+        itemModelJson.addProperty("parent", Tags.MOD_ID + ":block/" + name + "_straight");
+        writeJson(itemModelFile, itemModelJson);
+
+        OpenEngineering.LOGGER.info("Generated runtime stair models for {}", name);
+    }
 
     /** Checks for missing textures and prompts user to download them */
     public static void checkAssets() {
@@ -151,7 +220,6 @@ public class RuntimeAssets {
             String title = "Missing OpenEngie Assets";
             String[] options = {"Download Missing Assets", "Ignore"};
 
-            // User-facing explanation added
             String userMessage = "Some texture assets required by OpenEngie are missing:\n\n"
                     + message
                     + "\nThese assets are copyrighted by BluSunrize and cannot be "
@@ -172,14 +240,12 @@ public class RuntimeAssets {
                     options[0]
             );
 
-            // User clicked "Download Missing Assets"
             if (response == 0 && textures != null) {
                 downloadMissingTextures(textures);
             }
         });
     }
 
-    /** Only downloads missing .png textures */
     private static void downloadMissingTextures(JsonArray textures) {
         for (JsonElement elem : textures) {
             JsonObject tex = elem.getAsJsonObject();
@@ -210,7 +276,6 @@ public class RuntimeAssets {
         }
     }
 
-    /** Creates a simple always-on-top JFrame for the JOptionPane */
     private static JFrame getPopupFrame() {
         JFrame parent = new JFrame();
         parent.setAlwaysOnTop(true);

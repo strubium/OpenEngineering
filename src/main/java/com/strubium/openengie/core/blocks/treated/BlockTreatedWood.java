@@ -1,4 +1,4 @@
-package com.strubium.openengie.core.blocks;
+package com.strubium.openengie.core.blocks.treated;
 
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;

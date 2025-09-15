@@ -41,7 +41,7 @@ public class BlockAlloyBrick extends Block {
                                     EnumFacing facing, float hitX, float hitY, float hitZ) {
         ItemStack held = player.getHeldItem(hand); // get the item in the player's hand
 
-        // Check if the player is holding the specific item (replace ModItems.TOOL_HAMMER with your item)
+        // Check if the player is holding the hammer
         if (!held.isEmpty() && held.getItem() == ModItems.TOOL_HAMMER) {
             if (!world.isRemote) {
                 boolean formed = alloyKilnMultiblock.tryForm(world, pos,

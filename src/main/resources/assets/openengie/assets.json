@@ -156,6 +156,13 @@
       "parentBlockModel": "block/cube_all"
     },
     {
+      "name": "treated_wood_stairs",
+      "type": "stairs",
+      "blockStatePath": "blockstates/treated_wood_stairs.json",
+      "itemModelPath": "models/item/treated_wood_stairs.json",
+      "texture": "immersiveengineering:blocks/treated_wood"
+    },
+    {
       "type": "block",
       "name": "ore_aluminum",
       "blockModelPath": "models/block/ore_aluminum.json",

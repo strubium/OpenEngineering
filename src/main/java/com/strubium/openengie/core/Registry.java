@@ -1,6 +1,6 @@
 package com.strubium.openengie.core;
 
-import com.strubium.openengie.core.blocks.BlockTreatedWood;
+import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;

@@ -2,15 +2,17 @@ package com.strubium.openengie.core;
 
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;
-import com.strubium.openengie.core.blocks.BlockTreatedWood;
+import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
+import com.strubium.openengie.core.blocks.treated.BlockTreatedWoodStairs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
 public class ModBlocks {
 
     public static final Block TREATED_WOOD = new BlockTreatedWood();
+    public static final Block TREATED_WOOD_STAIRS = new BlockTreatedWoodStairs(TREATED_WOOD);
 
     public static final Block ORE_ALUMINUM = new Block(Material.ROCK)
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
@@ -67,6 +69,7 @@ public class ModBlocks {
 
     public static void init() {
         Registry.addBlock(TREATED_WOOD);
+        Registry.addBlock(TREATED_WOOD_STAIRS);
         Registry.addBlock(ORE_ALUMINUM);
         Registry.addBlock(ORE_COPPER);
         Registry.addBlock(ORE_LEAD);
