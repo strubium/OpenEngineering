@@ -1,4 +1,5 @@
 item.immersiveengineering.tool_hammer.name=Hammer
+
 item.immersiveengineering.aluminum_ingot.name=Aluminum Ingot
 item.immersiveengineering.copper_ingot.name=Copper Ingot
 item.immersiveengineering.lead_ingot.name=Lead Ingot
@@ -13,4 +14,12 @@ tile.immersiveengineering.ore_uranium.name=Uranium Ore
 tile.immersiveengineering.ore_aluminum.name=Aluminum Ore
 tile.immersiveengineering.ore_nickel.name=Nickel Ore
 
-itemGroup.ie=Gay Engineering Tab
+tile.immersiveengineering.sheetmetal_aluminum.name=Aluminum Sheetmetal
+tile.immersiveengineering.sheetmetal_steel.name=Steel Sheetmetal
+
+tile.immersiveengineering.treated_wood.name=Treated Wood
+tile.immersiveengineering.coke.name=Block of Coke
+tile.immersiveengineering.alloy_kiln_brick.name=Alloy Klin Brick
+tile.immersiveengineering.blastbrick.name=Blast Furnace Brick
+
+itemGroup.ie=OpenEngineering

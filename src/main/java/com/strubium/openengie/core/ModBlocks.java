@@ -52,18 +52,18 @@ public class ModBlocks {
             .setRegistryName(Tags.MOD_ID, "sheetmetal_steel")
             .setTranslationKey(Tags.MOD_ID + ".sheetmetal_steel");
 
-    public static final BlockAlloyBrick SD_ALLOYBRICK = new BlockAlloyBrick();
+    public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
-    public static final Block SD_BLASTBRICK = new Block(Material.ROCK)
+    public static final Block BLASTBRICK = new Block(Material.ROCK)
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "stone_decoration_blastbrick")
-            .setTranslationKey(Tags.MOD_ID + ".stone_decoration_blastbrick");
+            .setRegistryName(Tags.MOD_ID, "blastbrick")
+            .setTranslationKey(Tags.MOD_ID + ".blastbrick");
 
-    public static final Block SD_COKE = new Block(Material.ROCK)
+    public static final Block COKE = new Block(Material.ROCK)
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "stone_decoration_coke")
-            .setTranslationKey(Tags.MOD_ID + ".stone_decoration_coke");
+            .setRegistryName(Tags.MOD_ID, "coke")
+            .setTranslationKey(Tags.MOD_ID + ".coke");
 
     public static void init() {
         Registry.addBlock(TREATED_WOOD);
@@ -75,10 +75,10 @@ public class ModBlocks {
         Registry.addBlock(ORE_URANIUM);
         Registry.addBlock(SHEETMETAL_ALUMINUM);
         Registry.addBlock(SHEETMETAT_STEEL);
-        Registry.addBlock(SD_ALLOYBRICK);
+        Registry.addBlock(ALLOY_KILN_BRICK);
         Registry.addBlock(ALLOY_KILN_FORMED);
-        Registry.addBlock(SD_BLASTBRICK);
-        Registry.addBlock(SD_COKE);
+        Registry.addBlock(BLASTBRICK);
+        Registry.addBlock(COKE);
     }
 }
 

@@ -27,8 +27,8 @@ public class BlockAlloyBrick extends Block {
     public BlockAlloyBrick() {
         super(Material.ROCK);
         setCreativeTab(OpenEngineering.CREATIVE_TAB);
-        setRegistryName(Tags.MOD_ID, "stone_decoration_alloybrick");
-        setTranslationKey(Tags.MOD_ID + ".stone_decoration_alloybrick");
+        setRegistryName(Tags.MOD_ID, "alloy_kiln_brick");
+        setTranslationKey(Tags.MOD_ID + ".alloy_kiln_brick");
         setSoundType(SoundType.STONE);
         setHardness(2.0F);
         setResistance(10.0F);

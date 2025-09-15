@@ -85,9 +85,9 @@
       "type": "block"
     },
     {
-      "name": "stone_decoration_alloybrick",
+      "name": "alloy_kiln_brick",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_alloybrick.png",
-      "path": "textures/blocks/stone_decoration_alloybrick.png",
+      "path": "textures/blocks/alloy_kiln_brick.png",
       "type": "block"
     },
     {
@@ -103,9 +103,9 @@
       "type": "block"
     },
     {
-      "name": "stone_decoration_coke",
+      "name": "coke",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_coke.png",
-      "path": "textures/blocks/stone_decoration_coke.png",
+      "path": "textures/blocks/coke.png",
       "type": "block"
     },
     {
@@ -115,9 +115,9 @@
       "type": "block"
     },
     {
-      "name": "stone_decoration_blastbrick",
+      "name": "blastbrick",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick.png",
-      "path": "textures/blocks/stone_decoration_blastbrick.png",
+      "path": "textures/blocks/blastbrick.png",
       "type": "block"
     },
     {
@@ -189,10 +189,10 @@
     },
     {
       "type": "block",
-      "name": "stone_decoration_coke",
-      "blockModelPath": "models/block/stone_decoration_coke.json",
-      "itemModelPath": "models/item/stone_decoration_coke.json",
-      "blockStatePath": "blockstates/stone_decoration_coke.json",
+      "name": "coke",
+      "blockModelPath": "models/block/coke.json",
+      "itemModelPath": "models/item/coke.json",
+      "blockStatePath": "blockstates/coke.json",
       "parentBlockModel": "block/cube_all"
     },
     {
@@ -279,10 +279,10 @@
     },
     {
       "type": "block",
-      "name": "stone_decoration_alloybrick",
-      "blockModelPath": "models/block/stone_decoration_alloybrick.json",
-      "itemModelPath": "models/item/stone_decoration_alloybrick.json",
-      "blockStatePath": "blockstates/stone_decoration_alloybrick.json",
+      "name": "alloy_kiln_brick",
+      "blockModelPath": "models/block/alloy_kiln_brick.json",
+      "itemModelPath": "models/item/alloy_kiln_brick.json",
+      "blockStatePath": "blockstates/alloy_kiln_brick.json",
       "parentBlockModel": "block/cube_all"
     },
     {
@@ -303,10 +303,10 @@
     },
     {
       "type": "block",
-      "name": "stone_decoration_blastbrick",
-      "blockModelPath": "models/block/stone_decoration_blastbrick.json",
-      "itemModelPath": "models/item/stone_decoration_blastbrick.json",
-      "blockStatePath": "blockstates/stone_decoration_blastbrick.json",
+      "name": "blastbrick",
+      "blockModelPath": "models/block/blastbrick.json",
+      "itemModelPath": "models/item/blastbrick.json",
+      "blockStatePath": "blockstates/blastbrick.json",
       "parentBlockModel": "block/cube_all"
     }
   ]
