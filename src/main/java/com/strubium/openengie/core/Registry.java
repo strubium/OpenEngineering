@@ -5,11 +5,13 @@ import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -22,6 +24,22 @@ public class Registry {
     /** Holds all registered blocks dynamically */
     private static final List<Block> BLOCKS = new ArrayList<>();
     private static final List<Item> ITEMS = new ArrayList<>();
+
+    private static final List<SmeltingEntry> SMELTING_RECIPES = new ArrayList<>();
+
+    // Internal class to hold smelting info
+    private static class SmeltingEntry {
+        final ItemStack input;
+        final ItemStack output;
+        final float experience;
+
+        SmeltingEntry(ItemStack input, ItemStack output, float experience) {
+            this.input = input;
+            this.output = output;
+            this.experience = experience;
+        }
+    }
+
 
 
     /**
@@ -52,6 +70,25 @@ public class Registry {
     public static Item getItem(String name) {
         Block block = getBlock(name);
         return block != null ? Item.getItemFromBlock(block) : null;
+    }
+
+    public static void addSmelting(ItemStack input, ItemStack output, float experience) {
+        SMELTING_RECIPES.add(new SmeltingEntry(input, output, experience));
+    }
+
+    public static void addSmelting(Block input, ItemStack output, float experience) {
+        addSmelting(new ItemStack(input), output, experience);
+    }
+
+    public static void addSmelting(Item input, ItemStack output, float experience) {
+        addSmelting(new ItemStack(input), output, experience);
+    }
+
+    public static void registerSmeltingRecipes() {
+        for (SmeltingEntry entry : SMELTING_RECIPES) {
+            GameRegistry.addSmelting(entry.input, entry.output, entry.experience);
+        }
+        SMELTING_RECIPES.clear(); // clear after registering
     }
 
     @Mod.EventBusSubscriber
