@@ -11,6 +11,7 @@ import javax.annotation.Nullable;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.nio.file.Files;
 import java.util.Set;
 
 public class GeneratedResourcePack implements IResourcePack {
@@ -25,7 +26,7 @@ public class GeneratedResourcePack implements IResourcePack {
     public InputStream getInputStream(ResourceLocation location) throws IOException {
         File file = new File(baseDir, "assets/" + location.getNamespace() + "/" + location.getPath());
         if (file.isFile()) {
-            return new FileInputStream(file);
+            return Files.newInputStream(file.toPath());
         }
         throw new FileNotFoundException(file.toString());
     }
@@ -43,12 +44,12 @@ public class GeneratedResourcePack implements IResourcePack {
 
     @Nullable
     @Override
-    public <T extends IMetadataSection> T getPackMetadata(MetadataSerializer serializer, String sectionName) throws IOException {
+    public <T extends IMetadataSection> T getPackMetadata(MetadataSerializer serializer, String sectionName) {
         return null; // No pack.mcmeta support
     }
 
     @Override
-    public BufferedImage getPackImage() throws IOException {
+    public BufferedImage getPackImage() {
         // Return a 1x1 dummy image so Minecraft won't crash when displaying pack info
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g = img.createGraphics();
@@ -60,6 +61,6 @@ public class GeneratedResourcePack implements IResourcePack {
 
     @Override
     public String getPackName() {
-        return "GeneratedAssets";
+        return Tags.MOD_NAME + ": GeneratedAssets";
     }
 }

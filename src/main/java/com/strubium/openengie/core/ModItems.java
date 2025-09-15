@@ -2,15 +2,7 @@ package com.strubium.openengie.core;
 
 import com.strubium.immersiveengineering.Tags;
 import com.strubium.openengie.OpenEngineering;
-import com.strubium.openengie.core.blocks.BlockTreatedWood;
-import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
-import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import net.minecraft.item.Item;
-import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-
 
 
 public class ModItems {
