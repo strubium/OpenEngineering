@@ -7,7 +7,6 @@ import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class ModBlocks {
 
@@ -19,37 +18,37 @@ public class ModBlocks {
             .setTranslationKey(Tags.MOD_ID + ".ore_aluminum");
 
     public static final Block ORE_COPPER = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "ore_copper")
             .setTranslationKey(Tags.MOD_ID + ".ore_copper");
 
     public static final Block ORE_LEAD = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "ore_lead")
             .setTranslationKey(Tags.MOD_ID + ".ore_lead");
 
     public static final Block ORE_NICKEL = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "ore_nickel")
             .setTranslationKey(Tags.MOD_ID + ".ore_nickel");
 
     public static final Block ORE_SILVER = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "ore_silver")
             .setTranslationKey(Tags.MOD_ID + ".ore_silver");
 
     public static final Block ORE_URANIUM = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "ore_uranium")
             .setTranslationKey(Tags.MOD_ID + ".ore_uranium");
 
     public static final Block SHEETMETAL_ALUMINUM = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "sheetmetal_aluminum")
             .setTranslationKey(Tags.MOD_ID + ".sheetmetal_aluminum");
 
     public static final Block SHEETMETAT_STEEL = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "sheetmetal_steel")
             .setTranslationKey(Tags.MOD_ID + ".sheetmetal_steel");
 
@@ -57,12 +56,12 @@ public class ModBlocks {
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
     public static final Block SD_BLASTBRICK = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "stone_decoration_blastbrick")
             .setTranslationKey(Tags.MOD_ID + ".stone_decoration_blastbrick");
 
     public static final Block SD_COKE = new Block(Material.ROCK)
-            .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "stone_decoration_coke")
             .setTranslationKey(Tags.MOD_ID + ".stone_decoration_coke");
 

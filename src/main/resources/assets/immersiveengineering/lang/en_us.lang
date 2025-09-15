@@ -1,0 +1,9 @@
+item.immersiveengineering.tool_hammer.name=Hammer
+tile.immersiveengineering.ore_copper.name=Copper Ore
+tile.immersiveengineering.ore_silver.name=Silver Ore
+tile.immersiveengineering.ore_lead.name=Lead Ore
+tile.immersiveengineering.ore_uranium.name=Uranium Ore
+tile.immersiveengineering.ore_aluminum.name=Aluminum Ore
+tile.immersiveengineering.ore_nickel.name=Nickel Ore
+
+itemGroup.ie=Gay Engineering Tab

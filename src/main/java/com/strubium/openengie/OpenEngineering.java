@@ -5,11 +5,14 @@ import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.ModBlocks;
 import com.strubium.openengie.core.ModItems;
 import com.strubium.openengie.core.Registry;
+import com.strubium.openengie.core.generated.oreGenerator;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -40,5 +43,9 @@ public class OpenEngineering {
         if (event.getSide().isClient()) {
             RuntimeAssets.registerGeneratedResourcePack();
         }
+    }
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event){
+        GameRegistry.registerWorldGenerator(new oreGenerator(), 0);
     }
 }
