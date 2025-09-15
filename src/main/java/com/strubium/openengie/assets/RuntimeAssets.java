@@ -46,6 +46,8 @@ public class RuntimeAssets {
                     generateItemModel(model, baseDir, name);
                 } else if (type.equalsIgnoreCase("stairs")) {
                     generateStairModels(model, baseDir, name);
+                } else if (type.equalsIgnoreCase("slab")) {
+                    generateSlabModels(model, baseDir, name);
                 }
             }
         } catch (Exception e) {
@@ -184,6 +186,78 @@ public class RuntimeAssets {
         writeJson(itemModelFile, itemModelJson);
 
         OpenEngineering.LOGGER.info("Generated runtime stair models for {}", name);
+    }
+
+    private static void generateSlabModels(JsonObject model, File baseDir, String name) throws IOException {
+        String blockStatePath = model.get("blockStatePath").getAsString();
+        String itemModelPath = model.get("itemModelPath").getAsString();
+        String texture = model.get("texture").getAsString();
+
+        // 1. Blockstate
+        File blockstateFile = new File(baseDir, blockStatePath);
+        blockstateFile.getParentFile().mkdirs();
+        JsonObject blockstateJson = new JsonObject();
+        JsonObject variants = new JsonObject();
+
+        // ✅ Use correct property name: "type" instead of "half"/"variant"
+        JsonObject bottomVariant = new JsonObject();
+        bottomVariant.addProperty("model", Tags.MOD_ID + ":block/" + name + "_slab");
+        variants.add("type=bottom", bottomVariant);
+
+        JsonObject topVariant = new JsonObject();
+        topVariant.addProperty("model", Tags.MOD_ID + ":block/" + name + "_slab_top");
+        variants.add("type=top", topVariant);
+
+        JsonObject doubleVariant = new JsonObject();
+        doubleVariant.addProperty("model", Tags.MOD_ID + ":block/" + name + "_double_slab");
+        variants.add("type=double", doubleVariant);
+
+        blockstateJson.add("variants", variants);
+        writeJson(blockstateFile, blockstateJson);
+
+        // 2. Models
+        // Bottom slab
+        File bottomFile = new File(baseDir, "models/block/" + name + "_slab.json");
+        bottomFile.getParentFile().mkdirs();
+        JsonObject bottomJson = new JsonObject();
+        bottomJson.addProperty("parent", "block/half_slab"); // ✅ your custom parent exists
+        JsonObject textures = new JsonObject();
+        textures.addProperty("bottom", texture);
+        textures.addProperty("top", texture);
+        textures.addProperty("side", texture);
+        bottomJson.add("textures", textures);
+        writeJson(bottomFile, bottomJson);
+
+        // Top slab
+        File topFile = new File(baseDir, "models/block/" + name + "_slab_top.json");
+        topFile.getParentFile().mkdirs();
+        JsonObject topJson = new JsonObject();
+        topJson.addProperty("parent", "block/slab_top");
+        JsonObject topTextures = new JsonObject();
+        topTextures.addProperty("bottom", texture);
+        topTextures.addProperty("top", texture);
+        topTextures.addProperty("side", texture);
+        topJson.add("textures", topTextures);
+        writeJson(topFile, topJson);
+
+        // Double slab
+        File doubleFile = new File(baseDir, "models/block/" + name + "_double_slab.json");
+        doubleFile.getParentFile().mkdirs();
+        JsonObject doubleJson = new JsonObject();
+        doubleJson.addProperty("parent", "block/cube_all");
+        JsonObject doubleTextures = new JsonObject();
+        doubleTextures.addProperty("all", texture);
+        doubleJson.add("textures", doubleTextures);
+        writeJson(doubleFile, doubleJson);
+
+        // 3. Item model
+        File itemModelFile = new File(baseDir, itemModelPath);
+        itemModelFile.getParentFile().mkdirs();
+        JsonObject itemModelJson = new JsonObject();
+        itemModelJson.addProperty("parent", Tags.MOD_ID + ":block/" + name + "_slab");
+        writeJson(itemModelFile, itemModelJson);
+
+        OpenEngineering.LOGGER.info("Generated runtime slab models for {}", name);
     }
 
     /** Checks for missing textures and prompts user to download them */

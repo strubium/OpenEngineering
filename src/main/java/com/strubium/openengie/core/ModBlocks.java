@@ -5,6 +5,7 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
+import com.strubium.openengie.core.blocks.treated.BlockTreatedWoodSlab;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWoodStairs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -12,6 +13,8 @@ import net.minecraft.block.material.Material;
 public class ModBlocks {
 
     public static final Block TREATED_WOOD = new BlockTreatedWood();
+    public static final Block TREATED_WOOD_SLAB = new BlockTreatedWoodSlab(false);
+    public static final Block TREATED_WOOD_SLAB_DOUBLE = new BlockTreatedWoodSlab(true);
     public static final Block TREATED_WOOD_STAIRS = new BlockTreatedWoodStairs(TREATED_WOOD);
 
     public static final Block ORE_ALUMINUM = new Block(Material.ROCK)
@@ -69,6 +72,8 @@ public class ModBlocks {
 
     public static void init() {
         Registry.addBlock(TREATED_WOOD);
+        Registry.addBlock(TREATED_WOOD_SLAB);
+        Registry.addBlock(TREATED_WOOD_SLAB_DOUBLE);
         Registry.addBlock(TREATED_WOOD_STAIRS);
         Registry.addBlock(ORE_ALUMINUM);
         Registry.addBlock(ORE_COPPER);

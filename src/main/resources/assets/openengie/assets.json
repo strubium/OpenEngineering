@@ -163,6 +163,13 @@
       "texture": "immersiveengineering:blocks/treated_wood"
     },
     {
+      "name": "treated_wood_slab",
+      "type": "slab",
+      "blockStatePath": "blockstates/treated_wood_slab.json",
+      "itemModelPath": "models/item/treated_wood_slab.json",
+      "texture": "immersiveengineering:blocks/treated_wood"
+    },
+    {
       "type": "block",
       "name": "ore_aluminum",
       "blockModelPath": "models/block/ore_aluminum.json",
