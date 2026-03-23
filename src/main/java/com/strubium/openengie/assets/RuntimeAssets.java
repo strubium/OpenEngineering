@@ -1,7 +1,7 @@
 package com.strubium.openengie.assets;
 
 import com.google.gson.*;
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.SimpleReloadableResourceManager;

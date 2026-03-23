@@ -1,6 +1,6 @@
 package com.strubium.openengie.core.blocks.alloy;
 
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 

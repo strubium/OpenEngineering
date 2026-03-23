@@ -1,7 +1,7 @@
 package com.strubium.openengie.assets;
 
 import com.google.common.collect.ImmutableSet;
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import net.minecraft.client.resources.IResourcePack;
 import net.minecraft.client.resources.data.IMetadataSection;
 import net.minecraft.client.resources.data.MetadataSerializer;

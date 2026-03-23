@@ -1,6 +1,6 @@
 package com.strubium.openengie.core.blocks.treated;
 
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockStairs;
@@ -21,7 +21,6 @@ public class BlockTreatedWoodStairs extends BlockStairs {
         this.setTranslationKey(Tags.MOD_ID + ".treated_wood_stairs");
         this.setSoundType(SoundType.WOOD);
 
-        // Optional: make sure it’s treated as solid for rendering
         this.useNeighborBrightness = true;
     }
 

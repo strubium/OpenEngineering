@@ -1,6 +1,6 @@
 package com.strubium.openengie.core.blocks.treated;
 
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

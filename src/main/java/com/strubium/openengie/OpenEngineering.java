@@ -1,6 +1,6 @@
 package com.strubium.openengie;
 
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.ModBlocks;
 import com.strubium.openengie.core.ModItems;

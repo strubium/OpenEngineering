@@ -1,6 +1,6 @@
 package com.strubium.openengie.core;
 
-import com.strubium.immersiveengineering.Tags;
+import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
