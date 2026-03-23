@@ -160,7 +160,7 @@
       "type": "stairs",
       "blockStatePath": "blockstates/treated_wood_stairs.json",
       "itemModelPath": "models/item/treated_wood_stairs.json",
-      "texture": "immersiveengineering:blocks/treated_wood"
+      "texture": "openengie:blocks/treated_wood"
     },
     {
       "type": "block",
@@ -300,12 +300,12 @@
       "itemModelPath": "models/item/alloy_kiln_formed.json",
       "parentBlockModel": "block/cube",
       "textures": {
-        "down": "immersiveengineering:blocks/stone_device_allloy_smelter_bottom",
-        "up": "immersiveengineering:blocks/stone_device_allloy_smelter_top",
-        "north": "immersiveengineering:blocks/stone_device_allloy_smelter_off",
-        "south": "immersiveengineering:blocks/stone_device_allloy_smelter_side",
-        "west": "immersiveengineering:blocks/stone_device_allloy_smelter_side",
-        "east": "immersiveengineering:blocks/stone_device_allloy_smelter_side"
+        "down": "openengie:blocks/stone_device_allloy_smelter_bottom",
+        "up": "openengie:blocks/stone_device_allloy_smelter_top",
+        "north": "openengie:blocks/stone_device_allloy_smelter_off",
+        "south": "openengie:blocks/stone_device_allloy_smelter_side",
+        "west": "openengie:blocks/stone_device_allloy_smelter_side",
+        "east": "openengie:blocks/stone_device_allloy_smelter_side"
       }
     },
     {

@@ -1,0 +1,25 @@
+item.openengie.tool_hammer.name=Hammer
+
+item.openengie.aluminum_ingot.name=Aluminum Ingot
+item.openengie.copper_ingot.name=Copper Ingot
+item.openengie.lead_ingot.name=Lead Ingot
+item.openengie.nickel_ingot.name=Nickel Ingot
+item.openengie.silver_ingot.name=Silver Ingot
+item.openengie.uranium_ingot.name=Uranium Ingot
+
+tile.openengie.ore_copper.name=Copper Ore
+tile.openengie.ore_silver.name=Silver Ore
+tile.openengie.ore_lead.name=Lead Ore
+tile.openengie.ore_uranium.name=Uranium Ore
+tile.openengie.ore_aluminum.name=Aluminum Ore
+tile.openengie.ore_nickel.name=Nickel Ore
+
+tile.openengie.sheetmetal_aluminum.name=Aluminum Sheetmetal
+tile.openengie.sheetmetal_steel.name=Steel Sheetmetal
+
+tile.openengie.treated_wood.name=Treated Wood
+tile.openengie.coke.name=Block of Coke
+tile.openengie.alloy_kiln_brick.name=Alloy Klin Brick
+tile.openengie.blastbrick.name=Blast Furnace Brick
+
+itemGroup.ie=OpenEngineering
