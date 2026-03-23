@@ -10,6 +10,7 @@ public class BlockTreatedWood extends Block {
 
     public BlockTreatedWood() {
         super(Material.WOOD);
+
         setCreativeTab(OpenEngineering.CREATIVE_TAB);
         setRegistryName(Tags.MOD_ID, "treated_wood");
         setTranslationKey(Tags.MOD_ID + ".treated_wood");
