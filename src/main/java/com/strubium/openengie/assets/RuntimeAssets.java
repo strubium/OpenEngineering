@@ -220,18 +220,27 @@ public class RuntimeAssets {
             String title = "Missing OpenEngie Assets";
             String[] options = {"Download Missing Assets", "Ignore"};
 
-            String userMessage = "Some texture assets required by OpenEngie are missing:\n\n"
-                    + message
-                    + "\nThese assets are copyrighted by BluSunrize and cannot be "
-                    + "distributed directly by this mod.\n"
-                    + "You can choose to download them directly from the official sources "
-                    + "by clicking 'Download Missing Assets', or continue without them by "
-                    + "clicking 'Ignore' (visual issues may occur).\n"
-                    + "You will need to reopen the game if you choose to download these textures";
+            // scrollable text goes here
+            JTextArea textArea = new JTextArea(
+                    "Some texture assets required by OpenEngie are missing:\n\n"
+                            + message
+                            + "\nThese assets are copyrighted by BluSunrize and cannot be "
+                            + "distributed directly by this mod.\n"
+                            + "You can choose to download them directly from the official sources "
+                            + "by clicking 'Download Missing Assets', or continue without them by "
+                            + "clicking 'Ignore' (visual issues may occur).\n"
+                            + "You will need to reopen the game if you choose to download these textures"
+            );
+            textArea.setLineWrap(true);
+            textArea.setWrapStyleWord(true);
+            textArea.setEditable(false);
+
+            JScrollPane scrollPane = new JScrollPane(textArea);
+            scrollPane.setPreferredSize(new Dimension(500, 300));
 
             int response = JOptionPane.showOptionDialog(
                     getPopupFrame(),
-                    userMessage,
+                    scrollPane,
                     title,
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.WARNING_MESSAGE,
@@ -245,7 +254,6 @@ public class RuntimeAssets {
             }
         });
     }
-
     private static void downloadMissingTextures(JsonArray textures) {
         for (JsonElement elem : textures) {
             JsonObject tex = elem.getAsJsonObject();

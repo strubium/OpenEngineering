@@ -1,161 +1,1307 @@
 {
-  "textures": [
+  "textures":[
     {
-      "name": "tool_hammer",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/tool_hammer.png",
-      "path": "textures/items/tool_hammer.png",
-      "type": "item"
+      "name":"tool_hammer",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/tool_hammer.png",
+      "path":"textures/items/tool_hammer.png",
+      "type":"item"
     },
     {
-      "name": "coke_brick",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
-      "path": "textures/blocks/coke_brick.png",
-      "type": "block"
+      "name":"coke_brick",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
+      "path":"textures/blocks/coke_brick.png",
+      "type":"block"
     },
     {
-      "name": "treated_wood",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood.png",
-      "path": "textures/blocks/treated_wood.png",
-      "type": "block"
+      "name":"treated_wood",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood.png",
+      "path":"textures/blocks/treated_wood.png",
+      "type":"block"
     },
     {
-      "name": "ore_aluminum",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_aluminum.png",
-      "path": "textures/blocks/ore_aluminum.png",
-      "type": "block"
+      "name":"ore_aluminum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_aluminum.png",
+      "path":"textures/blocks/ore_aluminum.png",
+      "type":"block"
     },
     {
-      "name": "ore_copper",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_copper.png",
-      "path": "textures/blocks/ore_copper.png",
-      "type": "block"
+      "name":"ore_copper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_copper.png",
+      "path":"textures/blocks/ore_copper.png",
+      "type":"block"
     },
     {
-      "name": "ore_nickel",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_nickel.png",
-      "path": "textures/blocks/ore_nickel.png",
-      "type": "block"
+      "name":"ore_nickel",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_nickel.png",
+      "path":"textures/blocks/ore_nickel.png",
+      "type":"block"
     },
     {
-      "name": "copper_ingot",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_copper.png",
-      "path": "textures/items/copper_ingot.png",
-      "type": "item"
+      "name":"copper_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_copper.png",
+      "path":"textures/items/copper_ingot.png",
+      "type":"item"
     },
     {
-      "name": "uranium_ingot",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_uranium.png",
-      "path": "textures/items/uranium_ingot.png",
-      "type": "item"
+      "name":"uranium_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_uranium.png",
+      "path":"textures/items/uranium_ingot.png",
+      "type":"item"
     },
     {
-      "name": "silver_ingot",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_silver.png",
-      "path": "textures/items/silver_ingot.png",
-      "type": "item"
+      "name":"silver_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_silver.png",
+      "path":"textures/items/silver_ingot.png",
+      "type":"item"
     },
     {
-      "name": "nickel_ingot",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_nickel.png",
-      "path": "textures/items/nickel_ingot.png",
-      "type": "item"
+      "name":"nickel_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_nickel.png",
+      "path":"textures/items/nickel_ingot.png",
+      "type":"item"
     },
     {
-      "name": "lead_ingot",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_lead.png",
-      "path": "textures/items/lead_ingot.png",
-      "type": "item"
+      "name":"lead_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_lead.png",
+      "path":"textures/items/lead_ingot.png",
+      "type":"item"
     },
     {
-      "name": "aluminum_ingot",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_aluminum.png",
-      "path": "textures/items/aluminum_ingot.png",
-      "type": "item"
+      "name":"aluminum_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_aluminum.png",
+      "path":"textures/items/aluminum_ingot.png",
+      "type":"item"
     },
     {
-      "name": "sheetmetal_aluminum",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
-      "path": "textures/blocks/sheetmetal_aluminum.png",
-      "type": "block"
+      "name":"sheetmetal_aluminum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
+      "path":"textures/blocks/sheetmetal_aluminum.png",
+      "type":"block"
     },
     {
-      "name": "sheetmetal_steel",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_steel.png",
-      "path": "textures/blocks/sheetmetal_steel.png",
-      "type": "block"
+      "name":"sheetmetal_steel",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_steel.png",
+      "path":"textures/blocks/sheetmetal_steel.png",
+      "type":"block"
     },
     {
-      "name": "storage_aluminum",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_aluminum.png",
-      "path": "textures/blocks/storage_aluminum.png",
-      "type": "block"
+      "name":"storage_aluminum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_aluminum.png",
+      "path":"textures/blocks/storage_aluminum.png",
+      "type":"block"
     },
     {
-      "name": "alloy_kiln_brick",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_alloybrick.png",
-      "path": "textures/blocks/alloy_kiln_brick.png",
-      "type": "block"
+      "name":"alloy_kiln_brick",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_alloybrick.png",
+      "path":"textures/blocks/alloy_kiln_brick.png",
+      "type":"block"
     },
     {
-      "name": "ore_uranium",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_uranium.png",
-      "path": "textures/blocks/ore_uranium.png",
-      "type": "block"
+      "name":"ore_uranium",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_uranium.png",
+      "path":"textures/blocks/ore_uranium.png",
+      "type":"block"
     },
     {
-      "name": "ore_silver",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_silver.png",
-      "path": "textures/blocks/ore_silver.png",
-      "type": "block"
+      "name":"ore_silver",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_silver.png",
+      "path":"textures/blocks/ore_silver.png",
+      "type":"block"
     },
     {
-      "name": "coke",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_coke.png",
-      "path": "textures/blocks/coke.png",
-      "type": "block"
+      "name":"coke",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_coke.png",
+      "path":"textures/blocks/coke.png",
+      "type":"block"
     },
     {
-      "name": "ore_lead",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_lead.png",
-      "path": "textures/blocks/ore_lead.png",
-      "type": "block"
+      "name":"ore_lead",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_lead.png",
+      "path":"textures/blocks/ore_lead.png",
+      "type":"block"
     },
     {
-      "name": "blastbrick",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick.png",
-      "path": "textures/blocks/blastbrick.png",
-      "type": "block"
+      "name":"blastbrick",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick.png",
+      "path":"textures/blocks/blastbrick.png",
+      "type":"block"
     },
     {
-      "name": "blastbrick_reinforced",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick_reinforced.png",
-      "path": "textures/blocks/blastbrick_reinforced.png",
-      "type": "block"
+      "name":"blastbrick_reinforced",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick_reinforced.png",
+      "path":"textures/blocks/blastbrick_reinforced.png",
+      "type":"block"
     },
     {
-      "name": "stone_device_allloy_smelter_bottom",
-      "path": "textures/blocks/stone_device_allloy_smelter_bottom.png",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_bottom.png"
+      "name":"stone_device_allloy_smelter_bottom",
+      "path":"textures/blocks/stone_device_allloy_smelter_bottom.png",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_bottom.png"
     },
     {
-      "name": "stone_device_allloy_smelter_off",
-      "path": "textures/blocks/stone_device_allloy_smelter_off.png",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_off.png"
+      "name":"stone_device_allloy_smelter_off",
+      "path":"textures/blocks/stone_device_allloy_smelter_off.png",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_off.png"
     },
     {
-      "name": "stone_device_allloy_smelter_on",
-      "path": "textures/blocks/stone_device_allloy_smelter_on.png",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_on.png"
+      "name":"stone_device_allloy_smelter_on",
+      "path":"textures/blocks/stone_device_allloy_smelter_on.png",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_on.png"
     },
     {
-      "name": "stone_device_allloy_smelter_side",
-      "path": "textures/blocks/stone_device_allloy_smelter_side.png",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_side.png"
+      "name":"stone_device_allloy_smelter_side",
+      "path":"textures/blocks/stone_device_allloy_smelter_side.png",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_side.png"
     },
     {
-      "name": "stone_device_allloy_smelter_top",
-      "path": "textures/blocks/stone_device_allloy_smelter_top.png",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_top.png"
+      "name":"stone_device_allloy_smelter_top",
+      "path":"textures/blocks/stone_device_allloy_smelter_top.png",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_top.png"
+    },
+    {
+      "name":"cloth_device_balloon",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_balloon.png",
+      "path":"textures/blocks/cloth_device_balloon.png",
+      "type":"block"
+    },
+    {
+      "name":"cloth_device_cushion",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_cushion.png",
+      "path":"textures/blocks/cloth_device_cushion.png",
+      "type":"block"
+    },
+    {
+      "name":"cloth_device_stripcurtain",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_stripcurtain.png",
+      "path":"textures/blocks/cloth_device_stripcurtain.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_breaker_switch",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_breaker_switch.png",
+      "path":"textures/blocks/connector_breaker_switch.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_connector_hv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_connector_hv.png",
+      "path":"textures/blocks/connector_connector_hv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_connector_lv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_connector_lv.png",
+      "path":"textures/blocks/connector_connector_lv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_connector_mv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_connector_mv.png",
+      "path":"textures/blocks/connector_connector_mv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_connector_probe",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_connector_probe.png",
+      "path":"textures/blocks/connector_connector_probe.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_connector_redstone",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_connector_redstone.png",
+      "path":"textures/blocks/connector_connector_redstone.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_connector_structural",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_connector_structural.png",
+      "path":"textures/blocks/connector_connector_structural.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_energy_meter",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_energy_meter.png",
+      "path":"textures/blocks/connector_energy_meter.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_redstone_breaker",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_redstone_breaker.png",
+      "path":"textures/blocks/connector_redstone_breaker.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_relay_hv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_relay_hv.png",
+      "path":"textures/blocks/connector_relay_hv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_relay_lv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_relay_lv.png",
+      "path":"textures/blocks/connector_relay_lv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_relay_mv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_relay_mv.png",
+      "path":"textures/blocks/connector_relay_mv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_transformer",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_transformer.png",
+      "path":"textures/blocks/connector_transformer.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_transformer_hv",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_transformer_hv.png",
+      "path":"textures/blocks/connector_transformer_hv.png",
+      "type":"block"
+    },
+    {
+      "name":"connector_transformer_post",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/connector_transformer_post.png",
+      "path":"textures/blocks/connector_transformer_post.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor.png",
+      "path":"textures/blocks/conveyor.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_casing_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_casing_side.png",
+      "path":"textures/blocks/conveyor_casing_side.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_casing_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_casing_top.png",
+      "path":"textures/blocks/conveyor_casing_top.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_casing_walls",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_casing_walls.png",
+      "path":"textures/blocks/conveyor_casing_walls.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_colour",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_colour.png",
+      "path":"textures/blocks/conveyor_colour.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_dropper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_dropper.png",
+      "path":"textures/blocks/conveyor_dropper.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_dropper_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_dropper_off.png",
+      "path":"textures/blocks/conveyor_dropper_off.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_off.png",
+      "path":"textures/blocks/conveyor_off.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_split",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_split.png",
+      "path":"textures/blocks/conveyor_split.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_split_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_split_off.png",
+      "path":"textures/blocks/conveyor_split_off.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_split_wall",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_split_wall.png",
+      "path":"textures/blocks/conveyor_split_wall.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_vertical",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_vertical.png",
+      "path":"textures/blocks/conveyor_vertical.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_vertical_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_vertical_off.png",
+      "path":"textures/blocks/conveyor_vertical_off.png",
+      "type":"block"
+    },
+    {
+      "name":"hemp_b0",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b0.png",
+      "path":"textures/blocks/hemp_b0.png",
+      "type":"block"
+    },
+    {
+      "name":"hemp_b1",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b1.png",
+      "path":"textures/blocks/hemp_b1.png",
+      "type":"block"
+    },
+    {
+      "name":"hemp_b2",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b2.png",
+      "path":"textures/blocks/hemp_b2.png",
+      "type":"block"
+    },
+    {
+      "name":"hemp_b3",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b3.png",
+      "path":"textures/blocks/hemp_b3.png",
+      "type":"block"
+    },
+    {
+      "name":"hemp_b4",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b4.png",
+      "path":"textures/blocks/hemp_b4.png",
+      "type":"block"
+    },
+    {
+      "name":"hemp_t0",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_t0.png",
+      "path":"textures/blocks/hemp_t0.png",
+      "type":"block"
+    },
+    {
+      "name":"metal2_floodlight_glass",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal2_floodlight_glass.png",
+      "path":"textures/blocks/metal2_floodlight_glass.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_coil_hv_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_hv_side.png",
+      "path":"textures/blocks/metal_decoration0_coil_hv_side.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_coil_hv_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_hv_top.png",
+      "path":"textures/blocks/metal_decoration0_coil_hv_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_coil_lv_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_lv_side.png",
+      "path":"textures/blocks/metal_decoration0_coil_lv_side.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_coil_lv_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_lv_top.png",
+      "path":"textures/blocks/metal_decoration0_coil_lv_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_coil_mv_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_mv_side.png",
+      "path":"textures/blocks/metal_decoration0_coil_mv_side.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_coil_mv_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_mv_top.png",
+      "path":"textures/blocks/metal_decoration0_coil_mv_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_generator",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_generator.png",
+      "path":"textures/blocks/metal_decoration0_generator.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_heavy_engineering",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_heavy_engineering.png",
+      "path":"textures/blocks/metal_decoration0_heavy_engineering.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_light_engineering",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_light_engineering.png",
+      "path":"textures/blocks/metal_decoration0_light_engineering.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_radiator",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_radiator.png",
+      "path":"textures/blocks/metal_decoration0_radiator.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration0_redstone_engineering",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_redstone_engineering.png",
+      "path":"textures/blocks/metal_decoration0_redstone_engineering.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_aluminum_scaffolding",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding.png",
+      "path":"textures/blocks/metal_decoration1_aluminum_scaffolding.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_aluminum_scaffolding_open",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding_open.png",
+      "path":"textures/blocks/metal_decoration1_aluminum_scaffolding_open.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_aluminum_scaffolding_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding_top.png",
+      "path":"textures/blocks/metal_decoration1_aluminum_scaffolding_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_aluminum_scaffolding_top1",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding_top1.png",
+      "path":"textures/blocks/metal_decoration1_aluminum_scaffolding_top1.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_aluminum_scaffolding_top2",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding_top2.png",
+      "path":"textures/blocks/metal_decoration1_aluminum_scaffolding_top2.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_steel_scaffolding",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_steel_scaffolding.png",
+      "path":"textures/blocks/metal_decoration1_steel_scaffolding.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_steel_scaffolding_open",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_steel_scaffolding_open.png",
+      "path":"textures/blocks/metal_decoration1_steel_scaffolding_open.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_steel_scaffolding_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_steel_scaffolding_top.png",
+      "path":"textures/blocks/metal_decoration1_steel_scaffolding_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_steel_scaffolding_top1",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_steel_scaffolding_top1.png",
+      "path":"textures/blocks/metal_decoration1_steel_scaffolding_top1.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration1_steel_scaffolding_top2",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_steel_scaffolding_top2.png",
+      "path":"textures/blocks/metal_decoration1_steel_scaffolding_top2.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_aluminum_post",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_aluminum_post.png",
+      "path":"textures/blocks/metal_decoration2_aluminum_post.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_aluminum_wallmount",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_aluminum_wallmount.png",
+      "path":"textures/blocks/metal_decoration2_aluminum_wallmount.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_lantern",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_lantern.png",
+      "path":"textures/blocks/metal_decoration2_lantern.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_razor_wire",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_razor_wire.png",
+      "path":"textures/blocks/metal_decoration2_razor_wire.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_steel_post",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_steel_post.png",
+      "path":"textures/blocks/metal_decoration2_steel_post.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_steel_wallmount",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_steel_wallmount.png",
+      "path":"textures/blocks/metal_decoration2_steel_wallmount.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_decoration2_toolbox",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration2_toolbox.png",
+      "path":"textures/blocks/metal_decoration2_toolbox.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_barrel_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_barrel_side.png",
+      "path":"textures/blocks/metal_device0_barrel_side.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_barrel_up_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_barrel_up_in.png",
+      "path":"textures/blocks/metal_device0_barrel_up_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_barrel_up_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_barrel_up_none.png",
+      "path":"textures/blocks/metal_device0_barrel_up_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_barrel_up_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_barrel_up_out.png",
+      "path":"textures/blocks/metal_device0_barrel_up_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_down_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_down_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_down_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_down_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_down_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_down_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_down_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_down_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_down_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_side_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_side_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_side_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_side_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_side_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_side_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_side_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_side_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_side_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_up_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_up_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_up_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_up_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_up_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_up_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_creative_up_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_creative_up_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_creative_up_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_down_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_down_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_down_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_down_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_down_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_down_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_down_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_down_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_down_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_side_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_side_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_side_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_side_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_side_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_side_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_side_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_side_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_side_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_up_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_up_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_up_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_up_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_up_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_up_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_hv_up_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_hv_up_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_hv_up_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_down_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_down_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_down_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_down_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_down_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_down_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_down_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_down_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_down_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_side_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_side_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_side_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_side_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_side_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_side_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_side_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_side_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_side_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_up_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_up_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_up_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_up_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_up_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_up_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_lv_up_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_lv_up_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_lv_up_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_down_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_down_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_down_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_down_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_down_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_down_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_down_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_down_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_down_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_side_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_side_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_side_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_side_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_side_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_side_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_side_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_side_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_side_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_up_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_up_in.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_up_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_up_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_up_none.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_up_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_capacitor_mv_up_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_capacitor_mv_up_out.png",
+      "path":"textures/blocks/metal_device0_capacitor_mv_up_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_placer_side_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_placer_side_in.png",
+      "path":"textures/blocks/metal_device0_fluid_placer_side_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_placer_side_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_placer_side_none.png",
+      "path":"textures/blocks/metal_device0_fluid_placer_side_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_placer_side_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_placer_side_out.png",
+      "path":"textures/blocks/metal_device0_fluid_placer_side_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_side_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_side_in.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_side_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_side_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_side_none.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_side_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_side_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_side_out.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_side_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_top.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_up_in",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_up_in.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_up_in.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_up_none",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_up_none.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_up_none.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device0_fluid_pump_up_out",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device0_fluid_pump_up_out.png",
+      "path":"textures/blocks/metal_device0_fluid_pump_up_out.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_blast_furnace_preheater",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_blast_furnace_preheater.png",
+      "path":"textures/blocks/metal_device1_blast_furnace_preheater.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_charging_station",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_charging_station.png",
+      "path":"textures/blocks/metal_device1_charging_station.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_chem_turret",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_chem_turret.png",
+      "path":"textures/blocks/metal_device1_chem_turret.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_coresample_drill",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_coresample_drill.png",
+      "path":"textures/blocks/metal_device1_coresample_drill.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_dynamo_bottom",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_dynamo_bottom.png",
+      "path":"textures/blocks/metal_device1_dynamo_bottom.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_dynamo_front",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_dynamo_front.png",
+      "path":"textures/blocks/metal_device1_dynamo_front.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_dynamo_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_dynamo_side.png",
+      "path":"textures/blocks/metal_device1_dynamo_side.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_dynamo_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_dynamo_top.png",
+      "path":"textures/blocks/metal_device1_dynamo_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_electric_lantern",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_electric_lantern.png",
+      "path":"textures/blocks/metal_device1_electric_lantern.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_electric_lantern_on",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_electric_lantern_on.png",
+      "path":"textures/blocks/metal_device1_electric_lantern_on.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_floodlight",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_floodlight.png",
+      "path":"textures/blocks/metal_device1_floodlight.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_floodlight_on",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_floodlight_on.png",
+      "path":"textures/blocks/metal_device1_floodlight_on.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_fluid_pipe",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_fluid_pipe.png",
+      "path":"textures/blocks/metal_device1_fluid_pipe.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_furnace_heater",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_furnace_heater.png",
+      "path":"textures/blocks/metal_device1_furnace_heater.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_furnace_heater_active",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_furnace_heater_active.png",
+      "path":"textures/blocks/metal_device1_furnace_heater_active.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_furnace_heater_active_overlay",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_furnace_heater_active_overlay.png",
+      "path":"textures/blocks/metal_device1_furnace_heater_active_overlay.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_furnace_heater_overlay",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_furnace_heater_overlay.png",
+      "path":"textures/blocks/metal_device1_furnace_heater_overlay.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_furnace_heater_socket",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_furnace_heater_socket.png",
+      "path":"textures/blocks/metal_device1_furnace_heater_socket.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_glassbell",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_glassbell.png",
+      "path":"textures/blocks/metal_device1_glassbell.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_gun_turret",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_gun_turret.png",
+      "path":"textures/blocks/metal_device1_gun_turret.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_teslacoil",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_teslacoil.png",
+      "path":"textures/blocks/metal_device1_teslacoil.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_thermoelectric_gen_bottom",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_thermoelectric_gen_bottom.png",
+      "path":"textures/blocks/metal_device1_thermoelectric_gen_bottom.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_thermoelectric_gen_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_thermoelectric_gen_side.png",
+      "path":"textures/blocks/metal_device1_thermoelectric_gen_side.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_device1_thermoelectric_gen_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_device1_thermoelectric_gen_top.png",
+      "path":"textures/blocks/metal_device1_thermoelectric_gen_top.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_ladder",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_ladder.png",
+      "path":"textures/blocks/metal_ladder.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_arc_furnace",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_arc_furnace.png",
+      "path":"textures/blocks/metal_multiblock_arc_furnace.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_assembler",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_assembler.png",
+      "path":"textures/blocks/metal_multiblock_assembler.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_autoworkbench",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_autoworkbench.png",
+      "path":"textures/blocks/metal_multiblock_autoworkbench.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_autoworkbench_blueprint",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_autoworkbench_blueprint.png",
+      "path":"textures/blocks/metal_multiblock_autoworkbench_blueprint.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_bottling_machine_a",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_bottling_machine_a.png",
+      "path":"textures/blocks/metal_multiblock_bottling_machine_a.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_bottling_machine_b",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_bottling_machine_b.png",
+      "path":"textures/blocks/metal_multiblock_bottling_machine_b.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_bucket_wheel",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_bucket_wheel.png",
+      "path":"textures/blocks/metal_multiblock_bucket_wheel.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_crusher",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_crusher.png",
+      "path":"textures/blocks/metal_multiblock_crusher.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_diesel_generator",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_diesel_generator.png",
+      "path":"textures/blocks/metal_multiblock_diesel_generator.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_excavator",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_excavator.png",
+      "path":"textures/blocks/metal_multiblock_excavator.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_fermenter",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_fermenter.png",
+      "path":"textures/blocks/metal_multiblock_fermenter.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_lightningrod",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_lightningrod.png",
+      "path":"textures/blocks/metal_multiblock_lightningrod.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_metal_press",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_metal_press.png",
+      "path":"textures/blocks/metal_multiblock_metal_press.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_mixer",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_mixer.png",
+      "path":"textures/blocks/metal_multiblock_mixer.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_refinery",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_refinery.png",
+      "path":"textures/blocks/metal_multiblock_refinery.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_silo",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_silo.png",
+      "path":"textures/blocks/metal_multiblock_silo.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_squeezer",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_squeezer.png",
+      "path":"textures/blocks/metal_multiblock_squeezer.png",
+      "type":"block"
+    },
+    {
+      "name":"metal_multiblock_tank",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_multiblock_tank.png",
+      "path":"textures/blocks/metal_multiblock_tank.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor.png",
+      "path":"textures/blocks/conveyor.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_casing_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_casing_side.png",
+      "path":"textures/blocks/conveyor_casing_side.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_casing_top",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_casing_top.png",
+      "path":"textures/blocks/conveyor_casing_top.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_casing_walls",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_casing_walls.png",
+      "path":"textures/blocks/conveyor_casing_walls.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_colour",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_colour.png",
+      "path":"textures/blocks/conveyor_colour.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_dropper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_dropper.png",
+      "path":"textures/blocks/conveyor_dropper.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_dropper_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_dropper_off.png",
+      "path":"textures/blocks/conveyor_dropper_off.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_off.png",
+      "path":"textures/blocks/conveyor_off.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_split",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_split.png",
+      "path":"textures/blocks/conveyor_split.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_split_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_split_off.png",
+      "path":"textures/blocks/conveyor_split_off.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_split_wall",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_split_wall.png",
+      "path":"textures/blocks/conveyor_split_wall.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_vertical",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_vertical.png",
+      "path":"textures/blocks/conveyor_vertical.png",
+      "type":"block"
+    },
+    {
+      "name":"conveyor_vertical_off",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/conveyor_vertical_off.png",
+      "path":"textures/blocks/conveyor_vertical_off.png",
+      "type":"block"
+    },
+    {
+      "name":"wooden_device_barrel_side",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/wooden_device_barrel_side.png",
+      "path":"textures/blocks/wooden_device_barrel_side.png",
+      "type":"block"
+    },
+    {
+      "name":"wooden_device_crate",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/wooden_device_crate.png",
+      "path":"textures/blocks/wooden_device_crate.png",
+      "type":"block"
+    },
+    {
+      "name":"wooden_device_turntable",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/wooden_device_turntable.png",
+      "path":"textures/blocks/wooden_device_turntable.png",
+      "type":"block"
+    },
+    {
+      "name":"wooden_device_workbench",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/wooden_device_workbench.png",
+      "path":"textures/blocks/wooden_device_workbench.png",
+      "type":"block"
+    },
+    {
+      "name":"storage_aluminum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_aluminum.png",
+      "path":"textures/blocks/storage_aluminum.png",
+      "type":"block"
+    },
+    {
+      "name":"storage_copper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_copper.png",
+      "path":"textures/blocks/storage_copper.png",
+      "type":"block"
+    },
+    {
+      "name":"storage_steel",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_steel.png",
+      "path":"textures/blocks/storage_steel.png",
+      "type":"block"
+    },
+    {
+      "name":"cloth_device_balloon",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_balloon.png",
+      "path":"textures/blocks/cloth_device_balloon.png",
+      "type":"block"
+    },
+    {
+      "name":"cloth_device_cushion",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_cushion.png",
+      "path":"textures/blocks/cloth_device_cushion.png",
+      "type":"block"
+    },
+    {
+      "name":"cloth_device_stripcurtain",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_stripcurtain.png",
+      "path":"textures/blocks/cloth_device_stripcurtain.png",
+      "type":"block"
+    },
+    {
+      "name":"ore_aluminum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_aluminum.png",
+      "path":"textures/blocks/ore_aluminum.png",
+      "type":"block"
+    },
+    {
+      "name":"ore_copper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_copper.png",
+      "path":"textures/blocks/ore_copper.png",
+      "type":"block"
+    },
+    {
+      "name":"ore_lead",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_lead.png",
+      "path":"textures/blocks/ore_lead.png",
+      "type":"block"
+    },
+    {
+      "name":"ore_uranium",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_uranium.png",
+      "path":"textures/blocks/ore_uranium.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_aluminum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
+      "path":"textures/blocks/sheetmetal_aluminum.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_copper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_copper.png",
+      "path":"textures/blocks/sheetmetal_copper.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_steel",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_steel.png",
+      "path":"textures/blocks/sheetmetal_steel.png",
+      "type":"block"
+    },
+    {
+      "name":"stone_decoration_alloybrick",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_alloybrick.png",
+      "path":"textures/blocks/stone_decoration_alloybrick.png",
+      "type":"block"
+    },
+    {
+      "name":"stone_device_allloy_smelter_bottom",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_bottom.png",
+      "path":"textures/blocks/stone_device_allloy_smelter_bottom.png",
+      "type":"block"
     }
   ]
 }
