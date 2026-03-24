@@ -62,10 +62,20 @@ public class ModBlocks {
             .setRegistryName(Tags.MOD_ID, "blastbrick")
             .setTranslationKey(Tags.MOD_ID + ".blastbrick");
 
+    public static final Block BLASTBRICK_REINFORCED = new Block(Material.ROCK)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
+            .setRegistryName(Tags.MOD_ID, "blastbrick_reinforced")
+            .setTranslationKey(Tags.MOD_ID + ".blastbrick_reinforced");
+
     public static final Block COKE = new Block(Material.ROCK)
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "coke")
             .setTranslationKey(Tags.MOD_ID + ".coke");
+
+    public static final Block COKE_BRICK = new Block(Material.ROCK)
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
+            .setRegistryName(Tags.MOD_ID, "coke_brick")
+            .setTranslationKey(Tags.MOD_ID + ".coke_brick");
 
     public static void init() {
         Registry.addBlock(TREATED_WOOD);
@@ -81,7 +91,10 @@ public class ModBlocks {
         Registry.addBlock(ALLOY_KILN_BRICK);
         Registry.addBlock(ALLOY_KILN_FORMED);
         Registry.addBlock(BLASTBRICK);
+        Registry.addBlock(BLASTBRICK_REINFORCED);
         Registry.addBlock(COKE);
+        Registry.addBlock(COKE_BRICK);
+
     }
 }
 
