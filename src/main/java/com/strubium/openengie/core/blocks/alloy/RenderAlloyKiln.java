@@ -31,7 +31,6 @@ public class RenderAlloyKiln extends TileEntitySpecialRenderer<TileAlloyKiln> {
 
         // Enable lighting for normals to work
         GlStateManager.enableLighting();
-        GlStateManager.color(0.95f, 0.95f, 0.95f, 1f);
 
         GlStateManager.scale(2.0, 2.0, 2.0);
 
