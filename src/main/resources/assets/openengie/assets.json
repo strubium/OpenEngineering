@@ -7,6 +7,12 @@
       "type": "item"
     },
     {
+      "name": "coke_brick",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
+      "path": "textures/blocks/coke_brick.png",
+      "type": "block"
+    },
+    {
       "name": "treated_wood",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood.png",
       "path": "textures/blocks/treated_wood.png",
@@ -118,6 +124,12 @@
       "name": "blastbrick",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick.png",
       "path": "textures/blocks/blastbrick.png",
+      "type": "block"
+    },
+    {
+      "name": "blastbrick_reinforced",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick_reinforced.png",
+      "path": "textures/blocks/blastbrick_reinforced.png",
       "type": "block"
     },
     {
