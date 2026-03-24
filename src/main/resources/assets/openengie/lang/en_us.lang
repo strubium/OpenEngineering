@@ -19,7 +19,10 @@ tile.openengie.sheetmetal_steel.name=Steel Sheetmetal
 
 tile.openengie.treated_wood.name=Treated Wood
 tile.openengie.coke.name=Block of Coke
+tile.openengie.coke_brick.name=Coke Brick
+
 tile.openengie.alloy_kiln_brick.name=Alloy Klin Brick
 tile.openengie.blastbrick.name=Blast Furnace Brick
+tile.openengie.blastbrick_reinforced.name=Reinforced Blast Furnace Brick
 
 itemGroup.ie=OpenEngineering
