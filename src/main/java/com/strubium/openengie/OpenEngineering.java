@@ -5,9 +5,12 @@ import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.ModBlocks;
 import com.strubium.openengie.core.ModItems;
 import com.strubium.openengie.core.Registry;
+import com.strubium.openengie.core.blocks.alloy.RenderAlloyKiln;
+import com.strubium.openengie.core.blocks.alloy.TileAlloyKiln;
 import com.strubium.openengie.core.generated.OreGenerator;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -42,7 +45,10 @@ public class OpenEngineering {
 
         if (event.getSide().isClient()) {
             RuntimeAssets.registerGeneratedResourcePack();
+            ClientRegistry.bindTileEntitySpecialRenderer(TileAlloyKiln.class, new RenderAlloyKiln());
         }
+
+        GameRegistry.registerTileEntity(TileAlloyKiln.class, Tags.MOD_ID + "_alloy_kiln");
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){

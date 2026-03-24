@@ -7,6 +7,14 @@ While Immersive Engineering is a well-loved mod, the 1.12.2 version has lingerin
 
 OpenEngineering aims to recreate the core gameplay and mechanics, but this will be slow going. Currently, we have recreated 13 blocks and 6 items from 
 
+### Roadmap
+
+* Recreate content as non-functional 'deco' content
+  * Blocks 
+  * Items
+  * Multiblock models
+* Work up progression track recreating  
+
 
 ## How does OpenEngineering handle IE's Code?
 The source code for Immersive Engineering are licensed under a proprietary license so OpenEngineering is using Cleanroom design, a method of copying a design by reverse engineering and then recreating it without infringing. 

@@ -14,68 +14,32 @@ public class ModBlocks {
     public static final Block TREATED_WOOD = new BlockTreatedWood();
     public static final Block TREATED_WOOD_STAIRS = new BlockTreatedWoodStairs(TREATED_WOOD);
 
-    public static final Block ORE_ALUMINUM = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "ore_aluminum")
-            .setTranslationKey(Tags.MOD_ID + ".ore_aluminum");
+    public static final Block ORE_ALUMINUM = createBlock(Material.ROCK, "ore_aluminum");
+    public static final Block ORE_COPPER = createBlock(Material.ROCK, "ore_copper");
+    public static final Block ORE_LEAD = createBlock(Material.ROCK, "ore_lead");
+    public static final Block ORE_NICKEL = createBlock(Material.ROCK, "ore_nickel");
+    public static final Block ORE_SILVER = createBlock(Material.ROCK, "ore_silver");
+    public static final Block ORE_URANIUM = createBlock(Material.ROCK, "ore_uranium");
 
-    public static final Block ORE_COPPER = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "ore_copper")
-            .setTranslationKey(Tags.MOD_ID + ".ore_copper");
-
-    public static final Block ORE_LEAD = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "ore_lead")
-            .setTranslationKey(Tags.MOD_ID + ".ore_lead");
-
-    public static final Block ORE_NICKEL = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "ore_nickel")
-            .setTranslationKey(Tags.MOD_ID + ".ore_nickel");
-
-    public static final Block ORE_SILVER = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "ore_silver")
-            .setTranslationKey(Tags.MOD_ID + ".ore_silver");
-
-    public static final Block ORE_URANIUM = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "ore_uranium")
-            .setTranslationKey(Tags.MOD_ID + ".ore_uranium");
-
-    public static final Block SHEETMETAL_ALUMINUM = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "sheetmetal_aluminum")
-            .setTranslationKey(Tags.MOD_ID + ".sheetmetal_aluminum");
-
-    public static final Block SHEETMETAT_STEEL = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "sheetmetal_steel")
-            .setTranslationKey(Tags.MOD_ID + ".sheetmetal_steel");
+    public static final Block SHEETMETAL_ALUMINUM = createBlock(Material.ROCK, "sheetmetal_aluminum");
+    public static final Block SHEETMETAT_STEEL = createBlock(Material.ROCK, "sheetmetal_steel");
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
-    public static final Block BLASTBRICK = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "blastbrick")
-            .setTranslationKey(Tags.MOD_ID + ".blastbrick");
+    public static final Block BLASTBRICK = createBlock(Material.ROCK, "blastbrick");
+    public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
+    public static final Block COKE = createBlock(Material.ROCK, "coke");
+    public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
 
-    public static final Block BLASTBRICK_REINFORCED = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "blastbrick_reinforced")
-            .setTranslationKey(Tags.MOD_ID + ".blastbrick_reinforced");
+    public static Block createBlock(Material material, String name){
+        Block block = new Block(material)
+                .setCreativeTab(OpenEngineering.CREATIVE_TAB)
+                .setRegistryName(Tags.MOD_ID, name)
+                .setTranslationKey(Tags.MOD_ID + "." + name);
 
-    public static final Block COKE = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "coke")
-            .setTranslationKey(Tags.MOD_ID + ".coke");
-
-    public static final Block COKE_BRICK = new Block(Material.ROCK)
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "coke_brick")
-            .setTranslationKey(Tags.MOD_ID + ".coke_brick");
+        return block;
+    }
 
     public static void init() {
         Registry.addBlock(TREATED_WOOD);
@@ -94,7 +58,5 @@ public class ModBlocks {
         Registry.addBlock(BLASTBRICK_REINFORCED);
         Registry.addBlock(COKE);
         Registry.addBlock(COKE_BRICK);
-
     }
 }
-
