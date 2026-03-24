@@ -5,11 +5,13 @@ import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -22,6 +24,7 @@ public class Registry {
     /** Holds all registered blocks dynamically */
     private static final List<Block> BLOCKS = new ArrayList<>();
     private static final List<Item> ITEMS = new ArrayList<>();
+    private static final List<TileEntry> TILE_ENTITIES = new ArrayList<>();
 
 
     /**
@@ -40,6 +43,13 @@ public class Registry {
         ITEMS.add(item);
     }
 
+    /**
+     * Add an already-constructed block to the registry list.
+     * Call this during preInit or static initialization.
+     */
+    public static void addTileEntity(Class<? extends TileEntity> clazz, String id) {
+        TILE_ENTITIES.add(new TileEntry(clazz, id));
+    }
     /** Helper to get block by registry name */
     public static Block getBlock(String name) {
         return BLOCKS.stream()
@@ -52,6 +62,22 @@ public class Registry {
     public static Item getItem(String name) {
         Block block = getBlock(name);
         return block != null ? Item.getItemFromBlock(block) : null;
+    }
+
+    public static class TileEntry {
+        public final Class<? extends TileEntity> clazz;
+        public final String id;
+
+        public TileEntry(Class<? extends TileEntity> clazz, String id) {
+            this.clazz = clazz;
+            this.id = id;
+        }
+    }
+
+    public static void registerTileEntities() {
+        for (TileEntry entry : TILE_ENTITIES) {
+            GameRegistry.registerTileEntity(entry.clazz, entry.id);
+        }
     }
 
     @Mod.EventBusSubscriber

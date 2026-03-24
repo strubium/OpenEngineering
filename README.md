@@ -13,7 +13,7 @@ OpenEngineering aims to recreate the core gameplay and mechanics, but this will 
   * Blocks 
   * Items
   * Multiblock models
-* Work up progression track recreating  
+* Work up the progression track, recreating functionality as we go
 
 
 ## How does OpenEngineering handle IE's Code?
