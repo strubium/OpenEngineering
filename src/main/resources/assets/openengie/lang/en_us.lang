@@ -26,6 +26,10 @@ tile.openengie.sheetmetal_uranium.name=Uranium Sheetmetal
 tile.openengie.sheetmetal_constantan.name=Constantan Sheetmetal
 tile.openengie.sheetmetal_electrum.name=Electrum Sheetmetal
 
+tile.openengie.coil_lv.name=Copper Coil Block
+tile.openengie.coil_mv.name=Electrum Coil Block
+tile.openengie.coil_hv.name=High-Voltage Coil Block
+
 tile.openengie.treated_wood.name=Treated Wood
 tile.openengie.coke.name=Block of Coke
 tile.openengie.coke_brick.name=Coke Brick

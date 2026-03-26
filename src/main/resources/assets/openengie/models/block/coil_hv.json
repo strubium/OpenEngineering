@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "north": "openengie:blocks/coil_hv_side",
+    "south": "openengie:blocks/coil_hv_side",
+    "east": "openengie:blocks/coil_hv_side",
+    "west": "openengie:blocks/coil_hv_side",
+    "up": "openengie:blocks/coil_hv_top",
+    "down": "openengie:blocks/coil_hv_top"
+  }
+}

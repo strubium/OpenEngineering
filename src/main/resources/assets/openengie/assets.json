@@ -440,39 +440,39 @@
       "type":"block"
     },
     {
-      "name":"metal_decoration0_coil_hv_side",
+      "name":"coil_hv_side",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_hv_side.png",
-      "path":"textures/blocks/metal_decoration0_coil_hv_side.png",
+      "path":"textures/blocks/coil_hv_side.png",
       "type":"block"
     },
     {
-      "name":"metal_decoration0_coil_hv_top",
+      "name":"coil_hv_top",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_hv_top.png",
-      "path":"textures/blocks/metal_decoration0_coil_hv_top.png",
+      "path":"textures/blocks/coil_hv_top.png",
       "type":"block"
     },
     {
-      "name":"metal_decoration0_coil_lv_side",
+      "name":"coil_lv_side",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_lv_side.png",
-      "path":"textures/blocks/metal_decoration0_coil_lv_side.png",
+      "path":"textures/blocks/coil_lv_side.png",
       "type":"block"
     },
     {
-      "name":"metal_decoration0_coil_lv_top",
+      "name":"coil_lv_top",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_lv_top.png",
-      "path":"textures/blocks/metal_decoration0_coil_lv_top.png",
+      "path":"textures/blocks/coil_lv_top.png",
       "type":"block"
     },
     {
-      "name":"metal_decoration0_coil_mv_side",
+      "name":"coil_mv_side",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_mv_side.png",
-      "path":"textures/blocks/metal_decoration0_coil_mv_side.png",
+      "path":"textures/blocks/coil_mv_side.png",
       "type":"block"
     },
     {
-      "name":"metal_decoration0_coil_mv_top",
+      "name":"coil_mv_top",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_coil_mv_top.png",
-      "path":"textures/blocks/metal_decoration0_coil_mv_top.png",
+      "path":"textures/blocks/coil_mv_top.png",
       "type":"block"
     },
     {
