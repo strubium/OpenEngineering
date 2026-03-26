@@ -5,14 +5,19 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
-import com.strubium.openengie.core.blocks.treated.BlockTreatedWoodStairs;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 
 public class ModBlocks {
 
     public static final Block TREATED_WOOD = new BlockTreatedWood();
-    public static final Block TREATED_WOOD_STAIRS = new BlockTreatedWoodStairs(TREATED_WOOD);
+    public static final Block TREATED_WOOD_STAIRS = createStairs(TREATED_WOOD);
 
     public static final Block ORE_ALUMINUM = createBlock(Material.ROCK, "ore_aluminum");
     public static final Block ORE_COPPER = createBlock(Material.ROCK, "ore_copper");
@@ -63,6 +68,26 @@ public class ModBlocks {
                 .setTranslationKey(Tags.MOD_ID + "." + name);
 
         return block;
+    }
+
+    public static Block createStairs(Block baseBlock) {
+        String name = baseBlock.getRegistryName().getPath() + "_stairs";
+        BlockStairs stairs = new BlockStairs(baseBlock.getDefaultState()) {
+            {
+                this.setCreativeTab(OpenEngineering.CREATIVE_TAB);
+                this.setRegistryName(Tags.MOD_ID, name);
+                this.setTranslationKey(Tags.MOD_ID + "." + name);
+                this.setSoundType(SoundType.WOOD);
+                this.useNeighborBrightness = true;
+            }
+
+            @Override
+            public boolean doesSideBlockRendering(IBlockState state, IBlockAccess world, BlockPos pos, EnumFacing face) {
+                return false;
+            }
+        };
+
+        return stairs;
     }
 
     public static void init() {

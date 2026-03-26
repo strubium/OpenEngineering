@@ -30,6 +30,9 @@ tile.openengie.coil_lv.name=Copper Coil Block
 tile.openengie.coil_mv.name=Electrum Coil Block
 tile.openengie.coil_hv.name=High-Voltage Coil Block
 
+tile.openengie.generator.name=Generator
+tile.openengie.radiator.name=Radiator
+
 tile.openengie.heavy_engineering.name=Heavy Engineering Block
 tile.openengie.light_engineering.name=Light Engineering Block
 tile.openengie.redstone_engineering.name=Redstone Engineering Block
