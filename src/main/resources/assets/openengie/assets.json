@@ -374,6 +374,24 @@
       "type":"block"
     },
     {
+      "name":"hemp_crete",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_hempcrete.png",
+      "path":"textures/blocks/hemp_crete.png",
+      "type":"block"
+    },
+    {
+      "name":"concrete",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_concrete.png",
+      "path":"textures/blocks/concrete.png",
+      "type":"block"
+    },
+    {
+      "name":"leaded_concrete",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_concrete_leaded.png",
+      "path":"textures/blocks/leaded_concrete.png",
+      "type":"block"
+    },
+    {
       "name":"hemp_b0",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b0.png",
       "path":"textures/blocks/hemp_b0.png",

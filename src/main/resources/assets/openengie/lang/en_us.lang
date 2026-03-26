@@ -30,6 +30,10 @@ tile.openengie.coil_lv.name=Copper Coil Block
 tile.openengie.coil_mv.name=Electrum Coil Block
 tile.openengie.coil_hv.name=High-Voltage Coil Block
 
+tile.openengie.concrete.name=Concrete
+tile.openengie.leaded_concrete.name=Leaded Concrete
+tile.openengie.hemp_crete.name=Hempcrete
+
 tile.openengie.generator.name=Generator
 tile.openengie.radiator.name=Radiator
 
