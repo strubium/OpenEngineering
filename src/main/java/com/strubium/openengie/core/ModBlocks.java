@@ -41,6 +41,8 @@ public class ModBlocks {
     public static final Block LIGHT_ENG = createBlock(Material.ROCK, "light_engineering");
     public static final Block REDSTONE_ENG = createBlock(Material.ROCK, "redstone_engineering");
 
+    public static final Block GENERATOR = createBlock(Material.ROCK, "generator");
+    public static final Block RADIATOR = createBlock(Material.ROCK, "radiator");
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
@@ -80,6 +82,9 @@ public class ModBlocks {
         Registry.addBlock(HEAVY_ENG);
         Registry.addBlock(LIGHT_ENG);
         Registry.addBlock(REDSTONE_ENG);
+
+        Registry.addBlock(GENERATOR);
+        Registry.addBlock(RADIATOR);
 
         Registry.addBlock(SHEETMETAL_ALUMINUM);
         Registry.addBlock(SHEETMETAL_STEEL);

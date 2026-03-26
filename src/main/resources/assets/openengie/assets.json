@@ -476,9 +476,9 @@
       "type":"block"
     },
     {
-      "name":"metal_decoration0_generator",
+      "name":"generator",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_generator.png",
-      "path":"textures/blocks/metal_decoration0_generator.png",
+      "path":"textures/blocks/generator.png",
       "type":"block"
     },
     {
@@ -494,9 +494,9 @@
       "type":"block"
     },
     {
-      "name":"metal_decoration0_radiator",
+      "name":"radiator",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_radiator.png",
-      "path":"textures/blocks/metal_decoration0_radiator.png",
+      "path":"textures/blocks/radiator.png",
       "type":"block"
     },
     {
