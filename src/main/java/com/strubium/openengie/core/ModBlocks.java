@@ -37,6 +37,10 @@ public class ModBlocks {
     public static final Block COIL_ELECTRUM = createBlock(Material.ROCK, "coil_mv");
     public static final Block COIL_HV = createBlock(Material.ROCK, "coil_hv");
 
+    public static final Block HEAVY_ENG = createBlock(Material.ROCK, "heavy_engineering");
+    public static final Block LIGHT_ENG = createBlock(Material.ROCK, "light_engineering");
+    public static final Block REDSTONE_ENG = createBlock(Material.ROCK, "redstone_engineering");
+
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
@@ -72,6 +76,10 @@ public class ModBlocks {
         Registry.addBlock(COIL_COPPER);
         Registry.addBlock(COIL_ELECTRUM);
         Registry.addBlock(COIL_HV);
+
+        Registry.addBlock(HEAVY_ENG);
+        Registry.addBlock(LIGHT_ENG);
+        Registry.addBlock(REDSTONE_ENG);
 
         Registry.addBlock(SHEETMETAL_ALUMINUM);
         Registry.addBlock(SHEETMETAL_STEEL);

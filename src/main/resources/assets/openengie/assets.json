@@ -482,15 +482,15 @@
       "type":"block"
     },
     {
-      "name":"metal_decoration0_heavy_engineering",
+      "name":"heavy_engineering",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_heavy_engineering.png",
-      "path":"textures/blocks/metal_decoration0_heavy_engineering.png",
+      "path":"textures/blocks/heavy_engineering.png",
       "type":"block"
     },
     {
-      "name":"metal_decoration0_light_engineering",
+      "name":"light_engineering",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_light_engineering.png",
-      "path":"textures/blocks/metal_decoration0_light_engineering.png",
+      "path":"textures/blocks/light_engineering.png",
       "type":"block"
     },
     {
@@ -500,9 +500,9 @@
       "type":"block"
     },
     {
-      "name":"metal_decoration0_redstone_engineering",
+      "name":"redstone_engineering",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration0_redstone_engineering.png",
-      "path":"textures/blocks/metal_decoration0_redstone_engineering.png",
+      "path":"textures/blocks/redstone_engineering.png",
       "type":"block"
     },
     {

@@ -30,7 +30,13 @@ tile.openengie.coil_lv.name=Copper Coil Block
 tile.openengie.coil_mv.name=Electrum Coil Block
 tile.openengie.coil_hv.name=High-Voltage Coil Block
 
+tile.openengie.heavy_engineering.name=Heavy Engineering Block
+tile.openengie.light_engineering.name=Light Engineering Block
+tile.openengie.redstone_engineering.name=Redstone Engineering Block
+
 tile.openengie.treated_wood.name=Treated Wood
+tile.openengie.treated_wood_stairs.name=Treated Wood Stairs
+
 tile.openengie.coke.name=Block of Coke
 tile.openengie.coke_brick.name=Coke Brick
 
