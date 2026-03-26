@@ -13,7 +13,9 @@ import java.awt.*;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 @SideOnly(Side.CLIENT)
 public class RuntimeAssets {
@@ -195,8 +197,16 @@ public class RuntimeAssets {
             StringBuilder missingFiles = new StringBuilder();
             boolean missing = false;
 
+            Set<String> names = new HashSet<>();
+
             for (JsonElement elem : textures) {
                 JsonObject tex = elem.getAsJsonObject();
+
+                String name = tex.get("name").getAsString();
+                if (!names.add(name)) {
+                    throw new RuntimeException("Duplicate texture name found: " + name);
+                }
+
                 String path = tex.get("path").getAsString();
                 File file = new File("config/openengie/assets/" + Tags.MOD_ID + "/" + path);
                 if (!file.exists()) {
