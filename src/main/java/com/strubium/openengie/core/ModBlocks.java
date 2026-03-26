@@ -22,7 +22,17 @@ public class ModBlocks {
     public static final Block ORE_URANIUM = createBlock(Material.ROCK, "ore_uranium");
 
     public static final Block SHEETMETAL_ALUMINUM = createBlock(Material.ROCK, "sheetmetal_aluminum");
-    public static final Block SHEETMETAT_STEEL = createBlock(Material.ROCK, "sheetmetal_steel");
+    public static final Block SHEETMETAL_STEEL = createBlock(Material.ROCK, "sheetmetal_steel");
+    public static final Block SHEETMETAL_COPPER = createBlock(Material.ROCK, "sheetmetal_copper");
+    public static final Block SHEETMETAL_IRON = createBlock(Material.ROCK, "sheetmetal_iron");
+    public static final Block SHEETMETAL_GOLD = createBlock(Material.ROCK, "sheetmetal_gold");
+    public static final Block SHEETMETAL_SILVER = createBlock(Material.ROCK, "sheetmetal_silver");
+    public static final Block SHEETMETAL_NICKEL = createBlock(Material.ROCK, "sheetmetal_nickel");
+    public static final Block SHEETMETAL_LEAD = createBlock(Material.ROCK, "sheetmetal_lead");
+    public static final Block SHEETMETAL_URANIUM = createBlock(Material.ROCK, "sheetmetal_uranium");
+    public static final Block SHEETMETAL_CONSTANTAN = createBlock(Material.ROCK, "sheetmetal_constantan");
+    public static final Block SHEETMETAL_ELECTRUM = createBlock(Material.ROCK, "sheetmetal_electrum");
+
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
@@ -31,6 +41,10 @@ public class ModBlocks {
     public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
     public static final Block COKE = createBlock(Material.ROCK, "coke");
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
+    public static final Block HEMP_CRETE = createBlock(Material.ROCK, "hemp_crete");
+    public static final Block CONCRETE = createBlock(Material.ROCK, "concrete");
+    public static final Block LEADED_CONCRETE = createBlock(Material.ROCK, "leaded_concrete");
+
 
     public static Block createBlock(Material material, String name){
         Block block = new Block(material)
@@ -50,13 +64,27 @@ public class ModBlocks {
         Registry.addBlock(ORE_NICKEL);
         Registry.addBlock(ORE_SILVER);
         Registry.addBlock(ORE_URANIUM);
+
         Registry.addBlock(SHEETMETAL_ALUMINUM);
-        Registry.addBlock(SHEETMETAT_STEEL);
+        Registry.addBlock(SHEETMETAL_STEEL);
+        Registry.addBlock(SHEETMETAL_COPPER);
+        Registry.addBlock(SHEETMETAL_IRON);
+        Registry.addBlock(SHEETMETAL_GOLD);
+        Registry.addBlock(SHEETMETAL_SILVER);
+        Registry.addBlock(SHEETMETAL_NICKEL);
+        Registry.addBlock(SHEETMETAL_LEAD);
+        Registry.addBlock(SHEETMETAL_URANIUM);
+        Registry.addBlock(SHEETMETAL_CONSTANTAN);
+        Registry.addBlock(SHEETMETAL_ELECTRUM);
+
         Registry.addBlock(ALLOY_KILN_BRICK);
         Registry.addBlock(ALLOY_KILN_FORMED);
         Registry.addBlock(BLASTBRICK);
         Registry.addBlock(BLASTBRICK_REINFORCED);
         Registry.addBlock(COKE);
         Registry.addBlock(COKE_BRICK);
+        Registry.addBlock(HEMP_CRETE);
+        Registry.addBlock(CONCRETE);
+        Registry.addBlock(LEADED_CONCRETE);
     }
 }

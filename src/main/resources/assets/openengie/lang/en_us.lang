@@ -16,6 +16,15 @@ tile.openengie.ore_nickel.name=Nickel Ore
 
 tile.openengie.sheetmetal_aluminum.name=Aluminum Sheetmetal
 tile.openengie.sheetmetal_steel.name=Steel Sheetmetal
+tile.openengie.sheetmetal_copper.name=Copper Sheetmetal
+tile.openengie.sheetmetal_iron.name=Iron Sheetmetal
+tile.openengie.sheetmetal_gold.name=Gold Sheetmetal
+tile.openengie.sheetmetal_silver.name=Silver Sheetmetal
+tile.openengie.sheetmetal_nickel.name=Nickel Sheetmetal
+tile.openengie.sheetmetal_lead.name=Lead Sheetmetal
+tile.openengie.sheetmetal_uranium.name=Uranium Sheetmetal
+tile.openengie.sheetmetal_constantan.name=Constantan Sheetmetal
+tile.openengie.sheetmetal_electrum.name=Electrum Sheetmetal
 
 tile.openengie.treated_wood.name=Treated Wood
 tile.openengie.coke.name=Block of Coke

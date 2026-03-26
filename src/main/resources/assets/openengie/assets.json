@@ -85,6 +85,60 @@
       "type":"block"
     },
     {
+      "name":"sheetmetal_copper",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_copper.png",
+      "path":"textures/blocks/sheetmetal_copper.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_iron",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_iron.png",
+      "path":"textures/blocks/sheetmetal_iron.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_gold",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_gold.png",
+      "path":"textures/blocks/sheetmetal_gold.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_silver",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_silver.png",
+      "path":"textures/blocks/sheetmetal_silver.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_nickel",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_nickel.png",
+      "path":"textures/blocks/sheetmetal_nickel.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_lead",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_lead.png",
+      "path":"textures/blocks/sheetmetal_lead.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_uranium",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_uranium.png",
+      "path":"textures/blocks/sheetmetal_uranium.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_constantan",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_constantan.png",
+      "path":"textures/blocks/sheetmetal_constantan.png",
+      "type":"block"
+    },
+    {
+      "name":"sheetmetal_electrum",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_electrum.png",
+      "path":"textures/blocks/sheetmetal_electrum.png",
+      "type":"block"
+    },
+    {
       "name":"storage_aluminum",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_aluminum.png",
       "path":"textures/blocks/storage_aluminum.png",
@@ -1271,36 +1325,6 @@
       "name":"ore_uranium",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_uranium.png",
       "path":"textures/blocks/ore_uranium.png",
-      "type":"block"
-    },
-    {
-      "name":"sheetmetal_aluminum",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
-      "path":"textures/blocks/sheetmetal_aluminum.png",
-      "type":"block"
-    },
-    {
-      "name":"sheetmetal_copper",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_copper.png",
-      "path":"textures/blocks/sheetmetal_copper.png",
-      "type":"block"
-    },
-    {
-      "name":"sheetmetal_steel",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_steel.png",
-      "path":"textures/blocks/sheetmetal_steel.png",
-      "type":"block"
-    },
-    {
-      "name":"stone_decoration_alloybrick",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_alloybrick.png",
-      "path":"textures/blocks/stone_decoration_alloybrick.png",
-      "type":"block"
-    },
-    {
-      "name":"stone_device_allloy_smelter_bottom",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_bottom.png",
-      "path":"textures/blocks/stone_device_allloy_smelter_bottom.png",
       "type":"block"
     }
   ]
