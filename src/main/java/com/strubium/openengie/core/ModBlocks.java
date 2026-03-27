@@ -56,9 +56,18 @@ public class ModBlocks {
     public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
     public static final Block COKE = createBlock(Material.ROCK, "coke");
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
+
+
     public static final Block HEMP_CRETE = createBlock(Material.ROCK, "hemp_crete");
+    public static final Block HEMP_CRETE_STAIRS = createStairs(HEMP_CRETE);
     public static final Block CONCRETE = createBlock(Material.ROCK, "concrete");
+    public static final Block CONCRETE_STAIRS = createStairs(CONCRETE);
     public static final Block LEADED_CONCRETE = createBlock(Material.ROCK, "leaded_concrete");
+    public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
+
+    public static final Block STORAGE_ALUMINUM = createBlock(Material.ROCK, "storage_aluminum");
+    public static final Block STORAGE_COPPER = createBlock(Material.ROCK, "storage_copper");
+    public static final Block STORAGE_STEEL = createBlock(Material.ROCK, "storage_steel");
 
 
     public static Block createBlock(Material material, String name){
@@ -129,8 +138,19 @@ public class ModBlocks {
         Registry.addBlock(BLASTBRICK_REINFORCED);
         Registry.addBlock(COKE);
         Registry.addBlock(COKE_BRICK);
+
         Registry.addBlock(HEMP_CRETE);
+        Registry.addBlock(HEMP_CRETE_STAIRS);
+
         Registry.addBlock(CONCRETE);
+        Registry.addBlock(CONCRETE_STAIRS);
+
         Registry.addBlock(LEADED_CONCRETE);
+        Registry.addBlock(LEADED_CONCRETE_STAIRS);
+
+        Registry.addBlock(STORAGE_ALUMINUM);
+        Registry.addBlock(STORAGE_COPPER);
+        Registry.addBlock(STORAGE_STEEL);
+
     }
 }

@@ -26,13 +26,20 @@ tile.openengie.sheetmetal_uranium.name=Uranium Sheetmetal
 tile.openengie.sheetmetal_constantan.name=Constantan Sheetmetal
 tile.openengie.sheetmetal_electrum.name=Electrum Sheetmetal
 
+tile.openengie.storage_aluminum.name=Block of Aluminum
+tile.openengie.storage_copper.name=Block of Copper
+tile.openengie.storage_steel.name=Block of Steel
+
 tile.openengie.coil_lv.name=Copper Coil Block
 tile.openengie.coil_mv.name=Electrum Coil Block
 tile.openengie.coil_hv.name=High-Voltage Coil Block
 
 tile.openengie.concrete.name=Concrete
+tile.openengie.concrete_stairs.name=Concrete Stairs
 tile.openengie.leaded_concrete.name=Leaded Concrete
+tile.openengie.leaded_concrete_stairs.name=Leaded Concrete Stairs
 tile.openengie.hemp_crete.name=Hempcrete
+tile.openengie.hemp_crete_stairs.name=Hempcrete Stairs
 
 tile.openengie.generator.name=Generator
 tile.openengie.radiator.name=Radiator

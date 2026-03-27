@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "openengie:blocks/hemp_crete",
+    "top": "openengie:blocks/hemp_crete",
+    "side": "openengie:blocks/hemp_crete"
+  }
+}
