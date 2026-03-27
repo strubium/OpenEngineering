@@ -68,6 +68,12 @@ public class ModBlocks {
     public static final Block STORAGE_ALUMINUM = createBlock(Material.ROCK, "storage_aluminum");
     public static final Block STORAGE_COPPER = createBlock(Material.ROCK, "storage_copper");
     public static final Block STORAGE_STEEL = createBlock(Material.ROCK, "storage_steel");
+    public static final Block STORAGE_SILVER = createBlock(Material.ROCK, "storage_silver");
+    public static final Block STORAGE_NICKEL = createBlock(Material.ROCK, "storage_nickel");
+    public static final Block STORAGE_LEAD = createBlock(Material.ROCK, "storage_lead");
+    public static final Block STORAGE_URANIUM = createBlock(Material.ROCK, "storage_uranium");
+    public static final Block STORAGE_CONSTANTAN = createBlock(Material.ROCK, "storage_constantan");
+    public static final Block STORAGE_ELECTRUM = createBlock(Material.ROCK, "storage_electrum");
 
 
     public static Block createBlock(Material material, String name){
@@ -151,6 +157,12 @@ public class ModBlocks {
         Registry.addBlock(STORAGE_ALUMINUM);
         Registry.addBlock(STORAGE_COPPER);
         Registry.addBlock(STORAGE_STEEL);
+        Registry.addBlock(STORAGE_SILVER);
+        Registry.addBlock(STORAGE_NICKEL);
+        Registry.addBlock(STORAGE_LEAD);
+        Registry.addBlock(STORAGE_URANIUM);
+        Registry.addBlock(STORAGE_CONSTANTAN);
+        Registry.addBlock(STORAGE_ELECTRUM);
 
     }
 }

@@ -1202,6 +1202,42 @@
       "type":"block"
     },
     {
+      "name": "storage_silver",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_silver.png",
+      "path": "textures/blocks/storage_silver.png",
+      "type": "block"
+    },
+    {
+      "name": "storage_nickel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_nickel.png",
+      "path": "textures/blocks/storage_nickel.png",
+      "type": "block"
+    },
+    {
+      "name": "storage_lead",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_lead.png",
+      "path": "textures/blocks/storage_lead.png",
+      "type": "block"
+    },
+    {
+      "name": "storage_uranium",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_uranium.png",
+      "path": "textures/blocks/storage_uranium.png",
+      "type": "block"
+    },
+    {
+      "name": "storage_constantan",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_constantan.png",
+      "path": "textures/blocks/storage_constantan.png",
+      "type": "block"
+    },
+    {
+      "name": "storage_electrum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_electrum.png",
+      "path": "textures/blocks/storage_electrum.png",
+      "type": "block"
+    },
+    {
       "name":"cloth_device_balloon",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_balloon.png",
       "path":"textures/blocks/cloth_device_balloon.png",
