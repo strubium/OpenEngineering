@@ -1220,9 +1220,15 @@
       "type": "block"
     },
     {
-      "name": "storage_uranium",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_uranium.png",
-      "path": "textures/blocks/storage_uranium.png",
+      "name": "storage_uranium_top",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_uranium_top.png",
+      "path": "textures/blocks/storage_uranium_top.png",
+      "type": "block"
+    },
+    {
+      "name": "storage_uranium_side",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/storage_uranium_side.png",
+      "path": "textures/blocks/storage_uranium_side.png",
       "type": "block"
     },
     {

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "north": "openengie:blocks/storage_uranium_side",
+    "south": "openengie:blocks/storage_uranium_side",
+    "east": "openengie:blocks/storage_uranium_side",
+    "west": "openengie:blocks/storage_uranium_side",
+    "up": "openengie:blocks/storage_uranium_top",
+    "down": "openengie:blocks/storage_uranium_side"
+  }
+}
