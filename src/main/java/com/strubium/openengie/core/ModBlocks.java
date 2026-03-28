@@ -5,10 +5,8 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockSlab;
-import net.minecraft.block.BlockStairs;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
@@ -133,6 +131,23 @@ public class ModBlocks {
 
         return stairs;
     }
+
+    public static Block createFence(Block baseBlock, String name) {
+        final Material material = baseBlock.getDefaultState().getMaterial();
+        final MapColor mapColor = material.getMaterialMapColor();
+
+        Block fence = new BlockFence(material, mapColor) {
+            {
+                this.setCreativeTab(OpenEngineering.CREATIVE_TAB);
+                this.setRegistryName(Tags.MOD_ID, name);
+                this.setTranslationKey(Tags.MOD_ID + "." + name);
+                this.useNeighborBrightness = true;
+            }
+        };
+
+        return fence;
+    }
+
     public static Block createSlab(Block baseBlock) {
         String name = baseBlock.getRegistryName().getPath() + "_slab";
         BlockSlab slab  = new BlockSlab( baseBlock.getDefaultState().getMaterial()) {
