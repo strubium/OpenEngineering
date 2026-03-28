@@ -6,18 +6,23 @@ import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockSlab;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
 public class ModBlocks {
 
-    public static final Block TREATED_WOOD = new BlockTreatedWood();
-    public static final Block TREATED_WOOD_STAIRS = createStairs(TREATED_WOOD);
+    public static final Block TREATED_WOOD_PLANK = new BlockTreatedWood();
+    public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK);
+    public static final Block TREATED_WOOD_PLANK_STAIRS = createStairs(TREATED_WOOD_PLANK);
+    public static final Block TREATED_WOOD_FENCE = new BlockTreatedWood();
 
     public static final Block ORE_ALUMINUM = createBlock(Material.ROCK, "ore_aluminum");
     public static final Block ORE_COPPER = createBlock(Material.ROCK, "ore_copper");
@@ -50,19 +55,34 @@ public class ModBlocks {
     public static final Block RADIATOR = createBlock(Material.ROCK, "radiator");
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
+    public static final Block ALLOY_KILN_BRICK_SLAB = createStairs(new BlockAlloyBrick());
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
     public static final Block BLASTBRICK = createBlock(Material.ROCK, "blastbrick");
+    public static final Block BLASTBRICK_SLAB = createSlab(BLASTBRICK);
     public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
+    public static final Block BLASTBRICK_REINFORCED_SLAB = createSlab(BLASTBRICK_REINFORCED);
     public static final Block COKE = createBlock(Material.ROCK, "coke");
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
+    public static final Block COKE_BRICK_SLAB = createSlab(COKE_BRICK);
+
+    public static final Block INSULATED_GLASS = createBlock(Material.ROCK, "insulated_glass");
 
 
     public static final Block HEMP_CRETE = createBlock(Material.ROCK, "hemp_crete");
+    public static final Block HEMP_CRETE_SLAB = createSlab(HEMP_CRETE);
     public static final Block HEMP_CRETE_STAIRS = createStairs(HEMP_CRETE);
     public static final Block CONCRETE = createBlock(Material.ROCK, "concrete");
+    public static final Block CONCRETE_SLAB = createSlab(CONCRETE);
     public static final Block CONCRETE_STAIRS = createStairs(CONCRETE);
+    public static final Block CONCRETE_SHEET = createBlock(Material.ROCK, "concrete_sheet");
+    public static final Block CONCRETE_PANEL = createBlock(Material.ROCK, "concrete_sheet");
+    public static final Block CONCRETE_CHUNK = createBlock(Material.ROCK, "concrete_sheet");
+    public static final Block CONCRETE_TILE = createBlock(Material.ROCK, "concrete_tile");
+    public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
+    public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE);
     public static final Block LEADED_CONCRETE = createBlock(Material.ROCK, "leaded_concrete");
+    public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
     public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
 
     public static final Block STORAGE_ALUMINUM = createBlock(Material.ROCK, "storage_aluminum");
@@ -74,6 +94,16 @@ public class ModBlocks {
     public static final Block STORAGE_URANIUM = createBlock(Material.ROCK, "storage_uranium");
     public static final Block STORAGE_CONSTANTAN = createBlock(Material.ROCK, "storage_constantan");
     public static final Block STORAGE_ELECTRUM = createBlock(Material.ROCK, "storage_electrum");
+
+    public static final Block STORAGE_ALUMINUM_SLAB = createSlab(STORAGE_ALUMINUM);
+    public static final Block STORAGE_COPPER_SLAB = createSlab(STORAGE_COPPER);
+    public static final Block STORAGE_STEEL_SLAB = createSlab(STORAGE_STEEL);
+    public static final Block STORAGE_SILVER_SLAB = createSlab(STORAGE_SILVER);
+    public static final Block STORAGE_NICKEL_SLAB = createSlab(STORAGE_NICKEL);
+    public static final Block STORAGE_LEAD_SLAB = createSlab(STORAGE_LEAD);
+    public static final Block STORAGE_URANIUM_SLAB = createSlab(STORAGE_URANIUM);
+    public static final Block STORAGE_CONSTANTAN_SLAB = createSlab(STORAGE_CONSTANTAN);
+    public static final Block STORAGE_ELECTRUM_SLAB = createSlab(STORAGE_ELECTRUM);
 
 
     public static Block createBlock(Material material, String name){
@@ -92,7 +122,6 @@ public class ModBlocks {
                 this.setCreativeTab(OpenEngineering.CREATIVE_TAB);
                 this.setRegistryName(Tags.MOD_ID, name);
                 this.setTranslationKey(Tags.MOD_ID + "." + name);
-                this.setSoundType(SoundType.WOOD);
                 this.useNeighborBrightness = true;
             }
 
@@ -104,6 +133,41 @@ public class ModBlocks {
 
         return stairs;
     }
+    public static Block createSlab(Block baseBlock) {
+        String name = baseBlock.getRegistryName().getPath() + "_slab";
+        BlockSlab slab  = new BlockSlab( baseBlock.getDefaultState().getMaterial()) {
+            {
+                this.setCreativeTab(OpenEngineering.CREATIVE_TAB);
+                this.setRegistryName(Tags.MOD_ID, name);
+                this.setTranslationKey(Tags.MOD_ID + "." + name);
+                this.setSoundType(SoundType.WOOD);
+                this.useNeighborBrightness = true;
+            }
+
+            @Override
+            public String getTranslationKey(int meta) {
+                return "";
+            }
+
+            @Override
+            public boolean isDouble() {
+                return false;
+            }
+
+            @Override
+            public IProperty<?> getVariantProperty() {
+                return null;
+            }
+
+            @Override
+            public Comparable<?> getTypeForItem(ItemStack stack) {
+                return null;
+            }
+        };
+
+        return slab;
+    }
+
 
     public static void init() {
 
@@ -179,18 +243,7 @@ public class ModBlocks {
         Registry.addBlock(TREATED_WOOD_FENCE);
 
 
-<<<<<<< Updated upstream
-        Registry.addBlock(STORAGE_ALUMINUM);
-        Registry.addBlock(STORAGE_COPPER);
-        Registry.addBlock(STORAGE_STEEL);
-        Registry.addBlock(STORAGE_SILVER);
-        Registry.addBlock(STORAGE_NICKEL);
-        Registry.addBlock(STORAGE_LEAD);
-        Registry.addBlock(STORAGE_URANIUM);
-        Registry.addBlock(STORAGE_CONSTANTAN);
-        Registry.addBlock(STORAGE_ELECTRUM);
-=======
->>>>>>> Stashed changes
+
 
     }
 }

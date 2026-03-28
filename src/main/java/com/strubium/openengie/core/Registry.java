@@ -88,7 +88,7 @@ public class Registry {
             for (Block block : BLOCKS) {
                 event.getRegistry().register(block);
                 if(block instanceof BlockTreatedWood){
-                    Blocks.FIRE.setFireInfo(ModBlocks.TREATED_WOOD, 0, 0); // No chance to catch or spread fire
+                    Blocks.FIRE.setFireInfo(ModBlocks.TREATED_WOOD_PLANK, 0, 0); // No chance to catch or spread fire
                 }
             }
         }
