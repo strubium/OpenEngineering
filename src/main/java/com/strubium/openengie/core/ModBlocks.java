@@ -106,54 +106,80 @@ public class ModBlocks {
     }
 
     public static void init() {
-        Registry.addBlock(TREATED_WOOD);
-        Registry.addBlock(TREATED_WOOD_STAIRS);
-        Registry.addBlock(ORE_ALUMINUM);
+
+
+
+
+
+
         Registry.addBlock(ORE_COPPER);
+        Registry.addBlock(ORE_ALUMINUM);
         Registry.addBlock(ORE_LEAD);
-        Registry.addBlock(ORE_NICKEL);
         Registry.addBlock(ORE_SILVER);
+        Registry.addBlock(ORE_NICKEL);
         Registry.addBlock(ORE_URANIUM);
-
-        Registry.addBlock(COIL_COPPER);
-        Registry.addBlock(COIL_ELECTRUM);
-        Registry.addBlock(COIL_HV);
-
-        Registry.addBlock(HEAVY_ENG);
-        Registry.addBlock(LIGHT_ENG);
-        Registry.addBlock(REDSTONE_ENG);
-
-        Registry.addBlock(GENERATOR);
-        Registry.addBlock(RADIATOR);
-
-        Registry.addBlock(SHEETMETAL_ALUMINUM);
-        Registry.addBlock(SHEETMETAL_STEEL);
-        Registry.addBlock(SHEETMETAL_COPPER);
-        Registry.addBlock(SHEETMETAL_IRON);
-        Registry.addBlock(SHEETMETAL_GOLD);
-        Registry.addBlock(SHEETMETAL_SILVER);
-        Registry.addBlock(SHEETMETAL_NICKEL);
-        Registry.addBlock(SHEETMETAL_LEAD);
-        Registry.addBlock(SHEETMETAL_URANIUM);
-        Registry.addBlock(SHEETMETAL_CONSTANTAN);
-        Registry.addBlock(SHEETMETAL_ELECTRUM);
-
-        Registry.addBlock(ALLOY_KILN_BRICK);
-        Registry.addBlock(ALLOY_KILN_FORMED);
+        Registry.addBlock(STORAGE_COPPER);
+        Registry.addBlock(STORAGE_ALUMINUM);
+        Registry.addBlock(STORAGE_LEAD);
+        //
+        Registry.addBlock(STORAGE_SILVER);
+        Registry.addBlock(STORAGE_NICKEL);
+        Registry.addBlock(STORAGE_URANIUM);
+        Registry.addBlock(STORAGE_CONSTANTAN);
+        Registry.addBlock(STORAGE_ELECTRUM);
+        Registry.addBlock(STORAGE_STEEL);
+        Registry.addBlock(STORAGE_COPPER_SLAB);
+        Registry.addBlock(STORAGE_ALUMINUM_SLAB);
+        Registry.addBlock(STORAGE_LEAD_SLAB);
+        //
+        Registry.addBlock(STORAGE_SILVER_SLAB);
+        Registry.addBlock(STORAGE_NICKEL_SLAB);
+        Registry.addBlock(STORAGE_URANIUM_SLAB);
+        Registry.addBlock(STORAGE_CONSTANTAN_SLAB);
+        Registry.addBlock(STORAGE_ELECTRUM_SLAB);
+        Registry.addBlock(STORAGE_STEEL_SLAB);
+        Registry.addBlock(COKE_BRICK);
         Registry.addBlock(BLASTBRICK);
         Registry.addBlock(BLASTBRICK_REINFORCED);
+        //
         Registry.addBlock(COKE);
-        Registry.addBlock(COKE_BRICK);
-
         Registry.addBlock(HEMP_CRETE);
-        Registry.addBlock(HEMP_CRETE_STAIRS);
-
         Registry.addBlock(CONCRETE);
-        Registry.addBlock(CONCRETE_STAIRS);
-
+        Registry.addBlock(CONCRETE_TILE);
         Registry.addBlock(LEADED_CONCRETE);
+        Registry.addBlock(INSULATED_GLASS);
+        Registry.addBlock(ALLOY_KILN_BRICK);
+        Registry.addBlock(COKE_BRICK_SLAB);
+        Registry.addBlock(BLASTBRICK_SLAB);
+        //
+        Registry.addBlock(BLASTBRICK_REINFORCED_SLAB);
+        Registry.addBlock(HEMP_CRETE_SLAB);
+        Registry.addBlock(CONCRETE_SLAB);
+        Registry.addBlock(CONCRETE_TILE_SLAB);
+        Registry.addBlock(LEADED_CONCRETE_SLAB);
+        Registry.addBlock(ALLOY_KILN_BRICK_SLAB);
+        Registry.addBlock(HEMP_CRETE_STAIRS);
+        Registry.addBlock(CONCRETE_STAIRS);
+        Registry.addBlock(CONCRETE_TILE_STAIRS);
+        //
         Registry.addBlock(LEADED_CONCRETE_STAIRS);
+        Registry.addBlock(CONCRETE_SHEET);
+        Registry.addBlock(CONCRETE_PANEL);
+        Registry.addBlock(CONCRETE_CHUNK);
+        Registry.addBlock(TREATED_WOOD_PLANK);//horizontal
+        Registry.addBlock(TREATED_WOOD_PLANK);//vertical
+        Registry.addBlock(TREATED_WOOD_PLANK);//packaged
+        Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//horizontal
+        Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//vertical
+        //
+        Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//packaged
+        Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//horizontal
+        Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//vertical
+        Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//packaged
+        Registry.addBlock(TREATED_WOOD_FENCE);
 
+
+<<<<<<< Updated upstream
         Registry.addBlock(STORAGE_ALUMINUM);
         Registry.addBlock(STORAGE_COPPER);
         Registry.addBlock(STORAGE_STEEL);
@@ -163,6 +189,8 @@ public class ModBlocks {
         Registry.addBlock(STORAGE_URANIUM);
         Registry.addBlock(STORAGE_CONSTANTAN);
         Registry.addBlock(STORAGE_ELECTRUM);
+=======
+>>>>>>> Stashed changes
 
     }
 }
