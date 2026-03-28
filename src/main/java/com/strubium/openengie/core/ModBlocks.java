@@ -20,9 +20,9 @@ import net.minecraft.world.IBlockAccess;
 public class ModBlocks {
 
     public static final Block TREATED_WOOD_PLANK = new BlockTreatedWood();
-    public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK);
+   // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK);
     public static final Block TREATED_WOOD_PLANK_STAIRS = createStairs(TREATED_WOOD_PLANK);
-    public static final Block TREATED_WOOD_FENCE = new BlockTreatedWood();
+    public static final Block TREATED_WOOD_FENCE = createBlock(Material.ROCK, "treated_wood_fence");
 
     public static final Block ORE_ALUMINUM = createBlock(Material.ROCK, "ore_aluminum");
     public static final Block ORE_COPPER = createBlock(Material.ROCK, "ore_copper");
@@ -55,34 +55,34 @@ public class ModBlocks {
     public static final Block RADIATOR = createBlock(Material.ROCK, "radiator");
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
-    public static final Block ALLOY_KILN_BRICK_SLAB = createStairs(new BlockAlloyBrick());
+   // public static final Block ALLOY_KILN_BRICK_SLAB = createStairs(new BlockAlloyBrick());
     public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
     public static final Block BLASTBRICK = createBlock(Material.ROCK, "blastbrick");
-    public static final Block BLASTBRICK_SLAB = createSlab(BLASTBRICK);
+ //   public static final Block BLASTBRICK_SLAB = createSlab(BLASTBRICK);
     public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
-    public static final Block BLASTBRICK_REINFORCED_SLAB = createSlab(BLASTBRICK_REINFORCED);
+ //   public static final Block BLASTBRICK_REINFORCED_SLAB = createSlab(BLASTBRICK_REINFORCED);
     public static final Block COKE = createBlock(Material.ROCK, "coke");
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
-    public static final Block COKE_BRICK_SLAB = createSlab(COKE_BRICK);
+   // public static final Block COKE_BRICK_SLAB = createSlab(COKE_BRICK);
 
     public static final Block INSULATED_GLASS = createBlock(Material.ROCK, "insulated_glass");
 
 
     public static final Block HEMP_CRETE = createBlock(Material.ROCK, "hemp_crete");
-    public static final Block HEMP_CRETE_SLAB = createSlab(HEMP_CRETE);
+  //  public static final Block HEMP_CRETE_SLAB = createSlab(HEMP_CRETE);
     public static final Block HEMP_CRETE_STAIRS = createStairs(HEMP_CRETE);
     public static final Block CONCRETE = createBlock(Material.ROCK, "concrete");
-    public static final Block CONCRETE_SLAB = createSlab(CONCRETE);
+   // public static final Block CONCRETE_SLAB = createSlab(CONCRETE);
     public static final Block CONCRETE_STAIRS = createStairs(CONCRETE);
     public static final Block CONCRETE_SHEET = createBlock(Material.ROCK, "concrete_sheet");
-    public static final Block CONCRETE_PANEL = createBlock(Material.ROCK, "concrete_sheet");
-    public static final Block CONCRETE_CHUNK = createBlock(Material.ROCK, "concrete_sheet");
+    public static final Block CONCRETE_PANEL = createBlock(Material.ROCK, "concrete_panel");
+    public static final Block CONCRETE_CHUNK = createBlock(Material.ROCK, "concrete_chunk");
     public static final Block CONCRETE_TILE = createBlock(Material.ROCK, "concrete_tile");
-    public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
+    //public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
     public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE);
     public static final Block LEADED_CONCRETE = createBlock(Material.ROCK, "leaded_concrete");
-    public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
+   // public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
     public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
 
     public static final Block STORAGE_ALUMINUM = createBlock(Material.ROCK, "storage_aluminum");
@@ -95,7 +95,7 @@ public class ModBlocks {
     public static final Block STORAGE_CONSTANTAN = createBlock(Material.ROCK, "storage_constantan");
     public static final Block STORAGE_ELECTRUM = createBlock(Material.ROCK, "storage_electrum");
 
-    public static final Block STORAGE_ALUMINUM_SLAB = createSlab(STORAGE_ALUMINUM);
+   /* public static final Block STORAGE_ALUMINUM_SLAB = createSlab(STORAGE_ALUMINUM);
     public static final Block STORAGE_COPPER_SLAB = createSlab(STORAGE_COPPER);
     public static final Block STORAGE_STEEL_SLAB = createSlab(STORAGE_STEEL);
     public static final Block STORAGE_SILVER_SLAB = createSlab(STORAGE_SILVER);
@@ -104,7 +104,7 @@ public class ModBlocks {
     public static final Block STORAGE_URANIUM_SLAB = createSlab(STORAGE_URANIUM);
     public static final Block STORAGE_CONSTANTAN_SLAB = createSlab(STORAGE_CONSTANTAN);
     public static final Block STORAGE_ELECTRUM_SLAB = createSlab(STORAGE_ELECTRUM);
-
+*/
 
     public static Block createBlock(Material material, String name){
         Block block = new Block(material)
@@ -192,16 +192,16 @@ public class ModBlocks {
         Registry.addBlock(STORAGE_CONSTANTAN);
         Registry.addBlock(STORAGE_ELECTRUM);
         Registry.addBlock(STORAGE_STEEL);
-        Registry.addBlock(STORAGE_COPPER_SLAB);
-        Registry.addBlock(STORAGE_ALUMINUM_SLAB);
-        Registry.addBlock(STORAGE_LEAD_SLAB);
+       // Registry.addBlock(STORAGE_COPPER_SLAB);
+        //Registry.addBlock(STORAGE_ALUMINUM_SLAB);
+        //Registry.addBlock(STORAGE_LEAD_SLAB);
         //
-        Registry.addBlock(STORAGE_SILVER_SLAB);
-        Registry.addBlock(STORAGE_NICKEL_SLAB);
-        Registry.addBlock(STORAGE_URANIUM_SLAB);
-        Registry.addBlock(STORAGE_CONSTANTAN_SLAB);
-        Registry.addBlock(STORAGE_ELECTRUM_SLAB);
-        Registry.addBlock(STORAGE_STEEL_SLAB);
+       //  Registry.addBlock(STORAGE_SILVER_SLAB);
+        //Registry.addBlock(STORAGE_NICKEL_SLAB);
+        //Registry.addBlock(STORAGE_URANIUM_SLAB);
+        //Registry.addBlock(STORAGE_CONSTANTAN_SLAB);
+        //Registry.addBlock(STORAGE_ELECTRUM_SLAB);
+        //Registry.addBlock(STORAGE_STEEL_SLAB);
         Registry.addBlock(COKE_BRICK);
         Registry.addBlock(BLASTBRICK);
         Registry.addBlock(BLASTBRICK_REINFORCED);
@@ -213,33 +213,33 @@ public class ModBlocks {
         Registry.addBlock(LEADED_CONCRETE);
         Registry.addBlock(INSULATED_GLASS);
         Registry.addBlock(ALLOY_KILN_BRICK);
-        Registry.addBlock(COKE_BRICK_SLAB);
-        Registry.addBlock(BLASTBRICK_SLAB);
+     //   Registry.addBlock(COKE_BRICK_SLAB);
+       // Registry.addBlock(BLASTBRICK_SLAB);
         //
-        Registry.addBlock(BLASTBRICK_REINFORCED_SLAB);
-        Registry.addBlock(HEMP_CRETE_SLAB);
-        Registry.addBlock(CONCRETE_SLAB);
-        Registry.addBlock(CONCRETE_TILE_SLAB);
-        Registry.addBlock(LEADED_CONCRETE_SLAB);
-        Registry.addBlock(ALLOY_KILN_BRICK_SLAB);
-        Registry.addBlock(HEMP_CRETE_STAIRS);
-        Registry.addBlock(CONCRETE_STAIRS);
-        Registry.addBlock(CONCRETE_TILE_STAIRS);
+        // Registry.addBlock(BLASTBRICK_REINFORCED_SLAB);
+       // Registry.addBlock(HEMP_CRETE_SLAB);
+        //Registry.addBlock(CONCRETE_SLAB);
+        //Registry.addBlock(CONCRETE_TILE_SLAB);
+        //Registry.addBlock(LEADED_CONCRETE_SLAB);
+        //Registry.addBlock(ALLOY_KILN_BRICK_SLAB);
+        //Registry.addBlock(HEMP_CRETE_STAIRS);
+        //Registry.addBlock(CONCRETE_STAIRS);
+        //Registry.addBlock(CONCRETE_TILE_STAIRS);
         //
         Registry.addBlock(LEADED_CONCRETE_STAIRS);
         Registry.addBlock(CONCRETE_SHEET);
         Registry.addBlock(CONCRETE_PANEL);
         Registry.addBlock(CONCRETE_CHUNK);
         Registry.addBlock(TREATED_WOOD_PLANK);//horizontal
-        Registry.addBlock(TREATED_WOOD_PLANK);//vertical
-        Registry.addBlock(TREATED_WOOD_PLANK);//packaged
-        Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//horizontal
-        Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//vertical
+        //Registry.addBlock(TREATED_WOOD_PLANK);//vertical
+        //Registry.addBlock(TREATED_WOOD_PLANK);//packaged
+       // Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//horizontal
+        //Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//vertical
         //
-        Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//packaged
+        //Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//packaged
         Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//horizontal
-        Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//vertical
-        Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//packaged
+       // Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//vertical
+        //Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//packaged
         Registry.addBlock(TREATED_WOOD_FENCE);
 
 
