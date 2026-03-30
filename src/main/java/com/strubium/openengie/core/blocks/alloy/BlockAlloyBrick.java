@@ -4,6 +4,7 @@ import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.ModBlocks;
 import com.strubium.openengie.core.ModItems;
+import com.strubium.openengie.core.blocks.BaseOpenEngieBlock;
 import com.strubium.openengie.core.multi.Multiblock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -17,17 +18,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
-public class BlockAlloyBrick extends Block {
+public class BlockAlloyBrick extends BaseOpenEngieBlock {
 
     // A 2x2x2 multiblock where every component must be *this* block
     private final Multiblock alloyKilnMultiblock;
 
     public BlockAlloyBrick() {
-        super(Material.ROCK);
+        super(Material.ROCK, "alloy_kiln_brick");
 
-        setCreativeTab(OpenEngineering.CREATIVE_TAB);
-        setRegistryName(Tags.MOD_ID, "alloy_kiln_brick");
-        setTranslationKey(Tags.MOD_ID + ".alloy_kiln_brick");
         setSoundType(SoundType.STONE);
         setHardness(2.0F);
         setResistance(10.0F);
