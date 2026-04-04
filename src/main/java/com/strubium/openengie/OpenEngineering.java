@@ -1,10 +1,7 @@
 package com.strubium.openengie;
 
 import com.strubium.openengie.assets.RuntimeAssets;
-import com.strubium.openengie.core.ModBlocks;
-import com.strubium.openengie.core.ModItems;
-import com.strubium.openengie.core.ModTileEntities;
-import com.strubium.openengie.core.Registry;
+import com.strubium.openengie.core.*;
 import com.strubium.openengie.core.generated.OreGenerator;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -31,7 +28,9 @@ public class OpenEngineering {
 
     @Mod.EventHandler
     public void construct(FMLConstructionEvent event){
-        RuntimeAssets.checkAssets();
+        if (event.getSide().isClient()) {
+            RuntimeAssets.checkAssets();
+        }
     }
 
     @Mod.EventHandler
@@ -42,7 +41,7 @@ public class OpenEngineering {
         ModItems.init();
 
         if (event.getSide().isClient()) {
-            ModTileEntities.clientInit();
+            ModTileEntitiesClient.clientInit();
             RuntimeAssets.registerGeneratedResourcePack();
         }
 

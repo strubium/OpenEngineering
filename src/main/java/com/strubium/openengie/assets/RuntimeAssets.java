@@ -5,8 +5,6 @@ import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.SimpleReloadableResourceManager;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,7 +15,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-@SideOnly(Side.CLIENT)
 public class RuntimeAssets {
 
     /** Load assets.json from inside the JAR */
