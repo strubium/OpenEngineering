@@ -83,6 +83,8 @@ public class ModBlocks {
    // public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
     public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
 
+    public static final Block JUMP_CUSHION = createBlock(Material.ROCK, "jump_cushion");
+
     public static final Block STORAGE_ALUMINUM = createBlock(Material.ROCK, "storage_aluminum");
     public static final Block STORAGE_COPPER = createBlock(Material.ROCK, "storage_copper");
     public static final Block STORAGE_STEEL = createBlock(Material.ROCK, "storage_steel");
@@ -186,12 +188,6 @@ public class ModBlocks {
 
 
     public static void init() {
-
-
-
-
-
-
         Registry.addBlock(ORE_COPPER);
         Registry.addBlock(ORE_ALUMINUM);
         Registry.addBlock(ORE_LEAD);
@@ -257,6 +253,31 @@ public class ModBlocks {
        // Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//vertical
         //Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//packaged
         Registry.addBlock(TREATED_WOOD_FENCE);
+
+        Registry.addBlock(JUMP_CUSHION);
+
+        Registry.addBlock(SHEETMETAL_COPPER);
+        Registry.addBlock(SHEETMETAL_ALUMINUM);
+        Registry.addBlock(SHEETMETAL_LEAD);
+        Registry.addBlock(SHEETMETAL_SILVER);
+        Registry.addBlock(SHEETMETAL_NICKEL);
+        Registry.addBlock(SHEETMETAL_URANIUM);
+        Registry.addBlock(SHEETMETAL_CONSTANTAN);
+        Registry.addBlock(SHEETMETAL_ELECTRUM);
+        Registry.addBlock(SHEETMETAL_STEEL);
+        Registry.addBlock(SHEETMETAL_IRON);
+        Registry.addBlock(SHEETMETAL_GOLD);
+
+        Registry.addBlock(COIL_COPPER);
+        Registry.addBlock(COIL_ELECTRUM);
+        Registry.addBlock(COIL_HV);
+
+        Registry.addBlock(REDSTONE_ENG);
+        Registry.addBlock(LIGHT_ENG);
+        Registry.addBlock(HEAVY_ENG);
+
+        Registry.addBlock(GENERATOR);
+        Registry.addBlock(RADIATOR);
 
 
 

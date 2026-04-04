@@ -404,6 +404,12 @@
       "type":"block"
     },
     {
+      "name":"jump_cushion",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_cushion.png",
+      "path":"textures/blocks/jump_cushion.png",
+      "type":"block"
+    },
+    {
       "name":"hemp_b0",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b0.png",
       "path":"textures/blocks/hemp_b0.png",

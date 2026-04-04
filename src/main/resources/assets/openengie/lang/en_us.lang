@@ -46,6 +46,13 @@ tile.openengie.leaded_concrete.name=Leaded Concrete
 tile.openengie.leaded_concrete_stairs.name=Leaded Concrete Stairs
 tile.openengie.hemp_crete.name=Hempcrete
 tile.openengie.hemp_crete_stairs.name=Hempcrete Stairs
+tile.openengie.concrete_tile.name=Concrete Tile
+tile.openengie.concrete_tile_stairs.name=Concrete Tile Stairs
+tile.openengie.concrete_sheet.name=Concrete Sheet
+tile.openengie.concrete_panel.name=Concrete Panel
+tile.openengie.concrete_chunk.name=Concrete Chunk
+
+tile.openengie.insulated_glass.name=Insulated Glass
 
 tile.openengie.generator.name=Generator
 tile.openengie.radiator.name=Radiator
@@ -56,6 +63,9 @@ tile.openengie.redstone_engineering.name=Redstone Engineering Block
 
 tile.openengie.treated_wood.name=Treated Wood
 tile.openengie.treated_wood_stairs.name=Treated Wood Stairs
+tile.openengie.treated_wood_fence.name=Treated Wood Fence
+
+tile.openengie.jump_cushion.name=Jump Cushion
 
 tile.openengie.coke.name=Block of Coke
 tile.openengie.coke_brick.name=Coke Brick
