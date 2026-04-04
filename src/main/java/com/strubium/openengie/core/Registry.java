@@ -1,5 +1,6 @@
 package com.strubium.openengie.core;
 
+import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -95,6 +96,8 @@ public class Registry {
 
         @SubscribeEvent
         public static void registerItems(RegistryEvent.Register<Item> event) {
+            OpenEngineering.LOGGER.info("Starting to register with {} Blocks and {} Items", BLOCKS.size(), ITEMS.size());
+
             for (Block block : BLOCKS) {
                 ItemBlock itemBlock = new ItemBlock(block);
                 itemBlock.setRegistryName(block.getRegistryName());
