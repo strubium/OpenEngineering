@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final Block TREATED_WOOD_PLANK = new BlockTreatedWood();
    // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK);
     public static final Block TREATED_WOOD_PLANK_STAIRS = createStairs(TREATED_WOOD_PLANK);
-    public static final Block TREATED_WOOD_FENCE = createBlock(Material.ROCK, "treated_wood_fence");
+    public static final Block TREATED_WOOD_FENCE = createFence(TREATED_WOOD_PLANK);
 
     public static final Block ORE_ALUMINUM = createBlock(Material.ROCK, "ore_aluminum");
     public static final Block ORE_COPPER = createBlock(Material.ROCK, "ore_copper");
@@ -132,9 +132,10 @@ public class ModBlocks {
         return stairs;
     }
 
-    public static Block createFence(Block baseBlock, String name) {
+    public static Block createFence(Block baseBlock) {
         final Material material = baseBlock.getDefaultState().getMaterial();
         final MapColor mapColor = material.getMaterialMapColor();
+        String name = baseBlock.getRegistryName().getPath() + "_fence";
 
         Block fence = new BlockFence(material, mapColor) {
             {

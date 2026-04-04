@@ -392,6 +392,18 @@
       "type":"block"
     },
     {
+      "name":"concrete_tile",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_concrete_tile.png",
+      "path":"textures/blocks/concrete_tile.png",
+      "type":"block"
+    },
+    {
+      "name":"insulated_glass",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_insulating_glass.png",
+      "path":"textures/blocks/insulated_glass.png",
+      "type":"block"
+    },
+    {
       "name":"hemp_b0",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b0.png",
       "path":"textures/blocks/hemp_b0.png",
