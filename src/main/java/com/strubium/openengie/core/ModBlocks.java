@@ -5,6 +5,7 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
+import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.block.*;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -29,7 +30,7 @@ public class ModBlocks {
     public static final Block ORE_SILVER = createBlock(Material.ROCK, "ore_silver");
     public static final Block ORE_URANIUM = createBlock(Material.ROCK, "ore_uranium");
 
-    public static final Block SHEETMETAL_ALUMINUM = createBlock(Material.ROCK, "sheetmetal_aluminum");
+    public static final Block SHEETMETAL_ALUMINUM = createBlockOre(Material.ROCK, "sheetmetal_aluminum", "blockSheetmetalAluminum");
     public static final Block SHEETMETAL_STEEL = createBlock(Material.ROCK, "sheetmetal_steel");
     public static final Block SHEETMETAL_COPPER = createBlock(Material.ROCK, "sheetmetal_copper");
     public static final Block SHEETMETAL_IRON = createBlock(Material.ROCK, "sheetmetal_iron");
@@ -111,6 +112,14 @@ public class ModBlocks {
                 .setCreativeTab(OpenEngineering.CREATIVE_TAB)
                 .setRegistryName(Tags.MOD_ID, name)
                 .setTranslationKey(Tags.MOD_ID + "." + name);
+
+        return block;
+    }
+
+    public static Block createBlockOre(Material material, String name, String oreName){
+        Block block = createBlock(material, name);
+
+        Registry.addOre(oreName, block.getRegistryName());
 
         return block;
     }

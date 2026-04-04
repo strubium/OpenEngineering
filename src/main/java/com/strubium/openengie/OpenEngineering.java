@@ -3,6 +3,7 @@ package com.strubium.openengie;
 import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.*;
 import com.strubium.openengie.core.generated.OreGenerator;
+import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -59,5 +60,7 @@ public class OpenEngineering {
         GameRegistry.addSmelting(ModBlocks.ORE_NICKEL, new ItemStack(ModItems.INGOT_NICKEL), 0.7f);
         GameRegistry.addSmelting(ModBlocks.ORE_SILVER, new ItemStack(ModItems.INGOT_SILVER), 0.7f);
         GameRegistry.addSmelting(ModBlocks.ORE_URANIUM, new ItemStack(ModItems.INGOT_URANIUM), 0.7f);
+
+        Registry.registerOreDict();
     }
 }

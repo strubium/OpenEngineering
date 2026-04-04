@@ -2,6 +2,7 @@ package com.strubium.openengie.core;
 
 import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
+import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.item.Item;
 
 
