@@ -79,7 +79,7 @@ public class ModBlocks {
     public static final Block CONCRETE_CHUNK = createBlock(Material.ROCK, "concrete_chunk");
     public static final Block CONCRETE_TILE = createBlock(Material.ROCK, "concrete_tile");
     //public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
-    public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE);
+    public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE_TILE);
     public static final Block LEADED_CONCRETE = createBlock(Material.ROCK, "leaded_concrete");
    // public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
     public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
@@ -248,8 +248,8 @@ public class ModBlocks {
         //Registry.addBlock(LEADED_CONCRETE_SLAB);
         //Registry.addBlock(ALLOY_KILN_BRICK_SLAB);
         Registry.addBlock(HEMP_CRETE_STAIRS);
-        //Registry.addBlock(CONCRETE_STAIRS);
-        //Registry.addBlock(CONCRETE_TILE_STAIRS);
+        Registry.addBlock(CONCRETE_STAIRS);
+        Registry.addBlock(CONCRETE_TILE_STAIRS);
         //
         Registry.addBlock(LEADED_CONCRETE_STAIRS);
         Registry.addBlock(CONCRETE_SHEET);
