@@ -247,7 +247,7 @@ public class ModBlocks {
         //Registry.addBlock(CONCRETE_TILE_SLAB);
         //Registry.addBlock(LEADED_CONCRETE_SLAB);
         //Registry.addBlock(ALLOY_KILN_BRICK_SLAB);
-        //Registry.addBlock(HEMP_CRETE_STAIRS);
+        Registry.addBlock(HEMP_CRETE_STAIRS);
         //Registry.addBlock(CONCRETE_STAIRS);
         //Registry.addBlock(CONCRETE_TILE_STAIRS);
         //

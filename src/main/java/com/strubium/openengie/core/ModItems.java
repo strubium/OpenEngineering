@@ -12,6 +12,11 @@ public class ModItems {
             .setRegistryName(Tags.MOD_ID, "tool_hammer")
             .setTranslationKey(Tags.MOD_ID + ".tool_hammer");
 
+    public static final Item TOOL_WIRECUTTERS = new Item()
+            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
+            .setRegistryName(Tags.MOD_ID, "tool_wirecutters")
+            .setTranslationKey(Tags.MOD_ID + ".tool_wirecutters");
+
     public static final Item INGOT_ALUMINUM = new Item()
             .setCreativeTab(OpenEngineering.CREATIVE_TAB)
             .setRegistryName(Tags.MOD_ID, "aluminum_ingot")
@@ -46,6 +51,8 @@ public class ModItems {
 
     public static void init() {
         Registry.addItem(TOOL_HAMMER);
+        Registry.addItem(TOOL_HAMMER);
+
         Registry.addItem(INGOT_ALUMINUM);
         Registry.addItem(INGOT_COPPER);
         Registry.addItem(INGOT_LEAD);
