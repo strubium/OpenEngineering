@@ -23,6 +23,15 @@ public class ModBlocks {
     public static final Block TREATED_WOOD_PLANK_STAIRS = createStairs(TREATED_WOOD_PLANK);
     public static final Block TREATED_WOOD_FENCE = createFence(TREATED_WOOD_PLANK);
 
+    public static final Block TREATED_WOOD_PLANK_VERTICAL = createBlock(Material.WOOD, "treated_wood_vertical");
+    // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK_VERTICAL);
+    public static final Block TREATED_WOOD_PLANK_VERTICAL_STAIRS = createStairs(TREATED_WOOD_PLANK_VERTICAL);
+
+    public static final Block TREATED_WOOD_PLANK_PACKAGED = createBlock(Material.WOOD, "treated_wood_packaged");
+    // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK_PACKAGED);
+    public static final Block TREATED_WOOD_PLANK_PACKAGED_STAIRS = createStairs(TREATED_WOOD_PLANK_PACKAGED);
+
+
     public static final Block ORE_ALUMINUM = createBlock(Material.ROCK, "ore_aluminum");
     public static final Block ORE_COPPER = createBlock(Material.ROCK, "ore_copper");
     public static final Block ORE_LEAD = createBlock(Material.ROCK, "ore_lead");
@@ -256,15 +265,15 @@ public class ModBlocks {
         Registry.addBlock(CONCRETE_PANEL);
         Registry.addBlock(CONCRETE_CHUNK);
         Registry.addBlock(TREATED_WOOD_PLANK);//horizontal
-        //Registry.addBlock(TREATED_WOOD_PLANK);//vertical
-        //Registry.addBlock(TREATED_WOOD_PLANK);//packaged
+        Registry.addBlock(TREATED_WOOD_PLANK_VERTICAL);//vertical
+        Registry.addBlock(TREATED_WOOD_PLANK_PACKAGED);//packaged
        // Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//horizontal
         //Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//vertical
         //
         //Registry.addBlock(TREATED_WOOD_PLANK_SLAB);//packaged
         Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//horizontal
-       // Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//vertical
-        //Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//packaged
+        Registry.addBlock(TREATED_WOOD_PLANK_VERTICAL_STAIRS);//vertical
+        Registry.addBlock(TREATED_WOOD_PLANK_PACKAGED_STAIRS);//packaged
         Registry.addBlock(TREATED_WOOD_FENCE);
 
         Registry.addBlock(JUMP_CUSHION);

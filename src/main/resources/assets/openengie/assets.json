@@ -19,6 +19,18 @@
       "type":"block"
     },
     {
+      "name":"treated_wood_packaged",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood_packaged.png",
+      "path":"textures/blocks/treated_wood_packaged.png",
+      "type":"block"
+    },
+    {
+      "name":"treated_wood_vertical",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood_vertical.png",
+      "path":"textures/blocks/treated_wood_vertical.png",
+      "type":"block"
+    },
+    {
       "name":"ore_aluminum",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_aluminum.png",
       "path":"textures/blocks/ore_aluminum.png",
