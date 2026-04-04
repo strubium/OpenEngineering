@@ -36,6 +36,10 @@ tile.openengie.storage_uranium.name=Block of Uranium
 tile.openengie.storage_constantan.name=Block of Constantan
 tile.openengie.storage_electrum.name=Block of Electrum
 
+tile.openengie.storage_aluminum_fence.name=Aluminum Fence
+tile.openengie.storage_steel_fence.name=Steel Fence
+
+
 tile.openengie.coil_lv.name=Copper Coil Block
 tile.openengie.coil_mv.name=Electrum Coil Block
 tile.openengie.coil_hv.name=High-Voltage Coil Block

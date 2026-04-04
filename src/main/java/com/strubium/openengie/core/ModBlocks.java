@@ -107,6 +107,10 @@ public class ModBlocks {
     public static final Block STORAGE_ELECTRUM_SLAB = createSlab(STORAGE_ELECTRUM);
 */
 
+    public static final Block STEEL_FENCE = createFence(STORAGE_STEEL);
+    public static final Block ALUMINUM_FENCE = createFence(STORAGE_ALUMINUM);
+
+
     public static Block createBlock(Material material, String name){
         Block block = new Block(material)
                 .setCreativeTab(OpenEngineering.CREATIVE_TAB)
@@ -287,6 +291,10 @@ public class ModBlocks {
 
         Registry.addBlock(GENERATOR);
         Registry.addBlock(RADIATOR);
+
+        Registry.addBlock(STEEL_FENCE);
+        Registry.addBlock(ALUMINUM_FENCE);
+
 
 
 
