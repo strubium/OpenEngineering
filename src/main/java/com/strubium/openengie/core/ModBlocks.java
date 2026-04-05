@@ -18,16 +18,16 @@ import net.minecraft.world.IBlockAccess;
 
 public class ModBlocks {
 
-    public static final Block TREATED_WOOD_PLANK = new BlockTreatedWood();
+    public static final Block TREATED_WOOD_PLANK = createBlockOre(Material.WOOD, "treated_wood", "plankTreatedWood");
    // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK);
     public static final Block TREATED_WOOD_PLANK_STAIRS = createStairs(TREATED_WOOD_PLANK);
     public static final Block TREATED_WOOD_FENCE = createFence(TREATED_WOOD_PLANK);
 
-    public static final Block TREATED_WOOD_PLANK_VERTICAL = createBlock(Material.WOOD, "treated_wood_vertical");
+    public static final Block TREATED_WOOD_PLANK_VERTICAL = createBlockOre(Material.WOOD, "treated_wood_vertical", "plankTreatedWood");
     // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK_VERTICAL);
     public static final Block TREATED_WOOD_PLANK_VERTICAL_STAIRS = createStairs(TREATED_WOOD_PLANK_VERTICAL);
 
-    public static final Block TREATED_WOOD_PLANK_PACKAGED = createBlock(Material.WOOD, "treated_wood_packaged");
+    public static final Block TREATED_WOOD_PLANK_PACKAGED = createBlockOre(Material.WOOD, "treated_wood_packaged", "plankTreatedWood");
     // public static final Block TREATED_WOOD_PLANK_SLAB = createSlab(TREATED_WOOD_PLANK_PACKAGED);
     public static final Block TREATED_WOOD_PLANK_PACKAGED_STAIRS = createStairs(TREATED_WOOD_PLANK_PACKAGED);
 

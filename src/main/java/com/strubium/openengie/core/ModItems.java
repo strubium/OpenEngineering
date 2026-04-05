@@ -51,7 +51,7 @@ public class ModItems {
 
     public static void init() {
         Registry.addItem(TOOL_HAMMER);
-        Registry.addItem(TOOL_HAMMER);
+        Registry.addItem(TOOL_WIRECUTTERS);
 
         Registry.addItem(INGOT_ALUMINUM);
         Registry.addItem(INGOT_COPPER);

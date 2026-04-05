@@ -7,6 +7,12 @@
       "type":"item"
     },
     {
+      "name":"tool_wirecutters",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/tool_wirecutter.png",
+      "path":"textures/items/tool_wirecutters.png",
+      "type":"item"
+    },
+    {
       "name":"coke_brick",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
       "path":"textures/blocks/coke_brick.png",
