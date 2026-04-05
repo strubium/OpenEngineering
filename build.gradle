@@ -147,6 +147,8 @@ dependencies {
 
     implementation rfg.deobf("curse.maven:multiblocked-604054:6786327")
 
+    implementation rfg.deobf("curse.maven:had-enough-items-557549:7515497")
+
     implementation rfg.deobf("curse.maven:immersive-engineering-231951:2974106")
 }
 
