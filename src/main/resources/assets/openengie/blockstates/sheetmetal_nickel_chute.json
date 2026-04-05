@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "openengie:sheetmetal_nickel_chute" }
+  }
+}
