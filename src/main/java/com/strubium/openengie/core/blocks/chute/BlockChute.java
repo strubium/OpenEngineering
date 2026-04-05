@@ -14,7 +14,6 @@ import java.util.List;
 
 public class BlockChute extends Block {
 
-    private final Block base;
 
     protected static final double THICKNESS = 0.125;
 
@@ -25,8 +24,6 @@ public class BlockChute extends Block {
 
     public BlockChute(Block base, String name) {
         super(base.getDefaultState().getMaterial());
-
-        this.base = base;
 
         this.setRegistryName(base.getRegistryName().getNamespace(), name);
         this.setTranslationKey(Tags.MOD_ID + "." + name);
