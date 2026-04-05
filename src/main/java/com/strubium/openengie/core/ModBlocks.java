@@ -296,7 +296,7 @@ public class ModBlocks {
         Registry.addBlock(TREATED_WOOD_PLANK_STAIRS);//horizontal
         Registry.addBlock(TREATED_WOOD_PLANK_VERTICAL_STAIRS);//vertical
         Registry.addBlock(TREATED_WOOD_PLANK_PACKAGED_STAIRS);//packaged
-        Registry.addBlock(TREATED_WOOD_FENCE);
+        Registry.addBlock(TREATED_WOOD_FENCE); Registry.addOre("fenceWood", TREATED_WOOD_FENCE.getRegistryName());
 
         Registry.addBlock(JUMP_CUSHION);
 
