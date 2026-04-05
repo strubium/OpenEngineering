@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "openengie:concrete_chunk" }
+  }
+}
