@@ -3,51 +3,36 @@ package com.strubium.openengie.core;
 import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.registry.Registry;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
 
 public class ModItems {
-    public static final Item TOOL_HAMMER = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "tool_hammer")
-            .setTranslationKey(Tags.MOD_ID + ".tool_hammer");
+    public static final Item TOOL_HAMMER = createItem("tool_hammer");
 
-    public static final Item TOOL_WIRECUTTERS = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "tool_wirecutters")
-            .setTranslationKey(Tags.MOD_ID + ".tool_wirecutters");
+    public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters");
 
-    public static final Item INGOT_ALUMINUM = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "aluminum_ingot")
-            .setTranslationKey(Tags.MOD_ID + ".aluminum_ingot");
+    public static final Item INGOT_ALUMINUM = createItem("aluminum_ingot");
 
-    public static final Item INGOT_COPPER = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "copper_ingot")
-            .setTranslationKey(Tags.MOD_ID + ".copper_ingot");
+    public static final Item INGOT_COPPER = createItem("copper_ingot");
 
-    public static final Item INGOT_LEAD = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "lead_ingot")
-            .setTranslationKey(Tags.MOD_ID + ".lead_ingot");
+    public static final Item INGOT_LEAD = createItem("lead_ingot");
 
-    public static final Item INGOT_NICKEL = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "nickel_ingot")
-            .setTranslationKey(Tags.MOD_ID + ".nickel_ingot");
+    public static final Item INGOT_NICKEL = createItem("nickel_ingot");
 
-    public static final Item INGOT_SILVER = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "silver_ingot")
-            .setTranslationKey(Tags.MOD_ID + ".silver_ingot");
+    public static final Item INGOT_SILVER = createItem("silver_ingot");
 
-    public static final Item INGOT_URANIUM = new Item()
-            .setCreativeTab(OpenEngineering.CREATIVE_TAB)
-            .setRegistryName(Tags.MOD_ID, "uranium_ingot")
-            .setTranslationKey(Tags.MOD_ID + ".uranium_ingot");
+    public static final Item INGOT_URANIUM = createItem("uranium_ingot");
 
+    public static Item createItem(String name){
+        Item item = new Item()
+                .setCreativeTab(OpenEngineering.CREATIVE_TAB)
+                .setRegistryName(Tags.MOD_ID, name)
+                .setTranslationKey(Tags.MOD_ID + "." + name);;
 
+        return item;
+    }
 
     public static void init() {
         Registry.addItem(TOOL_HAMMER);
@@ -59,8 +44,5 @@ public class ModItems {
         Registry.addItem(INGOT_NICKEL);
         Registry.addItem(INGOT_SILVER);
         Registry.addItem(INGOT_URANIUM);
-
-        // Furnace recipes
-
     }
 }
