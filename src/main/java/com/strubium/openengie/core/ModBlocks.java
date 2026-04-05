@@ -131,6 +131,8 @@ public class ModBlocks {
     public static final Block ALUMINUM_FENCE = createFence(STORAGE_ALUMINUM);
 
     public static final Block STEEL_SCAFFOLDING = createBlock(Material.ROCK, "steel_scaffolding");
+    public static final Block STEEL_SCAFFOLDING_STAIRS = createStairs(STEEL_SCAFFOLDING);
+
 
     public static final Block TREATED_WOOD_CHUTE = createChute(TREATED_WOOD_PLANK);
 
@@ -327,6 +329,7 @@ public class ModBlocks {
         Registry.addBlock(ALUMINUM_FENCE);
 
         Registry.addBlock(STEEL_SCAFFOLDING);
+        Registry.addBlock(STEEL_SCAFFOLDING_STAIRS);
 
         Registry.addBlock(TREATED_WOOD_CHUTE);
 
