@@ -4,6 +4,7 @@ import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.*;
 import com.strubium.openengie.core.generated.OreGenerator;
 import com.strubium.openengie.core.registry.Registry;
+import mcp.MethodsReturnNonnullByDefault;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -22,6 +23,7 @@ public class OpenEngineering {
 
     public static final CreativeTabs CREATIVE_TAB = new CreativeTabs("ie") {
         @Override
+        @MethodsReturnNonnullByDefault
         public ItemStack createIcon() {
             return Registry.getItem("treated_wood").getDefaultInstance();
         }
