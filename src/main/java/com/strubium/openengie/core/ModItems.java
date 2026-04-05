@@ -14,16 +14,23 @@ public class ModItems {
     public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters");
 
     public static final Item INGOT_ALUMINUM = createItem("aluminum_ingot");
-
     public static final Item INGOT_COPPER = createItem("copper_ingot");
-
     public static final Item INGOT_LEAD = createItem("lead_ingot");
-
     public static final Item INGOT_NICKEL = createItem("nickel_ingot");
-
     public static final Item INGOT_SILVER = createItem("silver_ingot");
-
     public static final Item INGOT_URANIUM = createItem("uranium_ingot");
+
+    public static final Item PLATE_ALUMINUM = createItem("aluminum_plate");
+    public static final Item PLATE_STEEL = createItem("steel_plate");
+    public static final Item PLATE_COPPER = createItem("copper_plate");
+    public static final Item PLATE_IRON = createItem("iron_plate");
+    public static final Item PLATE_GOLD = createItem("gold_plate");
+    public static final Item PLATE_SILVER = createItem("silver_plate");
+    public static final Item PLATE_NICKEL = createItem("nickel_plate");
+    public static final Item PLATE_LEAD = createItem("lead_plate");
+    public static final Item PLATE_URANIUM = createItem("uranium_plate");
+    public static final Item PLATE_CONSTANTAN = createItem("constantan_plate");
+    public static final Item PLATE_ELECTRUM = createItem("electrum_plate");
 
     public static Item createItem(String name){
         Item item = new Item()
@@ -44,5 +51,17 @@ public class ModItems {
         Registry.addItem(INGOT_NICKEL);
         Registry.addItem(INGOT_SILVER);
         Registry.addItem(INGOT_URANIUM);
+
+        Registry.addItem(PLATE_ALUMINUM);
+        Registry.addItem(PLATE_STEEL);
+        Registry.addItem(PLATE_COPPER);
+        Registry.addItem(PLATE_IRON);
+        Registry.addItem(PLATE_GOLD);
+        Registry.addItem(PLATE_SILVER);
+        Registry.addItem(PLATE_NICKEL);
+        Registry.addItem(PLATE_LEAD);
+        Registry.addItem(PLATE_URANIUM);
+        Registry.addItem(PLATE_CONSTANTAN);
+        Registry.addItem(PLATE_ELECTRUM);
     }
 }

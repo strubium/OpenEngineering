@@ -13,6 +13,72 @@
       "type":"item"
     },
     {
+      "name": "aluminum_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_aluminum.png",
+      "path": "textures/items/aluminum_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "steel_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_steel.png",
+      "path": "textures/items/steel_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "copper_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_copper.png",
+      "path": "textures/items/copper_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "iron_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_iron.png",
+      "path": "textures/items/iron_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "gold_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_gold.png",
+      "path": "textures/items/gold_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "silver_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_silver.png",
+      "path": "textures/items/silver_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "nickel_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_nickel.png",
+      "path": "textures/items/nickel_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "lead_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_lead.png",
+      "path": "textures/items/lead_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "uranium_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_uranium.png",
+      "path": "textures/items/uranium_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "constantan_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_constantan.png",
+      "path": "textures/items/constantan_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "electrum_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_electrum.png",
+      "path": "textures/items/electrum_plate.png",
+      "type": "item"
+    },
+    {
       "name":"coke_brick",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
       "path":"textures/blocks/coke_brick.png",
