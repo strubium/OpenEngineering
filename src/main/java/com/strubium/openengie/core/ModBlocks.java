@@ -2,7 +2,7 @@ package com.strubium.openengie.core;
 
 import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
-import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
+import com.strubium.openengie.core.blocks.chute.BlockChute;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import com.strubium.openengie.core.registry.Registry;
@@ -121,6 +121,8 @@ public class ModBlocks {
 
     public static final Block STEEL_SCAFFOLDING = createBlock(Material.ROCK, "steel_scaffolding");
 
+    public static final Block TREATED_WOOD_CHUTE = createChute(TREATED_WOOD_PLANK);
+
 
     public static Block createBlock(Material material, String name){
         Block block = new Block(material)
@@ -156,6 +158,12 @@ public class ModBlocks {
         };
 
         return stairs;
+    }
+
+    public static Block createChute(Block baseBlock) {
+        String name = baseBlock.getRegistryName().getPath() + "_chute";
+
+        return new BlockChute(baseBlock, name);
     }
 
     public static Block createFence(Block baseBlock) {
@@ -307,6 +315,8 @@ public class ModBlocks {
         Registry.addBlock(ALUMINUM_FENCE);
 
         Registry.addBlock(STEEL_SCAFFOLDING);
+
+        Registry.addBlock(TREATED_WOOD_CHUTE);
 
 
 
