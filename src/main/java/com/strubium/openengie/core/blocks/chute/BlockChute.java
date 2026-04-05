@@ -1,5 +1,6 @@
 package com.strubium.openengie.core.blocks.chute;
 
+import com.strubium.openengie.Tags;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
@@ -28,7 +29,7 @@ public class BlockChute extends Block {
         this.base = base;
 
         this.setRegistryName(base.getRegistryName().getNamespace(), name);
-        this.setTranslationKey(name);
+        this.setTranslationKey(Tags.MOD_ID + "." + name);
 
         this.setCreativeTab(base.getCreativeTab());
 
