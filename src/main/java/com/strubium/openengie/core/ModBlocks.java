@@ -119,6 +119,8 @@ public class ModBlocks {
     public static final Block STEEL_FENCE = createFence(STORAGE_STEEL);
     public static final Block ALUMINUM_FENCE = createFence(STORAGE_ALUMINUM);
 
+    public static final Block STEEL_SCAFFOLDING = createBlock(Material.ROCK, "steel_scaffolding");
+
 
     public static Block createBlock(Material material, String name){
         Block block = new Block(material)
@@ -304,6 +306,7 @@ public class ModBlocks {
         Registry.addBlock(STEEL_FENCE);
         Registry.addBlock(ALUMINUM_FENCE);
 
+        Registry.addBlock(STEEL_SCAFFOLDING);
 
 
 

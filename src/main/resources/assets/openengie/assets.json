@@ -422,6 +422,12 @@
       "type":"block"
     },
     {
+      "name":"steel_scaffolding",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_steel_scaffolding.png",
+      "path":"textures/blocks/steel_scaffolding.png",
+      "type":"block"
+    },
+    {
       "name":"hemp_b0",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b0.png",
       "path":"textures/blocks/hemp_b0.png",
