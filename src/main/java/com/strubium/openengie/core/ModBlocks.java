@@ -115,6 +115,17 @@ public class ModBlocks {
     public static final Block STORAGE_CONSTANTAN_SLAB = createSlab(STORAGE_CONSTANTAN);
     public static final Block STORAGE_ELECTRUM_SLAB = createSlab(STORAGE_ELECTRUM);
 */
+    public static final Block SHEETMETAL_ALUMINUM_CHUTE = createChute(SHEETMETAL_ALUMINUM);
+    public static final Block SHEETMETAL_STEEL_CHUTE = createChute(SHEETMETAL_STEEL);
+    public static final Block SHEETMETAL_COPPER_CHUTE = createChute(SHEETMETAL_COPPER);
+    public static final Block SHEETMETAL_IRON_CHUTE = createChute(SHEETMETAL_IRON);
+    public static final Block SHEETMETAL_GOLD_CHUTE = createChute(SHEETMETAL_GOLD);
+    public static final Block SHEETMETAL_SILVER_CHUTE = createChute(SHEETMETAL_SILVER);
+    public static final Block SHEETMETAL_NICKEL_CHUTE = createChute(SHEETMETAL_NICKEL);
+    public static final Block SHEETMETAL_LEAD_CHUTE = createChute(SHEETMETAL_LEAD);
+    public static final Block SHEETMETAL_URANIUM_CHUTE = createChute(SHEETMETAL_URANIUM);
+    public static final Block SHEETMETAL_CONSTANTAN_CHUTE = createChute(SHEETMETAL_CONSTANTAN);
+    public static final Block SHEETMETAL_ELECTRUM_CHUTE = createChute(SHEETMETAL_ELECTRUM);
 
     public static final Block STEEL_FENCE = createFence(STORAGE_STEEL);
     public static final Block ALUMINUM_FENCE = createFence(STORAGE_ALUMINUM);
@@ -122,6 +133,7 @@ public class ModBlocks {
     public static final Block STEEL_SCAFFOLDING = createBlock(Material.ROCK, "steel_scaffolding");
 
     public static final Block TREATED_WOOD_CHUTE = createChute(TREATED_WOOD_PLANK);
+
 
 
     public static Block createBlock(Material material, String name){
@@ -317,6 +329,18 @@ public class ModBlocks {
         Registry.addBlock(STEEL_SCAFFOLDING);
 
         Registry.addBlock(TREATED_WOOD_CHUTE);
+
+        Registry.addBlock(SHEETMETAL_ALUMINUM_CHUTE);
+        Registry.addBlock(SHEETMETAL_STEEL_CHUTE);
+        Registry.addBlock(SHEETMETAL_COPPER_CHUTE);
+        Registry.addBlock(SHEETMETAL_IRON_CHUTE);
+        Registry.addBlock(SHEETMETAL_GOLD_CHUTE);
+        Registry.addBlock(SHEETMETAL_SILVER_CHUTE);
+        Registry.addBlock(SHEETMETAL_NICKEL_CHUTE);
+        Registry.addBlock(SHEETMETAL_LEAD_CHUTE);
+        Registry.addBlock(SHEETMETAL_URANIUM_CHUTE);
+        Registry.addBlock(SHEETMETAL_CONSTANTAN_CHUTE);
+        Registry.addBlock(SHEETMETAL_ELECTRUM_CHUTE);
 
 
 
