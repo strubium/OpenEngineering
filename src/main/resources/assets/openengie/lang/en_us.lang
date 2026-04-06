@@ -50,6 +50,29 @@ tile.openengie.sheetmetal_uranium_chute.name=Uranium Sheetmetal Chute
 tile.openengie.sheetmetal_constantan_chute.name=Constantan Sheetmetal Chute
 tile.openengie.sheetmetal_electrum_chute.name=Electrum Sheetmetal Chute
 
+item.openengie.aluminum_plate.name=Aluminum Plate
+item.openengie.steel_plate.name=Steel Plate
+item.openengie.copper_plate.name=Copper Plate
+item.openengie.iron_plate.name=Iron Plate
+item.openengie.gold_plate.name=Gold Plate
+item.openengie.silver_plate.name=Silver Plate
+item.openengie.nickel_plate.name=Nickel Plate
+item.openengie.lead_plate.name=Lead Plate
+item.openengie.uranium_plate.name=Uranium Plate
+item.openengie.constantan_plate.name=Constantan Plate
+item.openengie.electrum_plate.name=Electrum Plate
+
+item.openengie.aluminum_grit.name=Aluminum Grit
+item.openengie.steel_grit.name=Steel Grit
+item.openengie.copper_grit.name=Copper Grit
+item.openengie.iron_grit.name=Iron Grit
+item.openengie.gold_grit.name=Gold Grit
+item.openengie.silver_grit.name=Silver Grit
+item.openengie.nickel_grit.name=Nickel Grit
+item.openengie.lead_grit.name=Lead Grit
+item.openengie.uranium_grit.name=Uranium Grit
+item.openengie.constantan_grit.name=Constantan Grit
+item.openengie.electrum_grit.name=Electrum Grit
 
 tile.openengie.storage_aluminum_fence.name=Aluminum Fence
 tile.openengie.storage_steel_fence.name=Steel Fence
