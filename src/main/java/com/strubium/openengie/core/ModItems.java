@@ -19,6 +19,19 @@ public class ModItems {
     public static final Item INGOT_NICKEL = createItem("nickel_ingot");
     public static final Item INGOT_SILVER = createItem("silver_ingot");
     public static final Item INGOT_URANIUM = createItem("uranium_ingot");
+    public static final Item INGOT_STEEL = createItem("steel_ingot");
+    public static final Item INGOT_CONSTANTAN = createItem("constantan_ingot");
+    public static final Item INGOT_ELECTRUM = createItem("electrum_ingot");
+
+    public static final Item NUGGET_ALUMINUM = createItem("aluminum_nugget");
+    public static final Item NUGGET_COPPER = createItem("copper_nugget");
+    public static final Item NUGGET_LEAD = createItem("lead_nugget");
+    public static final Item NUGGET_NICKEL = createItem("nickel_nugget");
+    public static final Item NUGGET_SILVER = createItem("silver_nugget");
+    public static final Item NUGGET_URANIUM = createItem("uranium_nugget");
+    public static final Item NUGGET_STEEL = createItem("steel_nugget");
+    public static final Item NUGGET_CONSTANTAN = createItem("constantan_nugget");
+    public static final Item NUGGET_ELECTRUM = createItem("electrum_nugget");
 
     public static final Item PLATE_ALUMINUM = createItem("aluminum_plate");
     public static final Item PLATE_STEEL = createItem("steel_plate");
@@ -63,6 +76,9 @@ public class ModItems {
         Registry.addItem(INGOT_NICKEL);
         Registry.addItem(INGOT_SILVER);
         Registry.addItem(INGOT_URANIUM);
+        Registry.addItem(INGOT_STEEL);
+        Registry.addItem(INGOT_CONSTANTAN);
+        Registry.addItem(INGOT_ELECTRUM);
 
         Registry.addItem(PLATE_ALUMINUM);
         Registry.addItem(PLATE_STEEL);
