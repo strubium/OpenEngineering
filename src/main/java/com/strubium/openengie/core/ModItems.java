@@ -80,6 +80,16 @@ public class ModItems {
         Registry.addItem(INGOT_CONSTANTAN);
         Registry.addItem(INGOT_ELECTRUM);
 
+        Registry.addItem(NUGGET_ALUMINUM);
+        Registry.addItem(NUGGET_COPPER);
+        Registry.addItem(NUGGET_LEAD);
+        Registry.addItem(NUGGET_NICKEL);
+        Registry.addItem(NUGGET_SILVER);
+        Registry.addItem(NUGGET_URANIUM);
+        Registry.addItem(NUGGET_STEEL);
+        Registry.addItem(NUGGET_CONSTANTAN);
+        Registry.addItem(NUGGET_ELECTRUM);
+
         Registry.addItem(PLATE_ALUMINUM);
         Registry.addItem(PLATE_STEEL);
         Registry.addItem(PLATE_COPPER);

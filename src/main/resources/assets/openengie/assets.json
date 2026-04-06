@@ -145,6 +145,60 @@
       "type": "item"
     },
     {
+      "name": "aluminum_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_aluminum.png",
+      "path": "textures/items/aluminum_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "steel_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_steel.png",
+      "path": "textures/items/steel_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "copper_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_copper.png",
+      "path": "textures/items/copper_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "silver_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_silver.png",
+      "path": "textures/items/silver_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "nickel_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_nickel.png",
+      "path": "textures/items/nickel_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "lead_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_lead.png",
+      "path": "textures/items/lead_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "uranium_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_uranium.png",
+      "path": "textures/items/uranium_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "constantan_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_constantan.png",
+      "path": "textures/items/constantan_nugget.png",
+      "type": "item"
+    },
+    {
+      "name": "electrum_nugget",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_electrum.png",
+      "path": "textures/items/electrum_nugget.png",
+      "type": "item"
+    },
+    {
       "name":"coke_brick",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
       "path":"textures/blocks/coke_brick.png",
