@@ -79,6 +79,72 @@
       "type": "item"
     },
     {
+      "name": "aluminum_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_aluminum.png",
+      "path": "textures/items/aluminum_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "steel_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_steel.png",
+      "path": "textures/items/steel_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "copper_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_copper.png",
+      "path": "textures/items/copper_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "iron_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_iron.png",
+      "path": "textures/items/iron_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "gold_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_gold.png",
+      "path": "textures/items/gold_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "silver_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_silver.png",
+      "path": "textures/items/silver_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "nickel_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_nickel.png",
+      "path": "textures/items/nickel_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "lead_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_lead.png",
+      "path": "textures/items/lead_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "uranium_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_uranium.png",
+      "path": "textures/items/uranium_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "constantan_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_constantan.png",
+      "path": "textures/items/constantan_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "electrum_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_electrum.png",
+      "path": "textures/items/electrum_grit.png",
+      "type": "item"
+    },
+    {
       "name":"coke_brick",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_cokebrick.png",
       "path":"textures/blocks/coke_brick.png",

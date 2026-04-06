@@ -32,6 +32,18 @@ public class ModItems {
     public static final Item PLATE_CONSTANTAN = createItem("constantan_plate");
     public static final Item PLATE_ELECTRUM = createItem("electrum_plate");
 
+    public static final Item GRIT_ALUMINUM = createItem("aluminum_grit");
+    public static final Item GRIT_STEEL = createItem("steel_grit");
+    public static final Item GRIT_COPPER = createItem("copper_grit");
+    public static final Item GRIT_IRON = createItem("iron_grit");
+    public static final Item GRIT_GOLD = createItem("gold_grit");
+    public static final Item GRIT_SILVER = createItem("silver_grit");
+    public static final Item GRIT_NICKEL = createItem("nickel_grit");
+    public static final Item GRIT_LEAD = createItem("lead_grit");
+    public static final Item GRIT_URANIUM = createItem("uranium_grit");
+    public static final Item GRIT_CONSTANTAN = createItem("constantan_grit");
+    public static final Item GRIT_ELECTRUM = createItem("electrum_grit");
+
     public static Item createItem(String name){
         Item item = new Item()
                 .setCreativeTab(OpenEngineering.CREATIVE_TAB)
@@ -63,5 +75,17 @@ public class ModItems {
         Registry.addItem(PLATE_URANIUM);
         Registry.addItem(PLATE_CONSTANTAN);
         Registry.addItem(PLATE_ELECTRUM);
+
+        Registry.addItem(GRIT_ALUMINUM);
+        Registry.addItem(GRIT_STEEL);
+        Registry.addItem(GRIT_COPPER);
+        Registry.addItem(GRIT_IRON);
+        Registry.addItem(GRIT_GOLD);
+        Registry.addItem(GRIT_SILVER);
+        Registry.addItem(GRIT_NICKEL);
+        Registry.addItem(GRIT_LEAD);
+        Registry.addItem(GRIT_URANIUM);
+        Registry.addItem(GRIT_CONSTANTAN);
+        Registry.addItem(GRIT_ELECTRUM);
     }
 }
