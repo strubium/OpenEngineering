@@ -277,6 +277,24 @@
       "type":"item"
     },
     {
+      "name":"steel_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_steel.png",
+      "path":"textures/items/steel_ingot.png",
+      "type":"item"
+    },
+    {
+      "name":"constantan_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_constantan.png",
+      "path":"textures/items/constantan_ingot.png",
+      "type":"item"
+    },
+    {
+      "name":"electrum_ingot",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_electrum.png",
+      "path":"textures/items/electrum_ingot.png",
+      "type":"item"
+    },
+    {
       "name":"sheetmetal_aluminum",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_aluminum.png",
       "path":"textures/blocks/sheetmetal_aluminum.png",

@@ -8,6 +8,9 @@ item.openengie.lead_ingot.name=Lead Ingot
 item.openengie.nickel_ingot.name=Nickel Ingot
 item.openengie.silver_ingot.name=Silver Ingot
 item.openengie.uranium_ingot.name=Uranium Ingot
+item.openengie.steel_ingot.name=Steel Ingot
+item.openengie.constantan_ingot.name=Constantan Ingot
+item.openengie.electrum_ingot.name=Electrum Ingot
 
 tile.openengie.ore_copper.name=Copper Ore
 tile.openengie.ore_silver.name=Silver Ore
@@ -37,6 +40,16 @@ tile.openengie.storage_lead.name=Block of Lead
 tile.openengie.storage_uranium.name=Block of Uranium
 tile.openengie.storage_constantan.name=Block of Constantan
 tile.openengie.storage_electrum.name=Block of Electrum
+
+item.openengie.aluminum_nugget.name=Aluminum Nugget
+item.openengie.copper_nugget.name=Copper Nugget
+item.openengie.lead_nugget.name=Lead Nugget
+item.openengie.nickel_nugget.name=Nickel Nugget
+item.openengie.silver_nugget.name=Silver Nugget
+item.openengie.uranium_nugget.name=Uranium Nugget
+item.openengie.steel_nugget.name=Steel Nugget
+item.openengie.constantan_nugget.name=Constantan Nugget
+item.openengie.electrum_nugget.name=Electrum Nugget
 
 tile.openengie.sheetmetal_aluminum_chute.name=Aluminum Sheetmetal Chute
 tile.openengie.sheetmetal_steel_chute.name=Steel Sheetmetal Chute
