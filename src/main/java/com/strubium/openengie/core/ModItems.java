@@ -3,8 +3,6 @@ package com.strubium.openengie.core;
 import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.registry.Registry;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
 
@@ -56,6 +54,29 @@ public class ModItems {
     public static final Item GRIT_URANIUM = createItem("uranium_grit");
     public static final Item GRIT_CONSTANTAN = createItem("constantan_grit");
     public static final Item GRIT_ELECTRUM = createItem("electrum_grit");
+
+    public static final Item LV_WIRECOIL = createItem("lv_wirecoil");
+    public static final Item MV_WIRECOIL = createItem("mv_wirecoil");
+    public static final Item HV_WIRECOIL = createItem("hv_wirecoil");
+    public static final Item HEMP_WIRECOIL = createItem("hemp_wirecoil");
+    public static final Item STEEL_WIRECOIL = createItem("steel_wirecoil");
+    public static final Item REDSTONE_WIRECOIL = createItem("redstone_wirecoil");
+    public static final Item LV_WIRECOIL_INSULATED = createItem("lv_wirecoil_insulated");
+    public static final Item MV_WIRECOIL_INSULATED = createItem("mv_wirecoil_insulated");
+
+    public static final Item INDUSTRIAL_HEMP_SEEDS = createItem("industrial_hemp_seeds");
+
+    public static final Item METALPRESS_MOLD_PLATE = createItem("metalpress_mold_plate");
+    public static final Item METALPRESS_MOLD_GEAR = createItem("metalpress_mold_gear");
+    public static final Item METALPRESS_MOLD_ROD = createItem("metalpress_mold_rod");
+    public static final Item METALPRESS_MOLD_WIRE = createItem("metalpress_mold_wire");
+    public static final Item METALPRESS_MOLD_PACKING2x2 = createItem("metalpress_mold_packing_2x2");
+    public static final Item METALPRESS_MOLD_PACKING3x3 = createItem("metalpress_mold_packing_3x3");
+    public static final Item METALPRESS_MOLD_UNPACKING = createItem("metalpress_mold_unpacking");
+
+    public static final Item BLUEPRINT_CRAFTING_COMP = createItem("blueprint_crafting_components");
+    public static final Item BLUEPRINT_METALPRESS_MOLDS = createItem("blueprint_metalpress_molds");
+    public static final Item BLUEPRINT_ARCFURNACE_ELECTRODES = createItem("blueprint_arcfurnace_electrodes");
 
     public static Item createItem(String name){
         Item item = new Item()
