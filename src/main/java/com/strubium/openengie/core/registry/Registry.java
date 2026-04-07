@@ -2,6 +2,7 @@ package com.strubium.openengie.core.registry;
 
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.ModBlocks;
+import com.strubium.openengie.core.ModItems;
 import com.strubium.openengie.core.blocks.treated.BlockTreatedWood;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;

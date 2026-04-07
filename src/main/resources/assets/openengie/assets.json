@@ -1554,6 +1554,48 @@
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_structural.png",
       "path": "textures/items/wirecoil_steel.png",
       "type": "item"
+    },
+    {
+      "name": "metalpress_mold_plate",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_plate.png",
+      "path": "textures/items/metalpress_mold_plate.png",
+      "type": "item"
+    },
+    {
+      "name": "metalpress_mold_gear",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_gear.png",
+      "path": "textures/items/metalpress_mold_gear.png",
+      "type": "item"
+    },
+    {
+      "name": "metalpress_mold_rod",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_rod.png",
+      "path": "textures/items/metalpress_mold_rod.png",
+      "type": "item"
+    },
+    {
+      "name": "metalpress_mold_wire",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_wire.png",
+      "path": "textures/items/metalpress_mold_wire.png",
+      "type": "item"
+    },
+    {
+      "name": "metalpress_mold_packing_2x2",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_packing4.png",
+      "path": "textures/items/metalpress_mold_packing_2x2.png",
+      "type": "item"
+    },
+    {
+      "name": "metalpress_mold_packing_3x3",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_packing9.png",
+      "path": "textures/items/metalpress_mold_packing_3x3.png",
+      "type": "item"
+    },
+    {
+      "name": "metalpress_mold_unpacking",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_unpacking.png",
+      "path": "textures/items/metalpress_mold_unpacking.png",
+      "type": "item"
     }
   ]
 }
