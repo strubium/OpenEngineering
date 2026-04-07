@@ -1506,6 +1506,54 @@
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/cloth_device_stripcurtain.png",
       "path":"textures/blocks/cloth_device_stripcurtain.png",
       "type":"block"
+    },
+    {
+      "name": "wirecoil_lv",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_copper.png",
+      "path": "textures/items/wirecoil_lv.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_lv_insulated",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_copper_insulated.png",
+      "path": "textures/items/wirecoil_lv_insulated.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_mv",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_electrum.png",
+      "path": "textures/items/wirecoil_mv.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_mv_insulated",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_electrum_insulated.png",
+      "path": "textures/items/wirecoil_mv_insulated.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_hv",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_hv.png",
+      "path": "textures/items/wirecoil_hv.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_redstone",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_redstone.png",
+      "path": "textures/items/wirecoil_redstone.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_hemp",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_rope.png",
+      "path": "textures/items/wirecoil_hemp.png",
+      "type": "item"
+    },
+    {
+      "name": "wirecoil_steel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/wirecoil_structural.png",
+      "path": "textures/items/wirecoil_steel.png",
+      "type": "item"
     }
   ]
 }

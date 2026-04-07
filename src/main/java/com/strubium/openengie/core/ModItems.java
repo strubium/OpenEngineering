@@ -55,14 +55,14 @@ public class ModItems {
     public static final Item GRIT_CONSTANTAN = createItem("constantan_grit");
     public static final Item GRIT_ELECTRUM = createItem("electrum_grit");
 
-    public static final Item LV_WIRECOIL = createItem("lv_wirecoil");
-    public static final Item MV_WIRECOIL = createItem("mv_wirecoil");
-    public static final Item HV_WIRECOIL = createItem("hv_wirecoil");
-    public static final Item HEMP_WIRECOIL = createItem("hemp_wirecoil");
-    public static final Item STEEL_WIRECOIL = createItem("steel_wirecoil");
-    public static final Item REDSTONE_WIRECOIL = createItem("redstone_wirecoil");
-    public static final Item LV_WIRECOIL_INSULATED = createItem("lv_wirecoil_insulated");
-    public static final Item MV_WIRECOIL_INSULATED = createItem("mv_wirecoil_insulated");
+    public static final Item WIRECOIL_LV = createItem("wirecoil_lv");
+    public static final Item WIRECOIL_MV = createItem("wirecoil_mv");
+    public static final Item WIRECOIL_HV = createItem("wirecoil_hv");
+    public static final Item WIRECOIL_HEMP = createItem("wirecoil_hemp");
+    public static final Item WIRECOIL_STEEL = createItem("wirecoil_steel");
+    public static final Item WIRECOIL_REDSTONE = createItem("wirecoil_redstone");
+    public static final Item WIRECOIL_LV_INSULATED = createItem("wirecoil_lv_insulated");
+    public static final Item WIRECOIL_MV_INSULATED = createItem("wirecoil_mv_insulated");
 
     public static final Item INDUSTRIAL_HEMP_SEEDS = createItem("industrial_hemp_seeds");
 
@@ -134,5 +134,28 @@ public class ModItems {
         Registry.addItem(GRIT_URANIUM);
         Registry.addItem(GRIT_CONSTANTAN);
         Registry.addItem(GRIT_ELECTRUM);
+
+        Registry.addItem(WIRECOIL_LV);
+        Registry.addItem(WIRECOIL_MV);
+        Registry.addItem(WIRECOIL_HV);
+        Registry.addItem(WIRECOIL_HEMP);
+        Registry.addItem(WIRECOIL_STEEL);
+        Registry.addItem(WIRECOIL_REDSTONE);
+        Registry.addItem(WIRECOIL_LV_INSULATED);
+        Registry.addItem(WIRECOIL_MV_INSULATED);
+
+        Registry.addItem(INDUSTRIAL_HEMP_SEEDS);
+
+        Registry.addItem(METALPRESS_MOLD_PLATE);
+        Registry.addItem(METALPRESS_MOLD_GEAR);
+        Registry.addItem(METALPRESS_MOLD_ROD);
+        Registry.addItem(METALPRESS_MOLD_WIRE);
+        Registry.addItem(METALPRESS_MOLD_PACKING2x2);
+        Registry.addItem(METALPRESS_MOLD_PACKING3x3);
+        Registry.addItem(METALPRESS_MOLD_UNPACKING);
+
+        Registry.addItem(BLUEPRINT_CRAFTING_COMP);
+        Registry.addItem(BLUEPRINT_METALPRESS_MOLDS);
+        Registry.addItem(BLUEPRINT_ARCFURNACE_ELECTRODES);
     }
 }
