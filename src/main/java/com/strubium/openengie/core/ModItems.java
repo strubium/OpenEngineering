@@ -9,9 +9,9 @@ import net.minecraft.item.Item;
 
 
 public class ModItems {
-    public static final Item TOOL_HAMMER = createItem("tool_hammer");
+    public static final Item TOOL_HAMMER = createItem("tool_hammer").setMaxStackSize(1);
 
-    public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters");
+    public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters").setMaxStackSize(1);
 
     public static final Item INGOT_ALUMINUM = createItem("aluminum_ingot");
     public static final Item INGOT_COPPER = createItem("copper_ingot");
