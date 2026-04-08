@@ -54,6 +54,11 @@ public class ModItems {
     public static final Item GRIT_URANIUM = createItem("uranium_grit");
     public static final Item GRIT_CONSTANTAN = createItem("constantan_grit");
     public static final Item GRIT_ELECTRUM = createItem("electrum_grit");
+    public static final Item GRIT_COKE = createItem("electrum_grit");
+    public static final Item GRIT_HOP_GRAPHITE = createItem("electrum_grit");
+    public static final Item GRIT_NITRATE = createItem("electrum_grit");
+    public static final Item GRIT_SULFUR = createItem("electrum_grit");
+
 
     public static final Item WIRECOIL_LV = createItem("wirecoil_lv");
     public static final Item WIRECOIL_MV = createItem("wirecoil_mv");
@@ -65,6 +70,14 @@ public class ModItems {
     public static final Item WIRECOIL_MV_INSULATED = createItem("wirecoil_mv_insulated");
 
     public static final Item INDUSTRIAL_HEMP_SEEDS = createItem("industrial_hemp_seeds");
+    public static final Item INDUSTRIAL_HEMP_FIBERS = createItem("industrial_hemp_fibers");
+    public static final Item INDUSTRIAL_HEMP_FABRIC = createItem("industrial_hemp_fabric");
+
+    public static final Item COMPONENT_MECH_IRON = createItem("component_mech_iron");
+    public static final Item COMPONENT_MECH_STEEL = createItem("component_mech_steel");
+
+    public static final Item VACUUM_TUBE = createItem("vacuum_tube");
+    public static final Item CIRCUIT_BOARD = createItem("circuit_board");
 
     public static final Item METALPRESS_MOLD_PLATE = createItem("metalpress_mold_plate");
     public static final Item METALPRESS_MOLD_GEAR = createItem("metalpress_mold_gear");
@@ -77,6 +90,17 @@ public class ModItems {
     public static final Item BLUEPRINT_CRAFTING_COMP = createItem("blueprint_crafting_components");
     public static final Item BLUEPRINT_METALPRESS_MOLDS = createItem("blueprint_metalpress_molds");
     public static final Item BLUEPRINT_ARCFURNACE_ELECTRODES = createItem("blueprint_arcfurnace_electrodes");
+
+    public static final Item STICK_TREATED_WOOD = createItem("blueprint_arcfurnace_electrodes");
+    public static final Item STICK_IRON = createItem("blueprint_arcfurnace_electrodes");
+    public static final Item STICK_STEEL = createItem("blueprint_arcfurnace_electrodes");
+    public static final Item STICK_ALUMINIUM = createItem("blueprint_arcfurnace_electrodes");
+
+    public static final Item WIRE_COPPER = createItem("wire_copper");
+    public static final Item WIRE_ELECTRUM = createItem("wire_electrum");
+    public static final Item WIRE_ALUMINIUM = createItem("wire_aluminium");
+    public static final Item WIRE_STEEL = createItem("wire_steel");
+
 
     public static Item createItem(String name){
         Item item = new Item()
