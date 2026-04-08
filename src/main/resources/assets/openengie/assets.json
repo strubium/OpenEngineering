@@ -1596,6 +1596,18 @@
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/mold_unpacking.png",
       "path": "textures/items/metalpress_mold_unpacking.png",
       "type": "item"
+    },
+    {
+      "name": "blueprint",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/blueprint.png",
+      "path": "textures/items/blueprint.png",
+      "type": "item"
+    },
+    {
+      "name": "industrial_hemp_seeds",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/seed_hemp.png",
+      "path": "textures/items/industrial_hemp_seeds.png",
+      "type": "item"
     }
   ]
 }
