@@ -1,18 +1,6 @@
 {
   "textures":[
     {
-      "name":"tool_hammer",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/tool_hammer.png",
-      "path":"textures/items/tool_hammer.png",
-      "type":"item"
-    },
-    {
-      "name":"tool_wirecutters",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/tool_wirecutter.png",
-      "path":"textures/items/tool_wirecutters.png",
-      "type":"item"
-    },
-    {
       "name": "aluminum_plate",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_plate_aluminum.png",
       "path": "textures/items/aluminum_plate.png",
@@ -91,12 +79,6 @@
       "type": "item"
     },
     {
-      "name": "copper_grit",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_copper.png",
-      "path": "textures/items/copper_grit.png",
-      "type": "item"
-    },
-    {
       "name": "iron_grit",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_dust_iron.png",
       "path": "textures/items/iron_grit.png",
@@ -157,12 +139,6 @@
       "type": "item"
     },
     {
-      "name": "copper_nugget",
-      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_copper.png",
-      "path": "textures/items/copper_nugget.png",
-      "type": "item"
-    },
-    {
       "name": "silver_nugget",
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_nugget_silver.png",
       "path": "textures/items/silver_nugget.png",
@@ -205,12 +181,6 @@
       "type":"block"
     },
     {
-      "name":"treated_wood",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood.png",
-      "path":"textures/blocks/treated_wood.png",
-      "type":"block"
-    },
-    {
       "name":"treated_wood_packaged",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/treated_wood_packaged.png",
       "path":"textures/blocks/treated_wood_packaged.png",
@@ -229,22 +199,10 @@
       "type":"block"
     },
     {
-      "name":"ore_copper",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_copper.png",
-      "path":"textures/blocks/ore_copper.png",
-      "type":"block"
-    },
-    {
       "name":"ore_nickel",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/ore_nickel.png",
       "path":"textures/blocks/ore_nickel.png",
       "type":"block"
-    },
-    {
-      "name":"copper_ingot",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/metal_ingot_copper.png",
-      "path":"textures/items/copper_ingot.png",
-      "type":"item"
     },
     {
       "name":"uranium_ingot",
@@ -304,12 +262,6 @@
       "name":"sheetmetal_steel",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_steel.png",
       "path":"textures/blocks/sheetmetal_steel.png",
-      "type":"block"
-    },
-    {
-      "name":"sheetmetal_copper",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/sheetmetal_copper.png",
-      "path":"textures/blocks/sheetmetal_copper.png",
       "type":"block"
     },
     {

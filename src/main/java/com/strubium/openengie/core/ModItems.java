@@ -54,10 +54,10 @@ public class ModItems {
     public static final Item GRIT_URANIUM = createItem("uranium_grit");
     public static final Item GRIT_CONSTANTAN = createItem("constantan_grit");
     public static final Item GRIT_ELECTRUM = createItem("electrum_grit");
-    public static final Item GRIT_COKE = createItem("electrum_grit");
-    public static final Item GRIT_HOP_GRAPHITE = createItem("electrum_grit");
-    public static final Item GRIT_NITRATE = createItem("electrum_grit");
-    public static final Item GRIT_SULFUR = createItem("electrum_grit");
+    public static final Item GRIT_COKE = createItem("coke_grit");
+    public static final Item GRIT_HOP_GRAPHITE = createItem("hop_graphite_grit");
+    public static final Item GRIT_NITRATE = createItem("nitrate_grit");
+    public static final Item GRIT_SULFUR = createItem("sulfur_grit");;
 
 
     public static final Item WIRECOIL_LV = createItem("wirecoil_lv");

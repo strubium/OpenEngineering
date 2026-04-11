@@ -116,6 +116,27 @@ tile.openengie.heavy_engineering.name=Heavy Engineering Block
 tile.openengie.light_engineering.name=Light Engineering Block
 tile.openengie.redstone_engineering.name=Redstone Engineering Block
 
+item.openengie.wirecoil_lv.name=LV Wire Coil
+item.openengie.wirecoil_mv.name=MV Wire Coil
+item.openengie.wirecoil_hv.name=HV Wire Coil
+item.openengie.wirecoil_hemp.name=Hemp Coil
+item.openengie.wirecoil_steel.name=Steel Coil
+item.openengie.wirecoil_redstone.name=Redstone Coil
+item.openengie.wirecoil_lv_insulated.name=Insulated LV Wire Coil
+item.openengie.wirecoil_mv_insulated.name=Insulated MV Wire Coil
+
+item.openengie.metalpress_mold_plate.name=Plate Mold
+item.openengie.metalpress_mold_gear.name=Gear Mold
+item.openengie.metalpress_mold_rod.name=Rod Mold
+item.openengie.metalpress_mold_wire.name=Wire Mold
+item.openengie.metalpress_mold_packing_2x2.name=2x2 Packing Mold
+item.openengie.metalpress_mold_packing_3x3.name=3x3 Packing Mold
+item.openengie.metalpress_mold_unpacking.name=Unpacking Mold
+
+item.openengie.blueprint_crafting_components.name=Blueprint: Components
+item.openengie.blueprint_metalpress_molds.name=Blueprint: Metal Press Molds
+item.openengie.blueprint_arcfurnace_electrodes.name=Blueprint: Arc Furnace Electrodes
+
 tile.openengie.treated_wood.name=Treated Wood
 tile.openengie.treated_wood_stairs.name=Treated Wood Stairs
 tile.openengie.treated_wood_fence.name=Treated Wood Fence
