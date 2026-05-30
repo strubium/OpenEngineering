@@ -150,6 +150,8 @@ dependencies {
     implementation rfg.deobf("curse.maven:had-enough-items-557549:7515497")
 
     implementation rfg.deobf("curse.maven:immersive-engineering-231951:2974106")
+
+    //implementation rfg.deobf("curse.maven:cleanroom-relauncher-1214490:8073312")
 }
 
 apply from: 'gradle/scripts/dependencies.gradle'
