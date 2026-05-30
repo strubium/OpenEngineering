@@ -1560,6 +1560,66 @@
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/seed_hemp.png",
       "path": "textures/items/industrial_hemp_seeds.png",
       "type": "item"
+    },
+    {
+      "name": "stick_iron",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_stick_iron.png",
+      "path": "textures/items/stick_iron.png",
+      "type": "item"
+    },
+    {
+      "name": "stick_steel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_stick_steel.png",
+      "path": "textures/items/stick_steel.png",
+      "type": "item"
+    },
+    {
+      "name": "stick_treated_wood",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_stick_treated.png",
+      "path": "textures/items/stick_treated_wood.png",
+      "type": "item"
+    },
+    {
+      "name": "stick_aluminum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_stick_aluminum.png",
+      "path": "textures/items/stick_aluminum.png",
+      "type": "item"
+    },
+    {
+      "name": "wire_copper",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_wire_copper.png",
+      "path": "textures/items/wire_copper.png",
+      "type": "item"
+    },
+    {
+      "name": "wire_electrum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_wire_electrum.png",
+      "path": "textures/items/wire_electrum.png",
+      "type": "item"
+    },
+    {
+      "name": "wire_steel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_wire_steel.png",
+      "path": "textures/items/wire_steel.png",
+      "type": "item"
+    },
+    {
+      "name": "wire_aluminum",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_wire_aluminum.png",
+      "path": "textures/items/wire_aluminum.png",
+      "type": "item"
+    },
+    {
+      "name": "nitrate_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_dust_saltpeter.png",
+      "path": "textures/items/nitrate_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "sulfur_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_dust_sulfur.png",
+      "path": "textures/items/sulfur_grit.png",
+      "type": "item"
     }
   ]
 }

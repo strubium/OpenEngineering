@@ -271,7 +271,7 @@ public class RuntimeAssets {
             File file = new File("config/openengie/assets/" + Tags.MOD_ID + "/" + path);
             if (!file.exists()) {
                 file.getParentFile().mkdirs();
-                OpenEngineering.LOGGER.info("[{}] Downloading {}...", Tags.MOD_NAME, name);
+                OpenEngineering.LOGGER.info("Downloading {}...", name);
 
                 try (InputStream in = new URL(url).openStream();
                      FileOutputStream out = new FileOutputStream(file)) {

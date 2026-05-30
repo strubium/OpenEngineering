@@ -112,6 +112,19 @@ public class ModItems {
     }
 
     public static void init() {
+        Registry.addItem(STICK_TREATED_WOOD);
+        Registry.addItem(STICK_IRON);
+        Registry.addItem(STICK_STEEL);
+        Registry.addItem(STICK_ALUMINIUM);
+
+        Registry.addItem(WIRE_COPPER);
+        Registry.addItem(WIRE_ELECTRUM);
+        Registry.addItem(WIRE_ALUMINIUM);
+        Registry.addItem(WIRE_STEEL);
+
+        Registry.addItem(GRIT_NITRATE);
+        Registry.addItem(GRIT_SULFUR);
+
         Registry.addItem(TOOL_HAMMER);
         Registry.addItem(TOOL_WIRECUTTERS);
 

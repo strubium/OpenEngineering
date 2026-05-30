@@ -1,6 +1,17 @@
 item.openengie.tool_hammer.name=Hammer
 item.openengie.tool_wirecutters.name=Wirecutters
 
+item.openengie.stick_treated_wood.name=Treated Wood Stick
+item.openengie.stick_iron.name=Iron Rod
+item.openengie.stick_steel.name=Steel Rod
+item.openengie.stick_aluminium.name=Aluminum Rod
+
+item.openengie.wire_copper.name=Copper Wire
+item.openengie.wire_electrum.name=Electrum Wire
+item.openengie.wire_aluminium.name=Aluminum Wire
+item.openengie.wire_steel.name=Steel Wire
+item.openengie.nitrate_grit.name=Nitrate Grit
+item.openengie.sulfur_grit.name=Sulfur Grit
 
 item.openengie.aluminum_ingot.name=Aluminum Ingot
 item.openengie.copper_ingot.name=Copper Ingot
