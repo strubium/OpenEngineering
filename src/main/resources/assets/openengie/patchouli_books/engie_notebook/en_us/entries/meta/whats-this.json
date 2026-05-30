@@ -1,0 +1,11 @@
+{
+  "name": "Whats This?",
+  "category": "meta",
+  "icon": "openengie:tool_wirecutters",
+  "pages" : [
+    {
+      "type": "text",
+      "text": "OpenEngineering is a Cleanroom remake of Immersive Engineering to allow for continued maintenance and compatibility on 1.12.2"
+    }
+  ]
+}

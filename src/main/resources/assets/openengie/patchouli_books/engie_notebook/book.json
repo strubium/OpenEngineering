@@ -1,0 +1,8 @@
+{
+  "name": "OpenEngineer's Manual",
+  "landing_text": "Welcome to OpenEngineering! Select a entry to get started",
+  "version": 1,
+  "creative_tab": "openengie:ie",
+  "use_resource_pack": false,
+  "show_progress": false
+}

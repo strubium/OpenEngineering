@@ -150,6 +150,10 @@ dependencies {
     implementation rfg.deobf("curse.maven:had-enough-items-557549:7515497")
 
     implementation rfg.deobf("curse.maven:immersive-engineering-231951:2974106")
+
+    implementation rfg.deobf("curse.maven:patchouli-books-1133738:7506249")
+    implementation rfg.deobf("curse.maven:patchouli-rofl-edition-905159:6178311")
+    implementation rfg.deobf("curse.maven:mixin-booter-419286:7049694")
 }
 
 apply from: 'gradle/scripts/dependencies.gradle'
