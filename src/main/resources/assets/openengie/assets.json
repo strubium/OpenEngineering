@@ -1620,6 +1620,54 @@
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_dust_sulfur.png",
       "path": "textures/items/sulfur_grit.png",
       "type": "item"
+    },
+    {
+      "name": "component_mech_steel",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_component_steel.png",
+      "path": "textures/items/component_mech_steel.png",
+      "type": "item"
+    },
+    {
+      "name": "component_mech_iron",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_component_iron.png",
+      "path": "textures/items/component_mech_iron.png",
+      "type": "item"
+    },
+    {
+      "name": "circuit_board",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_circuit_board.png",
+      "path": "textures/items/circuit_board.png",
+      "type": "item"
+    },
+    {
+      "name": "vacuum_tube",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_electron_tube.png",
+      "path": "textures/items/vacuum_tube.png",
+      "type": "item"
+    },
+    {
+      "name": "industrial_hemp_fabric",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_hemp_fabric.png",
+      "path": "textures/items/industrial_hemp_fabric.png",
+      "type": "item"
+    },
+    {
+      "name": "industrial_hemp_fibers",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_hemp_fiber.png",
+      "path": "textures/items/industrial_hemp_fibers.png",
+      "type": "item"
+    },
+    {
+      "name": "coke_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_dust_coke.png",
+      "path": "textures/items/coke_grit.png",
+      "type": "item"
+    },
+    {
+      "name": "hop_graphite_grit",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_dust_hop_graphite.png",
+      "path": "textures/items/hop_graphite_grit.png",
+      "type": "item"
     }
   ]
 }

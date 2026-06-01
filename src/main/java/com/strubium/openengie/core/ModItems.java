@@ -31,33 +31,33 @@ public class ModItems {
     public static final Item NUGGET_CONSTANTAN = createItem("constantan_nugget");
     public static final Item NUGGET_ELECTRUM = createItem("electrum_nugget");
 
-    public static final Item PLATE_ALUMINUM = createItem("aluminum_plate");
-    public static final Item PLATE_STEEL = createItem("steel_plate");
-    public static final Item PLATE_COPPER = createItem("copper_plate");
-    public static final Item PLATE_IRON = createItem("iron_plate");
-    public static final Item PLATE_GOLD = createItem("gold_plate");
-    public static final Item PLATE_SILVER = createItem("silver_plate");
-    public static final Item PLATE_NICKEL = createItem("nickel_plate");
-    public static final Item PLATE_LEAD = createItem("lead_plate");
-    public static final Item PLATE_URANIUM = createItem("uranium_plate");
-    public static final Item PLATE_CONSTANTAN = createItem("constantan_plate");
-    public static final Item PLATE_ELECTRUM = createItem("electrum_plate");
+    public static final Item PLATE_ALUMINUM = createItem("plate_aluminum");
+    public static final Item PLATE_STEEL = createItem("plate_steel");
+    public static final Item PLATE_COPPER = createItem("plate_copper");
+    public static final Item PLATE_IRON = createItem("plate_iron");
+    public static final Item PLATE_GOLD = createItem("plate_gold");
+    public static final Item PLATE_SILVER = createItem("plate_silver");
+    public static final Item PLATE_NICKEL = createItem("plate_nickel");
+    public static final Item PLATE_LEAD = createItem("plate_lead");
+    public static final Item PLATE_URANIUM = createItem("plate_uranium");
+    public static final Item PLATE_CONSTANTAN = createItem("plate_constantan");
+    public static final Item PLATE_ELECTRUM = createItem("plate_electrum");
 
-    public static final Item GRIT_ALUMINUM = createItem("aluminum_grit");
-    public static final Item GRIT_STEEL = createItem("steel_grit");
-    public static final Item GRIT_COPPER = createItem("copper_grit");
-    public static final Item GRIT_IRON = createItem("iron_grit");
-    public static final Item GRIT_GOLD = createItem("gold_grit");
-    public static final Item GRIT_SILVER = createItem("silver_grit");
-    public static final Item GRIT_NICKEL = createItem("nickel_grit");
-    public static final Item GRIT_LEAD = createItem("lead_grit");
-    public static final Item GRIT_URANIUM = createItem("uranium_grit");
-    public static final Item GRIT_CONSTANTAN = createItem("constantan_grit");
-    public static final Item GRIT_ELECTRUM = createItem("electrum_grit");
-    public static final Item GRIT_COKE = createItem("coke_grit");
-    public static final Item GRIT_HOP_GRAPHITE = createItem("hop_graphite_grit");
-    public static final Item GRIT_NITRATE = createItem("nitrate_grit");
-    public static final Item GRIT_SULFUR = createItem("sulfur_grit");;
+    public static final Item GRIT_ALUMINUM = createItem("grit_aluminum");
+    public static final Item GRIT_STEEL = createItem("grit_steel");
+    public static final Item GRIT_COPPER = createItem("grit_copper");
+    public static final Item GRIT_IRON = createItem("grit_iron");
+    public static final Item GRIT_GOLD = createItem("grit_gold");
+    public static final Item GRIT_SILVER = createItem("grit_silver");
+    public static final Item GRIT_NICKEL = createItem("grit_nickel");
+    public static final Item GRIT_LEAD = createItem("grit_lead");
+    public static final Item GRIT_URANIUM = createItem("grit_uranium");
+    public static final Item GRIT_CONSTANTAN = createItem("grit_constantan");
+    public static final Item GRIT_ELECTRUM = createItem("grit_electrum");
+    public static final Item GRIT_COKE = createItem("grit_coke");
+    public static final Item GRIT_HOP_GRAPHITE = createItem("grit_hop_graphite");
+    public static final Item GRIT_NITRATE = createItem("grit_nitrate");
+    public static final Item GRIT_SULFUR = createItem("grit_sulfur");
 
 
     public static final Item WIRECOIL_LV = createItem("wirecoil_lv");
@@ -116,6 +116,11 @@ public class ModItems {
         Registry.addItem(STICK_IRON);
         Registry.addItem(STICK_STEEL);
         Registry.addItem(STICK_ALUMINIUM);
+        Registry.addItem(INDUSTRIAL_HEMP_FIBERS);
+        Registry.addItem(INDUSTRIAL_HEMP_FABRIC);
+
+        Registry.addItem(COMPONENT_MECH_IRON);
+        Registry.addItem(COMPONENT_MECH_STEEL);
 
         Registry.addItem(WIRE_COPPER);
         Registry.addItem(WIRE_ELECTRUM);
@@ -124,9 +129,14 @@ public class ModItems {
 
         Registry.addItem(GRIT_NITRATE);
         Registry.addItem(GRIT_SULFUR);
+        Registry.addItem(GRIT_COKE);
+        Registry.addItem(GRIT_HOP_GRAPHITE);
 
         Registry.addItem(TOOL_HAMMER);
         Registry.addItem(TOOL_WIRECUTTERS);
+
+        Registry.addItem(VACUUM_TUBE);
+        Registry.addItem(CIRCUIT_BOARD);
 
         Registry.addItem(INGOT_ALUMINUM);
         Registry.addItem(INGOT_COPPER);
