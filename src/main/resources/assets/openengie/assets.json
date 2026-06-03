@@ -1668,6 +1668,18 @@
       "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_dust_hop_graphite.png",
       "path": "textures/items/hop_graphite_grit.png",
       "type": "item"
+    },
+    {
+      "name": "slag",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_slag.png",
+      "path": "textures/items/slag.png",
+      "type": "item"
+    },
+    {
+      "name": "coal_coke",
+      "url": "https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/items/material_coal_coke.png",
+      "path": "textures/items/coal_coke.png",
+      "type": "item"
     }
   ]
 }

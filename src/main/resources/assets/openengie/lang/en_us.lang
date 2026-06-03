@@ -10,6 +10,10 @@ item.openengie.industrial_hemp_seeds.name=Industrial Hemp Seeds
 item.openengie.industrial_hemp_fibers.name=Industrial Hemp Fibers
 item.openengie.industrial_hemp_fabric.name=Industrial Hemp Fabric
 
+item.openengie.coal_coke.name=Coal Coke
+item.openengie.slag.name=Slag
+
+
 item.openengie.component_mech_iron.name=Iron Mechanical Component
 item.openengie.component_mech_steel.name=Steel Mechanical Component
 
@@ -180,5 +184,7 @@ tile.openengie.blastbrick.name=Blast Furnace Brick
 tile.openengie.blastbrick_reinforced.name=Reinforced Blast Furnace Brick
 
 tile.openengie.steel_scaffolding.name=Steel Scaffolding
+tile.openengie.steel_scaffolding_stairs.name=Steel Scaffolding Stairs
+
 
 itemGroup.ie=OpenEngineering

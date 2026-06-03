@@ -73,6 +73,10 @@ public class ModItems {
     public static final Item INDUSTRIAL_HEMP_FIBERS = createItem("industrial_hemp_fibers");
     public static final Item INDUSTRIAL_HEMP_FABRIC = createItem("industrial_hemp_fabric");
 
+    public static final Item COAL_COKE = createItem("coal_coke");
+    public static final Item SLAG = createItem("slag");
+
+
     public static final Item COMPONENT_MECH_IRON = createItem("component_mech_iron");
     public static final Item COMPONENT_MECH_STEEL = createItem("component_mech_steel");
 
@@ -118,6 +122,9 @@ public class ModItems {
         Registry.addItem(STICK_ALUMINIUM);
         Registry.addItem(INDUSTRIAL_HEMP_FIBERS);
         Registry.addItem(INDUSTRIAL_HEMP_FABRIC);
+        Registry.addItem(COAL_COKE);
+        Registry.addItem(SLAG);
+
 
         Registry.addItem(COMPONENT_MECH_IRON);
         Registry.addItem(COMPONENT_MECH_STEEL);
