@@ -1,0 +1,6 @@
+{
+  "parent": "block/ladder",
+  "textures": {
+    "texture": "openengie:blocks/metal_ladder"
+  }
+}

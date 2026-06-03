@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "openengie:steel_ladder" },
+    "facing=south": { "model": "openengie:steel_ladder", "y": 180 },
+    "facing=west":  { "model": "openengie:steel_ladder", "y": 270 },
+    "facing=east":  { "model": "openengie:steel_ladder", "y": 90 }
+  }
+}

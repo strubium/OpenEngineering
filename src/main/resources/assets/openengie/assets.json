@@ -1244,9 +1244,9 @@
       "type":"block"
     },
     {
-      "name":"metal_ladder",
+      "name":"steel_ladder",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_ladder.png",
-      "path":"textures/blocks/metal_ladder.png",
+      "path":"textures/blocks/steel_ladder.png",
       "type":"block"
     },
     {

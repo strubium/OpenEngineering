@@ -5,6 +5,7 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.chute.BlockChute;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
+import com.strubium.openengie.core.blocks.ladder.BlockMetalLadder;
 import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.block.*;
 import net.minecraft.block.material.MapColor;
@@ -132,6 +133,7 @@ public class ModBlocks {
 
     public static final Block STEEL_SCAFFOLDING = createBlock(Material.ROCK, "steel_scaffolding");
     public static final Block STEEL_SCAFFOLDING_STAIRS = createStairs(STEEL_SCAFFOLDING);
+    public static final Block STEEL_LADDER = new BlockMetalLadder();
 
 
     public static final Block TREATED_WOOD_CHUTE = createChute(TREATED_WOOD_PLANK);
@@ -330,6 +332,7 @@ public class ModBlocks {
 
         Registry.addBlock(STEEL_SCAFFOLDING);
         Registry.addBlock(STEEL_SCAFFOLDING_STAIRS);
+        Registry.addBlock(STEEL_LADDER);
 
         Registry.addBlock(TREATED_WOOD_CHUTE);
 
