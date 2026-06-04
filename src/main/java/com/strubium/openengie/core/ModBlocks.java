@@ -5,6 +5,7 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.chute.BlockChute;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
+import com.strubium.openengie.core.blocks.chute.BlockLadderChute;
 import com.strubium.openengie.core.blocks.ladder.BlockMetalLadder;
 import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.block.*;
@@ -127,6 +128,9 @@ public class ModBlocks {
     public static final Block SHEETMETAL_URANIUM_CHUTE = createChute(SHEETMETAL_URANIUM);
     public static final Block SHEETMETAL_CONSTANTAN_CHUTE = createChute(SHEETMETAL_CONSTANTAN);
     public static final Block SHEETMETAL_ELECTRUM_CHUTE = createChute(SHEETMETAL_ELECTRUM);
+
+    public static final Block SHEETMETAL_STEEL_LADDER_CHUTE = new BlockLadderChute(SHEETMETAL_STEEL, SHEETMETAL_STEEL.getRegistryName().getPath() + "_ladder_chute");
+
 
     public static final Block STEEL_FENCE = createFence(STORAGE_STEEL);
     public static final Block ALUMINUM_FENCE = createFence(STORAGE_ALUMINUM);
@@ -333,6 +337,7 @@ public class ModBlocks {
         Registry.addBlock(STEEL_SCAFFOLDING);
         Registry.addBlock(STEEL_SCAFFOLDING_STAIRS);
         Registry.addBlock(STEEL_LADDER);
+        Registry.addBlock(SHEETMETAL_STEEL_LADDER_CHUTE);
 
         Registry.addBlock(TREATED_WOOD_CHUTE);
 
