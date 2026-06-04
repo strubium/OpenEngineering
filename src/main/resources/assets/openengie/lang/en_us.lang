@@ -196,6 +196,8 @@ tile.openengie.blastbrick_reinforced.name=Reinforced Blast Furnace Brick
 
 tile.openengie.steel_scaffolding.name=Steel Scaffolding
 tile.openengie.steel_scaffolding_stairs.name=Steel Scaffolding Stairs
+tile.openengie.aluminum_scaffolding.name=Aluminum Scaffolding
+tile.openengie.aluminum_scaffolding_stairs.name=Aluminum Scaffolding Stairs
 
 tile.openengie.steel_ladder.name=Steel Ladder
 

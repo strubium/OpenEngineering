@@ -590,6 +590,12 @@
       "type":"block"
     },
     {
+      "name":"aluminum_scaffolding",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding.png",
+      "path":"textures/blocks/aluminum_scaffolding.png",
+      "type":"block"
+    },
+    {
       "name":"hemp_b0",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/hemp_b0.png",
       "path":"textures/blocks/hemp_b0.png",

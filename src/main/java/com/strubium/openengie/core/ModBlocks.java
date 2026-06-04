@@ -2,6 +2,7 @@ package com.strubium.openengie.core;
 
 import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
+import com.strubium.openengie.core.blocks.TransparentBlock;
 import com.strubium.openengie.core.blocks.chute.BlockChute;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
@@ -85,9 +86,9 @@ public class ModBlocks {
     public static final Block CONCRETE = createBlock(Material.ROCK, "concrete");
    // public static final Block CONCRETE_SLAB = createSlab(CONCRETE);
     public static final Block CONCRETE_STAIRS = createStairs(CONCRETE);
-    public static final Block CONCRETE_SHEET = createBlock(Material.ROCK, "concrete_sheet");
-    public static final Block CONCRETE_PANEL = createBlock(Material.ROCK, "concrete_panel");
-    public static final Block CONCRETE_CHUNK = createBlock(Material.ROCK, "concrete_chunk");
+    public static final Block CONCRETE_SHEET = createTransparentBlock(Material.ROCK, "concrete_sheet");
+    public static final Block CONCRETE_PANEL = createTransparentBlock(Material.ROCK, "concrete_panel");
+    public static final Block CONCRETE_CHUNK = createTransparentBlock(Material.ROCK, "concrete_chunk");
     public static final Block CONCRETE_TILE = createBlock(Material.ROCK, "concrete_tile");
     //public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
     public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE_TILE);
@@ -129,14 +130,18 @@ public class ModBlocks {
     public static final Block SHEETMETAL_CONSTANTAN_CHUTE = createChute(SHEETMETAL_CONSTANTAN);
     public static final Block SHEETMETAL_ELECTRUM_CHUTE = createChute(SHEETMETAL_ELECTRUM);
 
-    public static final Block SHEETMETAL_STEEL_LADDER_CHUTE = new BlockLadderChute(SHEETMETAL_STEEL, SHEETMETAL_STEEL.getRegistryName().getPath() + "_ladder_chute");
+    public static final Block SHEETMETAL_STEEL_LADDER_CHUTE = createChuteLadder(SHEETMETAL_STEEL);
 
 
     public static final Block STEEL_FENCE = createFence(STORAGE_STEEL);
     public static final Block ALUMINUM_FENCE = createFence(STORAGE_ALUMINUM);
 
-    public static final Block STEEL_SCAFFOLDING = createBlock(Material.ROCK, "steel_scaffolding");
+    public static final Block STEEL_SCAFFOLDING = createTransparentBlock(Material.ROCK, "steel_scaffolding");
     public static final Block STEEL_SCAFFOLDING_STAIRS = createStairs(STEEL_SCAFFOLDING);
+
+    public static final Block ALUMINUM_SCAFFOLDING = createTransparentBlock(Material.ROCK, "aluminum_scaffolding");
+    public static final Block ALUMINUM_SCAFFOLDING_STAIRS = createStairs(ALUMINUM_SCAFFOLDING);
+
     public static final Block STEEL_LADDER = new BlockMetalLadder();
 
 
@@ -151,6 +156,10 @@ public class ModBlocks {
                 .setTranslationKey(Tags.MOD_ID + "." + name);
 
         return block;
+    }
+
+    public static Block createTransparentBlock(Material material, String name){
+        return new TransparentBlock(material, name);
     }
 
     public static Block createBlockOre(Material material, String name, String oreName){
@@ -184,6 +193,12 @@ public class ModBlocks {
         String name = baseBlock.getRegistryName().getPath() + "_chute";
 
         return new BlockChute(baseBlock, name);
+    }
+
+    public static Block createChuteLadder(Block baseBlock) {
+        String name = baseBlock.getRegistryName().getPath() + "_ladder_chute";
+
+        return new BlockLadderChute(baseBlock, name);
     }
 
     public static Block createFence(Block baseBlock) {
@@ -336,6 +351,9 @@ public class ModBlocks {
 
         Registry.addBlock(STEEL_SCAFFOLDING);
         Registry.addBlock(STEEL_SCAFFOLDING_STAIRS);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_STAIRS);
+
         Registry.addBlock(STEEL_LADDER);
         Registry.addBlock(SHEETMETAL_STEEL_LADDER_CHUTE);
 
