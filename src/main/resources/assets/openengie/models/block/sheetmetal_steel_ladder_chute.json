@@ -2,7 +2,7 @@
   "parent": "block/block",
   "ambientocclusion": false,
   "textures": {
-    "all": "openengie:blocks/sheetmetal_gold",
+    "all": "openengie:blocks/sheetmetal_steel",
     "ladder": "openengie:blocks/metal_ladder"
   },
   "elements": [
