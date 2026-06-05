@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "openengie:blocks/steel_scaffolding_1",
+    "top": "openengie:blocks/steel_scaffolding_1",
+    "bottom": "openengie:blocks/steel_scaffolding_1"
+  }
+}
