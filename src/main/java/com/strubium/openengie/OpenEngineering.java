@@ -38,7 +38,6 @@ public class OpenEngineering {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        //RuntimeAssets.generateRuntimeModels();
         ModBlocks.init();
         ModTileEntities.init();
         ModItems.init();

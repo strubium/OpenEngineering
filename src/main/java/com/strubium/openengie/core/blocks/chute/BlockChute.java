@@ -1,6 +1,5 @@
 package com.strubium.openengie.core.blocks.chute;
 
-import com.strubium.openengie.Tags;
 import com.strubium.openengie.core.blocks.TransparentBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;

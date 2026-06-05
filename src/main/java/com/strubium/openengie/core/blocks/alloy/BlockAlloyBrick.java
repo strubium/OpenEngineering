@@ -1,12 +1,9 @@
 package com.strubium.openengie.core.blocks.alloy;
 
-import com.strubium.openengie.Tags;
-import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.ModBlocks;
 import com.strubium.openengie.core.ModItems;
 import com.strubium.openengie.core.blocks.BaseOpenEngieBlock;
 import com.strubium.openengie.core.multi.Multiblock;
-import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
