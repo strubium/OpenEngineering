@@ -15,6 +15,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -77,8 +78,7 @@ public class ModBlocks {
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
    // public static final Block COKE_BRICK_SLAB = createSlab(COKE_BRICK);
 
-    public static final Block INSULATED_GLASS = createBlock(Material.ROCK, "insulated_glass");
-
+    public static final Block INSULATED_GLASS = createTransparentBlock(Material.ROCK, "insulated_glass", BlockRenderLayer.TRANSLUCENT);
 
     public static final Block HEMP_CRETE = createBlock(Material.ROCK, "hemp_crete");
   //  public static final Block HEMP_CRETE_SLAB = createSlab(HEMP_CRETE);
@@ -130,7 +130,17 @@ public class ModBlocks {
     public static final Block SHEETMETAL_CONSTANTAN_CHUTE = createChute(SHEETMETAL_CONSTANTAN);
     public static final Block SHEETMETAL_ELECTRUM_CHUTE = createChute(SHEETMETAL_ELECTRUM);
 
+    public static final Block SHEETMETAL_ALUMINUM_LADDER_CHUTE = createChuteLadder(SHEETMETAL_ALUMINUM);
     public static final Block SHEETMETAL_STEEL_LADDER_CHUTE = createChuteLadder(SHEETMETAL_STEEL);
+    public static final Block SHEETMETAL_COPPER_LADDER_CHUTE = createChuteLadder(SHEETMETAL_COPPER);
+    public static final Block SHEETMETAL_IRON_LADDER_CHUTE = createChuteLadder(SHEETMETAL_IRON);
+    public static final Block SHEETMETAL_GOLD_LADDER_CHUTE = createChuteLadder(SHEETMETAL_GOLD);
+    public static final Block SHEETMETAL_SILVER_LADDER_CHUTE = createChuteLadder(SHEETMETAL_SILVER);
+    public static final Block SHEETMETAL_NICKEL_LADDER_CHUTE = createChuteLadder(SHEETMETAL_NICKEL);
+    public static final Block SHEETMETAL_LEAD_LADDER_CHUTE = createChuteLadder(SHEETMETAL_LEAD);
+    public static final Block SHEETMETAL_URANIUM_LADDER_CHUTE = createChuteLadder(SHEETMETAL_URANIUM);
+    public static final Block SHEETMETAL_CONSTANTAN_LADDER_CHUTE = createChuteLadder(SHEETMETAL_CONSTANTAN);
+    public static final Block SHEETMETAL_ELECTRUM_LADDER_CHUTE = createChuteLadder(SHEETMETAL_ELECTRUM);
 
 
     public static final Block STEEL_FENCE = createFence(STORAGE_STEEL);
@@ -161,6 +171,9 @@ public class ModBlocks {
     public static Block createTransparentBlock(Material material, String name){
         return new TransparentBlock(material, name);
     }
+    public static Block createTransparentBlock(Material material, String name, BlockRenderLayer renderLayer){
+        return new TransparentBlock(material, name, renderLayer);
+    }
 
     public static Block createBlockOre(Material material, String name, String oreName){
         Block block = createBlock(material, name);
@@ -190,13 +203,13 @@ public class ModBlocks {
     }
 
     public static Block createChute(Block baseBlock) {
-        String name = baseBlock.getRegistryName().getPath() + "_chute";
+        String name = "chute_" + baseBlock.getRegistryName().getPath();
 
         return new BlockChute(baseBlock, name);
     }
 
     public static Block createChuteLadder(Block baseBlock) {
-        String name = baseBlock.getRegistryName().getPath() + "_ladder_chute";
+        String name = "chute_ladder_" + baseBlock.getRegistryName().getPath();
 
         return new BlockLadderChute(baseBlock, name);
     }
@@ -355,7 +368,18 @@ public class ModBlocks {
         Registry.addBlock(ALUMINUM_SCAFFOLDING_STAIRS);
 
         Registry.addBlock(STEEL_LADDER);
+
+        Registry.addBlock(SHEETMETAL_ALUMINUM_LADDER_CHUTE);
         Registry.addBlock(SHEETMETAL_STEEL_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_COPPER_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_IRON_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_GOLD_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_SILVER_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_NICKEL_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_LEAD_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_URANIUM_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_CONSTANTAN_LADDER_CHUTE);
+        Registry.addBlock(SHEETMETAL_ELECTRUM_LADDER_CHUTE);
 
         Registry.addBlock(TREATED_WOOD_CHUTE);
 

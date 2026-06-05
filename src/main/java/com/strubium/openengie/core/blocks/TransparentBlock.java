@@ -8,8 +8,16 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class TransparentBlock extends BaseOpenEngieBlock {
 
+    private BlockRenderLayer renderLayer = BlockRenderLayer.CUTOUT;
+
     public TransparentBlock(Material material, String blockName) {
         super(material, blockName);
+    }
+
+    public TransparentBlock(Material material, String blockName, BlockRenderLayer renderLayer) {
+        super(material, blockName);
+
+        this.renderLayer = renderLayer;
     }
 
     @Override
@@ -26,6 +34,6 @@ public class TransparentBlock extends BaseOpenEngieBlock {
     @Override
     @SideOnly(Side.CLIENT)
     public BlockRenderLayer getRenderLayer() {
-        return BlockRenderLayer.CUTOUT;
+        return renderLayer;
     }
 }

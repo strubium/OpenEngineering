@@ -78,29 +78,31 @@ item.openengie.steel_nugget.name=Steel Nugget
 item.openengie.constantan_nugget.name=Constantan Nugget
 item.openengie.electrum_nugget.name=Electrum Nugget
 
-tile.openengie.sheetmetal_aluminum_chute.name=Aluminum Sheetmetal Chute
-tile.openengie.sheetmetal_steel_chute.name=Steel Sheetmetal Chute
-tile.openengie.sheetmetal_copper_chute.name=Copper Sheetmetal Chute
-tile.openengie.sheetmetal_iron_chute.name=Iron Sheetmetal Chute
-tile.openengie.sheetmetal_gold_chute.name=Gold Sheetmetal Chute
-tile.openengie.sheetmetal_silver_chute.name=Silver Sheetmetal Chute
-tile.openengie.sheetmetal_nickel_chute.name=Nickel Sheetmetal Chute
-tile.openengie.sheetmetal_lead_chute.name=Lead Sheetmetal Chute
-tile.openengie.sheetmetal_uranium_chute.name=Uranium Sheetmetal Chute
-tile.openengie.sheetmetal_constantan_chute.name=Constantan Sheetmetal Chute
-tile.openengie.sheetmetal_electrum_chute.name=Electrum Sheetmetal Chute
+tile.openengie.chute_sheetmetal_aluminum.name=Aluminum Sheetmetal Chute
+tile.openengie.chute_sheetmetal_steel.name=Steel Sheetmetal Chute
+tile.openengie.chute_sheetmetal_copper.name=Copper Sheetmetal Chute
+tile.openengie.chute_sheetmetal_iron.name=Iron Sheetmetal Chute
+tile.openengie.chute_sheetmetal_gold.name=Gold Sheetmetal Chute
+tile.openengie.chute_sheetmetal_silver.name=Silver Sheetmetal Chute
+tile.openengie.chute_sheetmetal_nickel.name=Nickel Sheetmetal Chute
+tile.openengie.chute_sheetmetal_lead.name=Lead Sheetmetal Chute
+tile.openengie.chute_sheetmetal_uranium.name=Uranium Sheetmetal Chute
+tile.openengie.chute_sheetmetal_constantan.name=Constantan Sheetmetal Chute
+tile.openengie.chute_sheetmetal_electrum.name=Electrum Sheetmetal Chute
+tile.openengie.chute_treated_wood.name=Treated Wood Chute
 
-tile.openengie.sheetmetal_aluminum_ladder_chute.name=Aluminum Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_steel_ladder_chute.name=Steel Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_copper_ladder_chute.name=Copper Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_iron_ladder_chute.name=Iron Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_gold_ladder_chute.name=Gold Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_silver_ladder_chute.name=Silver Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_nickel_ladder_chute.name=Nickel Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_lead_ladder_chute.name=Lead Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_uranium_ladder_chute.name=Uranium Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_constantan_ladder_chute.name=Constantan Sheetmetal Ladder Chute
-tile.openengie.sheetmetal_electrum_ladder_chute.name=Electrum Sheetmetal Ladder Chute
+
+tile.openengie.chute_ladder_sheetmetal_aluminum.name=Aluminum Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_steel.name=Steel Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_copper.name=Copper Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_iron.name=Iron Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_gold.name=Gold Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_silver.name=Silver Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_nickel.name=Nickel Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_lead.name=Lead Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_uranium.name=Uranium Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_constantan.name=Constantan Sheetmetal Ladder Chute
+tile.openengie.chute_ladder_sheetmetal_electrum.name=Electrum Sheetmetal Ladder Chute
 
 item.openengie.plate_aluminum.name=Aluminum Plate
 item.openengie.plate_steel.name=Steel Plate
@@ -182,8 +184,6 @@ tile.openengie.treated_wood_vertical.name=Treated Wood Vertical
 tile.openengie.treated_wood_packaged.name=Packaged Treated Wood
 tile.openengie.treated_wood_vertical_stairs.name=Treated Wood Vertical Stairs
 tile.openengie.treated_wood_packaged_stairs.name=Packaged Treated Wood Stairs
-
-tile.openengie.treated_wood_chute.name=Treated Wood Chute
 
 tile.openengie.jump_cushion.name=Jump Cushion
 

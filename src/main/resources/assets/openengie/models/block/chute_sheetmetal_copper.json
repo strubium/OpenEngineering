@@ -1,0 +1,6 @@
+{
+  "parent": "openengie:block/base/base_chute",
+  "textures": {
+    "all": "openengie:blocks/sheetmetal_copper"
+  }
+}
