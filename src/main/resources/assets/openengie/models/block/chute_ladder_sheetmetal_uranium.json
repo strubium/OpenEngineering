@@ -2,6 +2,6 @@
   "parent": "openengie:block/base/base_chute_ladder",
   "textures": {
     "all": "openengie:blocks/sheetmetal_uranium",
-    "ladder": "openengie:blocks/metal_ladder"
+    "ladder": "openengie:blocks/steel_ladder"
   }
 }

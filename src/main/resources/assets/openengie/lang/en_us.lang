@@ -201,8 +201,12 @@ tile.openengie.steel_scaffolding_2_stairs.name=Steel Scaffolding Stairs
 tile.openengie.steel_scaffolding_3.name=Steel Scaffolding
 tile.openengie.steel_scaffolding_3_stairs.name=Steel Scaffolding Stairs
 
-tile.openengie.aluminum_scaffolding.name=Aluminum Scaffolding
-tile.openengie.aluminum_scaffolding_stairs.name=Aluminum Scaffolding Stairs
+tile.openengie.aluminum_scaffolding_1.name=Aluminum Scaffolding
+tile.openengie.aluminum_scaffolding_1_stairs.name=Aluminum Scaffolding Stairs
+tile.openengie.aluminum_scaffolding_2.name=Aluminum Scaffolding
+tile.openengie.aluminum_scaffolding_2_stairs.name=Aluminum Scaffolding Stairs
+tile.openengie.aluminum_scaffolding_3.name=Aluminum Scaffolding
+tile.openengie.aluminum_scaffolding_3_stairs.name=Aluminum Scaffolding Stairs
 
 tile.openengie.steel_ladder.name=Steel Ladder
 

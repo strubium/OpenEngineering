@@ -157,8 +157,14 @@ public class ModBlocks {
 
 
 
-    public static final Block ALUMINUM_SCAFFOLDING = createTransparentBlock(Material.ROCK, "aluminum_scaffolding_1");
-    public static final Block ALUMINUM_SCAFFOLDING_STAIRS = createStairs(ALUMINUM_SCAFFOLDING);
+    public static final Block ALUMINUM_SCAFFOLDING_1 = createTransparentBlock(Material.ROCK, "aluminum_scaffolding_1");
+    public static final Block ALUMINUM_SCAFFOLDING_1_STAIRS = createStairs(ALUMINUM_SCAFFOLDING_1);
+
+    public static final Block ALUMINUM_SCAFFOLDING_2 = createTransparentBlock(Material.ROCK, "aluminum_scaffolding_2");
+    public static final Block ALUMINUM_SCAFFOLDING_2_STAIRS = createStairs(ALUMINUM_SCAFFOLDING_2);
+
+    public static final Block ALUMINUM_SCAFFOLDING_3 = createTransparentBlock(Material.ROCK, "aluminum_scaffolding_3");
+    public static final Block ALUMINUM_SCAFFOLDING_3_STAIRS = createStairs(ALUMINUM_SCAFFOLDING_3);
 
     public static final Block STEEL_LADDER = new BlockMetalLadder();
 
@@ -377,8 +383,12 @@ public class ModBlocks {
         Registry.addBlock(STEEL_SCAFFOLDING_3);
         Registry.addBlock(STEEL_SCAFFOLDING_3_STAIRS);
 
-        Registry.addBlock(ALUMINUM_SCAFFOLDING);
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_STAIRS);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_1);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_1_STAIRS);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_2);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_2_STAIRS);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_3);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_3_STAIRS);
 
         Registry.addBlock(STEEL_LADDER);
 

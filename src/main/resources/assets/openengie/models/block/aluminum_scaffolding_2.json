@@ -1,0 +1,6 @@
+{
+  "parent": "openengie:block/base/base_scaffolding_aluminum",
+  "textures": {
+    "top": "openengie:blocks/aluminum_scaffolding_top1"
+  }
+}

@@ -602,9 +602,21 @@
       "type":"block"
     },
     {
-      "name":"aluminum_scaffolding",
+      "name":"aluminum_scaffolding_1",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding.png",
-      "path":"textures/blocks/aluminum_scaffolding.png",
+      "path":"textures/blocks/aluminum_scaffolding_1.png",
+      "type":"block"
+    },
+    {
+      "name":"aluminum_scaffolding_top1",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding_top1.png",
+      "path":"textures/blocks/aluminum_scaffolding_top1.png",
+      "type":"block"
+    },
+    {
+      "name":"aluminum_scaffolding_top2",
+      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/metal_decoration1_aluminum_scaffolding_top2.png",
+      "path":"textures/blocks/aluminum_scaffolding_top2.png",
       "type":"block"
     },
     {

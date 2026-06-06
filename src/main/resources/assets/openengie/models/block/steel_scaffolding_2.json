@@ -1,5 +1,5 @@
 {
-  "parent": "openengie:block/base/base_scaffolding",
+  "parent": "openengie:block/base/base_scaffolding_steel",
   "textures": {
     "top": "openengie:blocks/steel_scaffolding_top1"
   }
