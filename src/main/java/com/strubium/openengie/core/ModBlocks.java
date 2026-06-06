@@ -157,7 +157,7 @@ public class ModBlocks {
 
 
 
-    public static final Block ALUMINUM_SCAFFOLDING = createTransparentBlock(Material.ROCK, "aluminum_scaffolding");
+    public static final Block ALUMINUM_SCAFFOLDING = createTransparentBlock(Material.ROCK, "aluminum_scaffolding_1");
     public static final Block ALUMINUM_SCAFFOLDING_STAIRS = createStairs(ALUMINUM_SCAFFOLDING);
 
     public static final Block STEEL_LADDER = new BlockMetalLadder();
