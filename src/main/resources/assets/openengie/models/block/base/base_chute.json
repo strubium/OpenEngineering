@@ -2,7 +2,8 @@
   "parent": "block/block",
   "ambientocclusion": false,
   "textures": {
-    "all": "openengie:blocks/sheetmetal_nickel"
+    "all": "openengie:blocks/sheetmetal_nickel",
+    "particle": "#all"
   },
   "elements": [
     {

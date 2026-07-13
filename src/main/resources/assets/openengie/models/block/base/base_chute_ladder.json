@@ -3,7 +3,8 @@
   "ambientocclusion": false,
   "textures": {
     "all": "openengie:blocks/sheetmetal_aluminum",
-    "ladder": "openengie:blocks/steel_ladder"
+    "ladder": "openengie:blocks/steel_ladder",
+    "particle": "#all"
   },
   "elements": [
     {
