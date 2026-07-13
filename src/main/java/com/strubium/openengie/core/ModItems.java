@@ -4,6 +4,7 @@ import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 
 
 public class ModItems {
@@ -117,9 +118,25 @@ public class ModItems {
 
     public static void init() {
         Registry.addItem(STICK_TREATED_WOOD);
+        Registry.addOre("stick", STICK_TREATED_WOOD.getRegistryName());
+        Registry.addOre("stickTreatedWood", STICK_TREATED_WOOD.getRegistryName());
+
         Registry.addItem(STICK_IRON);
+        Registry.addOre("stick", STICK_IRON.getRegistryName());
+        Registry.addOre("stickIron", STICK_IRON.getRegistryName());
+
         Registry.addItem(STICK_STEEL);
+        Registry.addOre("stick", STICK_STEEL.getRegistryName());
+        Registry.addOre("stickSteel", STICK_STEEL.getRegistryName());
+
         Registry.addItem(STICK_ALUMINIUM);
+        Registry.addOre("stick", STICK_ALUMINIUM.getRegistryName());
+        Registry.addOre("stickAluminum", STICK_ALUMINIUM.getRegistryName());
+
+        Registry.addOre("stick", new ResourceLocation("minecraft:stick"));
+
+
+
         Registry.addItem(INDUSTRIAL_HEMP_FIBERS);
         Registry.addItem(INDUSTRIAL_HEMP_FABRIC);
         Registry.addItem(COAL_COKE);
