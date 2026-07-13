@@ -208,8 +208,8 @@ public class ModItems {
         Registry.addItem(METALPRESS_MOLD_PACKING3x3);
         Registry.addItem(METALPRESS_MOLD_UNPACKING);
 
-        Registry.addItem(BLUEPRINT_CRAFTING_COMP);
-        Registry.addItem(BLUEPRINT_METALPRESS_MOLDS);
-        Registry.addItem(BLUEPRINT_ARCFURNACE_ELECTRODES);
+        Registry.addItem(BLUEPRINT_CRAFTING_COMP); Registry.addOre("blueprint", BLUEPRINT_CRAFTING_COMP.getRegistryName());
+        Registry.addItem(BLUEPRINT_METALPRESS_MOLDS); Registry.addOre("blueprint", BLUEPRINT_METALPRESS_MOLDS.getRegistryName());
+        Registry.addItem(BLUEPRINT_ARCFURNACE_ELECTRODES); Registry.addOre("blueprint", BLUEPRINT_ARCFURNACE_ELECTRODES.getRegistryName());
     }
 }
