@@ -4,6 +4,8 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.block.Block;
+
 
 import java.util.function.Predicate;
 
@@ -14,18 +16,14 @@ import java.util.function.Predicate;
  *  - widthX : number of blocks along the "right" direction (rotateY of facing)
  *  - depthZ : number of blocks along the "forward" direction (facing)
  *  - heightY: number of blocks upward
- *
- * The helper will:
- *  - search for any valid placement that includes the clickedPos (all offsets that place a sizeX*sizeY*sizeZ box
- *    such that clickedPos is inside it),
- *  - try all horizontal facings (N/S/E/W),
- *  - optionally fill the structure with a provided IBlockState.
  */
 public class Multiblock {
     private final int sizeX; // right
     private final int sizeY; // up
     private final int sizeZ; // forward
     private final Predicate<IBlockState> validator;
+    private EnumFacing frontSide = EnumFacing.NORTH;
+    private final Block formedBlock;
 
     /**
      * @param sizeX number of blocks along right (x) axis (>=1)
@@ -33,7 +31,7 @@ public class Multiblock {
      * @param sizeZ number of blocks along forward (z) axis (>=1)
      * @param validator predicate that returns true for a valid "component" block at a position
      */
-    public Multiblock(int sizeX, int sizeY, int sizeZ, Predicate<IBlockState> validator) {
+    public Multiblock(int sizeX, int sizeY, int sizeZ, Block formedBlock, Predicate<IBlockState> validator) {
         if (sizeX < 1 || sizeY < 1 || sizeZ < 1) {
             throw new IllegalArgumentException("All dimensions must be >= 1");
         }
@@ -41,6 +39,7 @@ public class Multiblock {
         this.sizeY = sizeY;
         this.sizeZ = sizeZ;
         this.validator = validator;
+        this.formedBlock = formedBlock;
     }
 
     /**
@@ -48,14 +47,16 @@ public class Multiblock {
      *
      * @param world the world
      * @param clickedPos the position the player clicked (must be inside the candidate box)
-     * @param formedState the state to place when forming the multiblock
      * @param flags world.setBlockState flags (e.g. 3)
      * @return true if a multiblock was formed
      */
-    public boolean tryForm(World world, BlockPos clickedPos, IBlockState formedState, int flags) {
+    public boolean tryForm(World world, BlockPos clickedPos, EnumFacing playerFacing, int flags) {
         Match match = findMatch(world, clickedPos);
+
+        frontSide = playerFacing.getOpposite();
+
         if (match != null) {
-            fillStructure(world, match.base, match.facing, formedState, flags);
+            fillStructure(world, match.base, match.facing, formedBlock.getDefaultState(), flags);
             return true;
         }
         return false;

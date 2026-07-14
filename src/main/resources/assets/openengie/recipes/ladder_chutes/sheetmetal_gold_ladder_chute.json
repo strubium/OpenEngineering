@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "openengie:chute_sheetmetal_gold"
+    },
+    {
+      "item": "openengie:steel_ladder"
+    }
+  ],
+  "result": {
+    "item": "openengie:chute_ladder_sheetmetal_gold"
+  }
+}

@@ -28,7 +28,7 @@ public class BlockAlloyBrick extends BaseOpenEngieBlock {
         setResistance(10.0F);
 
         // create a multiblock matcher that requires the block at each position to be this block instance
-        this.alloyKilnMultiblock = new Multiblock(2, 2, 2, state -> state.getBlock() == this);
+        this.alloyKilnMultiblock = new Multiblock(2, 2, 2,  ModBlocks.ALLOY_KILN_FORMED, state -> state.getBlock() == this);
     }
 
     @Override
@@ -40,8 +40,7 @@ public class BlockAlloyBrick extends BaseOpenEngieBlock {
         // Check if the player is holding the hammer
         if (!held.isEmpty() && held.getItem() == ModItems.TOOL_HAMMER) {
             if (!world.isRemote) {
-                boolean formed = alloyKilnMultiblock.tryForm(world, pos,
-                        ModBlocks.ALLOY_KILN_FORMED.getDefaultState(), 3);
+                boolean formed = alloyKilnMultiblock.tryForm(world, pos, facing, 3);
                 if (formed) {
                     player.sendMessage(new TextComponentString("Alloy Kiln formed!"));
                 } else {
