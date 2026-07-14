@@ -43,28 +43,28 @@ public class ModBlocks {
     public static final Block ORE_SILVER = createBlock(Material.ROCK, "ore_silver");
     public static final Block ORE_URANIUM = createBlock(Material.ROCK, "ore_uranium");
 
-    public static final Block SHEETMETAL_ALUMINUM = createBlockOre(Material.ROCK, "sheetmetal_aluminum", "blockSheetmetalAluminum");
-    public static final Block SHEETMETAL_STEEL = createBlockOre(Material.ROCK, "sheetmetal_steel", "blockSheetmetalSteel");
-    public static final Block SHEETMETAL_COPPER = createBlockOre(Material.ROCK, "sheetmetal_copper", "blockSheetmetalCopper");
-    public static final Block SHEETMETAL_IRON = createBlockOre(Material.ROCK, "sheetmetal_iron", "blockSheetmetalIron");
-    public static final Block SHEETMETAL_GOLD = createBlockOre(Material.ROCK, "sheetmetal_gold", "blockSheetmetalGold");
-    public static final Block SHEETMETAL_SILVER = createBlockOre(Material.ROCK, "sheetmetal_silver", "blockSheetmetalSilver");
+    public static final Block SHEETMETAL_ALUMINUM = createBlockOre(Material.ANVIL, "sheetmetal_aluminum", "blockSheetmetalAluminum");
+    public static final Block SHEETMETAL_STEEL = createBlockOre(Material.ANVIL, "sheetmetal_steel", "blockSheetmetalSteel");
+    public static final Block SHEETMETAL_COPPER = createBlockOre(Material.ANVIL, "sheetmetal_copper", "blockSheetmetalCopper");
+    public static final Block SHEETMETAL_IRON = createBlockOre(Material.ANVIL, "sheetmetal_iron", "blockSheetmetalIron");
+    public static final Block SHEETMETAL_GOLD = createBlockOre(Material.ANVIL, "sheetmetal_gold", "blockSheetmetalGold");
+    public static final Block SHEETMETAL_SILVER = createBlockOre(Material.ANVIL, "sheetmetal_silver", "blockSheetmetalSilver");
     public static final Block SHEETMETAL_NICKEL = createBlockOre(Material.ROCK, "sheetmetal_nickel", "blockSheetmetalNickel");
-    public static final Block SHEETMETAL_LEAD = createBlockOre(Material.ROCK, "sheetmetal_lead", "blockSheetmetalLead");
-    public static final Block SHEETMETAL_URANIUM = createBlockOre(Material.ROCK, "sheetmetal_uranium", "blockSheetmetalUranium");
-    public static final Block SHEETMETAL_CONSTANTAN = createBlockOre(Material.ROCK, "sheetmetal_constantan", "blockSheetmetalConstantan");
-    public static final Block SHEETMETAL_ELECTRUM = createBlockOre(Material.ROCK, "sheetmetal_electrum", "blockSheetmetalElectrum");
+    public static final Block SHEETMETAL_LEAD = createBlockOre(Material.ANVIL, "sheetmetal_lead", "blockSheetmetalLead");
+    public static final Block SHEETMETAL_URANIUM = createBlockOre(Material.ANVIL, "sheetmetal_uranium", "blockSheetmetalUranium");
+    public static final Block SHEETMETAL_CONSTANTAN = createBlockOre(Material.ANVIL, "sheetmetal_constantan", "blockSheetmetalConstantan");
+    public static final Block SHEETMETAL_ELECTRUM = createBlockOre(Material.ANVIL, "sheetmetal_electrum", "blockSheetmetalElectrum");
 
-    public static final Block COIL_COPPER = createBlock(Material.ROCK, "coil_lv");
-    public static final Block COIL_ELECTRUM = createBlock(Material.ROCK, "coil_mv");
-    public static final Block COIL_HV = createBlock(Material.ROCK, "coil_hv");
+    public static final Block COIL_COPPER = createBlock(Material.ANVIL, "coil_lv");
+    public static final Block COIL_ELECTRUM = createBlock(Material.ANVIL, "coil_mv");
+    public static final Block COIL_HV = createBlock(Material.ANVIL, "coil_hv");
 
-    public static final Block HEAVY_ENG = createBlock(Material.ROCK, "heavy_engineering");
-    public static final Block LIGHT_ENG = createBlock(Material.ROCK, "light_engineering");
-    public static final Block REDSTONE_ENG = createBlock(Material.ROCK, "redstone_engineering");
+    public static final Block HEAVY_ENG = createBlock(Material.ANVIL, "heavy_engineering");
+    public static final Block LIGHT_ENG = createBlock(Material.ANVIL, "light_engineering");
+    public static final Block REDSTONE_ENG = createBlock(Material.ANVIL, "redstone_engineering");
 
-    public static final Block GENERATOR = createBlock(Material.ROCK, "generator");
-    public static final Block RADIATOR = createBlock(Material.ROCK, "radiator");
+    public static final Block GENERATOR = createBlock(Material.ANVIL, "generator");
+    public static final Block RADIATOR = createBlock(Material.ANVIL, "radiator");
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
    // public static final Block ALLOY_KILN_BRICK_SLAB = createStairs(new BlockAlloyBrick());
@@ -98,15 +98,15 @@ public class ModBlocks {
 
     public static final Block JUMP_CUSHION = createBlock(Material.ROCK, "jump_cushion");
 
-    public static final Block STORAGE_ALUMINUM = createBlockOre(Material.ROCK, "storage_aluminum", "blockAluminum");
-    public static final Block STORAGE_COPPER = createBlockOre(Material.ROCK, "storage_copper", "blockCopper");
-    public static final Block STORAGE_STEEL = createBlockOre(Material.ROCK, "storage_steel", "blockSteel");
-    public static final Block STORAGE_SILVER = createBlockOre(Material.ROCK, "storage_silver", "blockSilver");
-    public static final Block STORAGE_NICKEL = createBlockOre(Material.ROCK, "storage_nickel", "blockNickel");
-    public static final Block STORAGE_LEAD = createBlockOre(Material.ROCK, "storage_lead", "blockLead");
-    public static final Block STORAGE_URANIUM = createBlockOre(Material.ROCK, "storage_uranium", "blockUranium");
-    public static final Block STORAGE_CONSTANTAN = createBlockOre(Material.ROCK, "storage_constantan", "blockConstantan");
-    public static final Block STORAGE_ELECTRUM = createBlockOre(Material.ROCK, "storage_electrum", "blockElectrum");
+    public static final Block STORAGE_ALUMINUM = createBlockOre(Material.ANVIL, "storage_aluminum", "blockAluminum");
+    public static final Block STORAGE_COPPER = createBlockOre(Material.ANVIL, "storage_copper", "blockCopper");
+    public static final Block STORAGE_STEEL = createBlockOre(Material.ANVIL, "storage_steel", "blockSteel");
+    public static final Block STORAGE_SILVER = createBlockOre(Material.ANVIL, "storage_silver", "blockSilver");
+    public static final Block STORAGE_NICKEL = createBlockOre(Material.ANVIL, "storage_nickel", "blockNickel");
+    public static final Block STORAGE_LEAD = createBlockOre(Material.ANVIL, "storage_lead", "blockLead");
+    public static final Block STORAGE_URANIUM = createBlockOre(Material.ANVIL, "storage_uranium", "blockUranium");
+    public static final Block STORAGE_CONSTANTAN = createBlockOre(Material.ANVIL, "storage_constantan", "blockConstantan");
+    public static final Block STORAGE_ELECTRUM = createBlockOre(Material.ANVIL, "storage_electrum", "blockElectrum");
 
    /* public static final Block STORAGE_ALUMINUM_SLAB = createSlab(STORAGE_ALUMINUM);
     public static final Block STORAGE_COPPER_SLAB = createSlab(STORAGE_COPPER);

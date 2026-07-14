@@ -9,7 +9,7 @@
   "key": {
     "I": {
       "type": "forge:ore_dict",
-      "ore": "ingotIron"
+      "ore": "ingotNickel"
     },
     "H": {
       "item": "openengie:tool_hammer",
@@ -18,7 +18,7 @@
   },
 
   "result": {
-    "item": "openengie:plate_iron"
+    "item": "openengie:plate_nickel"
   },
 
   "damage": 5

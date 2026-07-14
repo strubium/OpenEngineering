@@ -2,9 +2,8 @@
   "type": "openengie:tool_damage_shaped",
 
   "pattern": [
-    "I  ",
-    " H ",
-    "   "
+    "I ",
+    " H"
   ],
 
   "key": {
