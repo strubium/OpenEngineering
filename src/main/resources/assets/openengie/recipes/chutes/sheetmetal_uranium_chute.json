@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:chute_sheetmetal_uranium",
+    "count": 12
+  },
+  "pattern": [
+    "S S",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "blockSheetmetalUranium"
+    }
+  }
+}
