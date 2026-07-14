@@ -376,19 +376,19 @@ public class ModBlocks {
         Registry.addBlock(STEEL_FENCE); Registry.addOre("fenceSteel", STEEL_FENCE.getRegistryName());
         Registry.addBlock(ALUMINUM_FENCE); Registry.addOre("fenceAluminum", ALUMINUM_FENCE.getRegistryName());
 
-        Registry.addBlock(STEEL_SCAFFOLDING_1);
-        Registry.addBlock(STEEL_SCAFFOLDING_1_STAIRS);
-        Registry.addBlock(STEEL_SCAFFOLDING_2);
-        Registry.addBlock(STEEL_SCAFFOLDING_2_STAIRS);
-        Registry.addBlock(STEEL_SCAFFOLDING_3);
-        Registry.addBlock(STEEL_SCAFFOLDING_3_STAIRS);
+        Registry.addBlock(STEEL_SCAFFOLDING_1); Registry.addOre("scaffoldingSteel", STEEL_SCAFFOLDING_1.getRegistryName());
+        Registry.addBlock(STEEL_SCAFFOLDING_1_STAIRS); Registry.addOre("scaffoldingSteelStairs", STEEL_SCAFFOLDING_1_STAIRS.getRegistryName());
+        Registry.addBlock(STEEL_SCAFFOLDING_2); Registry.addOre("scaffoldingSteel", STEEL_SCAFFOLDING_2.getRegistryName());
+        Registry.addBlock(STEEL_SCAFFOLDING_2_STAIRS); Registry.addOre("scaffoldingSteelStairs", STEEL_SCAFFOLDING_2_STAIRS.getRegistryName());
+        Registry.addBlock(STEEL_SCAFFOLDING_3); Registry.addOre("scaffoldingSteel", STEEL_SCAFFOLDING_3.getRegistryName());
+        Registry.addBlock(STEEL_SCAFFOLDING_3_STAIRS); Registry.addOre("scaffoldingSteelStairs", STEEL_SCAFFOLDING_3_STAIRS.getRegistryName());
 
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_1);
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_1_STAIRS);
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_2);
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_2_STAIRS);
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_3);
-        Registry.addBlock(ALUMINUM_SCAFFOLDING_3_STAIRS);
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_1); Registry.addOre("scaffoldingAluminum", ALUMINUM_SCAFFOLDING_1.getRegistryName());
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_1_STAIRS); Registry.addOre("scaffoldingAluminumStairs", ALUMINUM_SCAFFOLDING_1_STAIRS.getRegistryName());
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_2); Registry.addOre("scaffoldingAluminum", ALUMINUM_SCAFFOLDING_2.getRegistryName());
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_2_STAIRS); Registry.addOre("scaffoldingAluminumStairs", ALUMINUM_SCAFFOLDING_2_STAIRS.getRegistryName());
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_3); Registry.addOre("scaffoldingAluminum", ALUMINUM_SCAFFOLDING_3.getRegistryName());
+        Registry.addBlock(ALUMINUM_SCAFFOLDING_3_STAIRS); Registry.addOre("scaffoldingAluminumStairs", ALUMINUM_SCAFFOLDING_3_STAIRS.getRegistryName());
 
         Registry.addBlock(STEEL_LADDER);
 

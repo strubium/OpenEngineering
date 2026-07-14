@@ -147,14 +147,28 @@ public class ModItems {
         Registry.addItem(COMPONENT_MECH_STEEL);
 
         Registry.addItem(WIRE_COPPER);
-        Registry.addItem(WIRE_ELECTRUM);
-        Registry.addItem(WIRE_ALUMINIUM);
-        Registry.addItem(WIRE_STEEL);
+        Registry.addOre("wire", WIRE_COPPER.getRegistryName());
+        Registry.addOre("wireCopper", WIRE_COPPER.getRegistryName());
 
-        Registry.addItem(GRIT_NITRATE);
-        Registry.addItem(GRIT_SULFUR);
-        Registry.addItem(GRIT_COKE);
-        Registry.addItem(GRIT_HOP_GRAPHITE);
+        Registry.addItem(WIRE_ELECTRUM);
+        Registry.addOre("wire", WIRE_ELECTRUM.getRegistryName());
+        Registry.addOre("wireElectrum", WIRE_ELECTRUM.getRegistryName());
+
+        Registry.addItem(WIRE_ALUMINIUM);
+        Registry.addOre("wire", WIRE_ALUMINIUM.getRegistryName());
+        Registry.addOre("wireAluminum", WIRE_ALUMINIUM.getRegistryName());
+
+        Registry.addItem(WIRE_STEEL);
+        Registry.addOre("wire", WIRE_STEEL.getRegistryName());
+        Registry.addOre("wireSteel", WIRE_STEEL.getRegistryName());
+
+        Registry.addItem(GRIT_NITRATE); Registry.addOre("dustNitrate", GRIT_NITRATE.getRegistryName());
+
+        Registry.addItem(GRIT_SULFUR); Registry.addOre("dustSulfur", GRIT_SULFUR.getRegistryName());
+
+        Registry.addItem(GRIT_COKE); Registry.addOre("dustCoke", GRIT_COKE.getRegistryName());
+
+        Registry.addItem(GRIT_HOP_GRAPHITE); Registry.addOre("dustHopGraphite", GRIT_HOP_GRAPHITE.getRegistryName());
 
         Registry.addItem(TOOL_HAMMER);
         Registry.addItem(TOOL_WIRECUTTERS);
@@ -162,58 +176,59 @@ public class ModItems {
         Registry.addItem(VACUUM_TUBE);
         Registry.addItem(CIRCUIT_BOARD);
 
-        Registry.addItem(INGOT_ALUMINUM);
-        Registry.addItem(INGOT_COPPER);
-        Registry.addItem(INGOT_LEAD);
-        Registry.addItem(INGOT_NICKEL);
-        Registry.addItem(INGOT_SILVER);
-        Registry.addItem(INGOT_URANIUM);
-        Registry.addItem(INGOT_STEEL);
-        Registry.addItem(INGOT_CONSTANTAN);
-        Registry.addItem(INGOT_ELECTRUM);
+        Registry.addItem(INGOT_ALUMINUM); Registry.addOre("ingotAluminum", INGOT_ALUMINUM.getRegistryName());
+        Registry.addItem(INGOT_COPPER); Registry.addOre("ingotCopper", INGOT_COPPER.getRegistryName());
+        Registry.addItem(INGOT_LEAD); Registry.addOre("ingotLead", INGOT_LEAD.getRegistryName());
+        Registry.addItem(INGOT_NICKEL); Registry.addOre("ingotNickel", INGOT_NICKEL.getRegistryName());
+        Registry.addItem(INGOT_SILVER); Registry.addOre("ingotSilver", INGOT_SILVER.getRegistryName());
+        Registry.addItem(INGOT_URANIUM); Registry.addOre("ingotUranium", INGOT_URANIUM.getRegistryName());
+        Registry.addItem(INGOT_STEEL); Registry.addOre("ingotSteel", INGOT_STEEL.getRegistryName());
+        Registry.addItem(INGOT_CONSTANTAN); Registry.addOre("ingotConstantan", INGOT_CONSTANTAN.getRegistryName());
+        Registry.addItem(INGOT_ELECTRUM); Registry.addOre("ingotElectrum", INGOT_ELECTRUM.getRegistryName());
 
-        Registry.addItem(NUGGET_ALUMINUM);
-        Registry.addItem(NUGGET_COPPER);
-        Registry.addItem(NUGGET_LEAD);
-        Registry.addItem(NUGGET_NICKEL);
-        Registry.addItem(NUGGET_SILVER);
-        Registry.addItem(NUGGET_URANIUM);
-        Registry.addItem(NUGGET_STEEL);
-        Registry.addItem(NUGGET_CONSTANTAN);
-        Registry.addItem(NUGGET_ELECTRUM);
+        Registry.addItem(NUGGET_ALUMINUM); Registry.addOre("nuggetAluminum", NUGGET_ALUMINUM.getRegistryName());
+        Registry.addItem(NUGGET_COPPER); Registry.addOre("nuggetCopper", NUGGET_COPPER.getRegistryName());
+        Registry.addItem(NUGGET_LEAD); Registry.addOre("nuggetLead", NUGGET_LEAD.getRegistryName());
+        Registry.addItem(NUGGET_NICKEL); Registry.addOre("nuggetNickel", NUGGET_NICKEL.getRegistryName());
+        Registry.addItem(NUGGET_SILVER); Registry.addOre("nuggetSilver", NUGGET_SILVER.getRegistryName());
+        Registry.addItem(NUGGET_URANIUM); Registry.addOre("nuggetUranium", NUGGET_URANIUM.getRegistryName());
+        Registry.addItem(NUGGET_STEEL); Registry.addOre("nuggetSteel", NUGGET_STEEL.getRegistryName());
+        Registry.addItem(NUGGET_CONSTANTAN); Registry.addOre("nuggetConstantan", NUGGET_CONSTANTAN.getRegistryName());
+        Registry.addItem(NUGGET_ELECTRUM); Registry.addOre("nuggetElectrum", NUGGET_ELECTRUM.getRegistryName());
 
-        Registry.addItem(PLATE_ALUMINUM);
-        Registry.addItem(PLATE_STEEL);
-        Registry.addItem(PLATE_COPPER);
-        Registry.addItem(PLATE_IRON);
-        Registry.addItem(PLATE_GOLD);
-        Registry.addItem(PLATE_SILVER);
-        Registry.addItem(PLATE_NICKEL);
-        Registry.addItem(PLATE_LEAD);
-        Registry.addItem(PLATE_URANIUM);
-        Registry.addItem(PLATE_CONSTANTAN);
-        Registry.addItem(PLATE_ELECTRUM);
 
-        Registry.addItem(GRIT_ALUMINUM);
-        Registry.addItem(GRIT_STEEL);
-        Registry.addItem(GRIT_COPPER);
-        Registry.addItem(GRIT_IRON);
-        Registry.addItem(GRIT_GOLD);
-        Registry.addItem(GRIT_SILVER);
-        Registry.addItem(GRIT_NICKEL);
-        Registry.addItem(GRIT_LEAD);
-        Registry.addItem(GRIT_URANIUM);
-        Registry.addItem(GRIT_CONSTANTAN);
-        Registry.addItem(GRIT_ELECTRUM);
+        Registry.addItem(PLATE_ALUMINUM); Registry.addOre("plateAluminum", PLATE_ALUMINUM.getRegistryName());
+        Registry.addItem(PLATE_STEEL); Registry.addOre("plateSteel", PLATE_STEEL.getRegistryName());
+        Registry.addItem(PLATE_COPPER); Registry.addOre("plateCopper", PLATE_COPPER.getRegistryName());
+        Registry.addItem(PLATE_IRON); Registry.addOre("plateIron", PLATE_IRON.getRegistryName());
+        Registry.addItem(PLATE_GOLD); Registry.addOre("plateGold", PLATE_GOLD.getRegistryName());
+        Registry.addItem(PLATE_SILVER); Registry.addOre("plateSilver", PLATE_SILVER.getRegistryName());
+        Registry.addItem(PLATE_NICKEL); Registry.addOre("plateNickel", PLATE_NICKEL.getRegistryName());
+        Registry.addItem(PLATE_LEAD); Registry.addOre("plateLead", PLATE_LEAD.getRegistryName());
+        Registry.addItem(PLATE_URANIUM); Registry.addOre("plateUranium", PLATE_URANIUM.getRegistryName());
+        Registry.addItem(PLATE_CONSTANTAN); Registry.addOre("plateConstantan", PLATE_CONSTANTAN.getRegistryName());
+        Registry.addItem(PLATE_ELECTRUM); Registry.addOre("plateElectrum", PLATE_ELECTRUM.getRegistryName());
 
-        Registry.addItem(WIRECOIL_LV);
-        Registry.addItem(WIRECOIL_MV);
-        Registry.addItem(WIRECOIL_HV);
-        Registry.addItem(WIRECOIL_HEMP);
-        Registry.addItem(WIRECOIL_STEEL);
-        Registry.addItem(WIRECOIL_REDSTONE);
-        Registry.addItem(WIRECOIL_LV_INSULATED);
-        Registry.addItem(WIRECOIL_MV_INSULATED);
+        Registry.addItem(GRIT_ALUMINUM); Registry.addOre("dustAluminum", GRIT_ALUMINUM.getRegistryName());
+        Registry.addItem(GRIT_STEEL); Registry.addOre("dustSteel", GRIT_STEEL.getRegistryName());
+        Registry.addItem(GRIT_COPPER); Registry.addOre("dustCopper", GRIT_COPPER.getRegistryName());
+        Registry.addItem(GRIT_IRON); Registry.addOre("dustIron", GRIT_IRON.getRegistryName());
+        Registry.addItem(GRIT_GOLD); Registry.addOre("dustGold", GRIT_GOLD.getRegistryName());
+        Registry.addItem(GRIT_SILVER); Registry.addOre("dustSilver", GRIT_SILVER.getRegistryName());
+        Registry.addItem(GRIT_NICKEL); Registry.addOre("dustNickel", GRIT_NICKEL.getRegistryName());
+        Registry.addItem(GRIT_LEAD); Registry.addOre("dustLead", GRIT_LEAD.getRegistryName());
+        Registry.addItem(GRIT_URANIUM); Registry.addOre("dustUranium", GRIT_URANIUM.getRegistryName());
+        Registry.addItem(GRIT_CONSTANTAN); Registry.addOre("dustConstantan", GRIT_CONSTANTAN.getRegistryName());
+        Registry.addItem(GRIT_ELECTRUM); Registry.addOre("dustElectrum", GRIT_ELECTRUM.getRegistryName());
+
+        Registry.addItem(WIRECOIL_LV); Registry.addOre("wirecoil", WIRECOIL_LV.getRegistryName());
+        Registry.addItem(WIRECOIL_MV); Registry.addOre("wirecoil", WIRECOIL_MV.getRegistryName());
+        Registry.addItem(WIRECOIL_HV); Registry.addOre("wirecoil", WIRECOIL_HV.getRegistryName());
+        Registry.addItem(WIRECOIL_HEMP); Registry.addOre("wirecoil", WIRECOIL_HEMP.getRegistryName());
+        Registry.addItem(WIRECOIL_STEEL); Registry.addOre("wirecoil", WIRECOIL_STEEL.getRegistryName());
+        Registry.addItem(WIRECOIL_REDSTONE); Registry.addOre("wirecoil", WIRECOIL_REDSTONE.getRegistryName());
+        Registry.addItem(WIRECOIL_LV_INSULATED); Registry.addOre("wirecoil", WIRECOIL_LV_INSULATED.getRegistryName());
+        Registry.addItem(WIRECOIL_MV_INSULATED); Registry.addOre("wirecoil", WIRECOIL_MV_INSULATED.getRegistryName());
 
         Registry.addItem(INDUSTRIAL_HEMP_SEEDS);
 
