@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:steel_scaffolding_3",
+    "count": 4
+  },
+  "pattern": [
+    "ITI",
+    " S ",
+    "S S"
+  ],
+  "key": {
+    "T": {
+      "type": "forge:ore_dict",
+      "ore": "plankTreatedWood"
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickSteel"
+    }
+  }
+}
