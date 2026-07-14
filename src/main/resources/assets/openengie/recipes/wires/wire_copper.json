@@ -1,0 +1,25 @@
+{
+  "type": "openengie:tool_damage_shaped",
+
+  "pattern": [
+    "I ",
+    " H"
+  ],
+
+  "key": {
+    "I": {
+      "item": "openengie:plate_copper"
+    },
+    "H": {
+      "item": "openengie:tool_wirecutters",
+      "data": 32767
+    }
+  },
+
+  "result": {
+    "item": "openengie:wire_copper",
+    "count": 2
+  },
+
+  "damage": 7
+}

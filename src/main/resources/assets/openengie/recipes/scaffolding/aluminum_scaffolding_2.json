@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:aluminum_scaffolding_2",
+    "count": 4
+  },
+  "pattern": [
+    "IPI",
+    " S ",
+    "S S"
+  ],
+  "key": {
+    "P": {
+      "type": "forge:ore_dict",
+      "ore": "plateAluminum"
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotAluminum"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickAluminum"
+    }
+  }
+}

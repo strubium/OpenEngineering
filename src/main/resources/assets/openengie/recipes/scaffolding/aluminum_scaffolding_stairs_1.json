@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "openengie:aluminum_scaffolding_1"
+    }
+  },
+  "result": {
+    "item": "openengie:aluminum_scaffolding_1_stairs",
+    "count": 4
+  }
+}
