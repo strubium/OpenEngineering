@@ -1,0 +1,5 @@
+{
+  "recipes": {
+    "tool_damage_shaped": "com.strubium.openengie.core.recipe.ToolDamageShapedRecipeFactory"
+  }
+}

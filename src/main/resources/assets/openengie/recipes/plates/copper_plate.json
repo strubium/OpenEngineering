@@ -1,0 +1,26 @@
+{
+  "type": "openengie:tool_damage_shaped",
+
+  "pattern": [
+    "I  ",
+    " H ",
+    "   "
+  ],
+
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "H": {
+      "item": "openengie:tool_hammer",
+      "data": 32767
+    }
+  },
+
+  "result": {
+    "item": "openengie:plate_copper"
+  },
+
+  "damage": 5
+}
