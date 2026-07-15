@@ -7,6 +7,7 @@ import com.strubium.openengie.core.blocks.chute.BlockChute;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import com.strubium.openengie.core.blocks.chute.BlockLadderChute;
+import com.strubium.openengie.core.blocks.concrete.BlockConcreteLayer;
 import com.strubium.openengie.core.blocks.ladder.BlockMetalLadder;
 import com.strubium.openengie.core.registry.Registry;
 import net.minecraft.block.*;
@@ -87,9 +88,7 @@ public class ModBlocks {
     public static final Block CONCRETE = createBlock(Material.ROCK, "concrete");
    // public static final Block CONCRETE_SLAB = createSlab(CONCRETE);
     public static final Block CONCRETE_STAIRS = createStairs(CONCRETE);
-    public static final Block CONCRETE_SHEET = createTransparentBlock(Material.ROCK, "concrete_sheet");
-    public static final Block CONCRETE_PANEL = createTransparentBlock(Material.ROCK, "concrete_panel");
-    public static final Block CONCRETE_CHUNK = createTransparentBlock(Material.ROCK, "concrete_chunk");
+    public static final Block CONCRETE_LAYER = new BlockConcreteLayer(Material.ROCK, "concrete_layer");
     public static final Block CONCRETE_TILE = createBlock(Material.ROCK, "concrete_tile");
     //public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
     public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE_TILE);
@@ -349,9 +348,7 @@ public class ModBlocks {
         Registry.addBlock(CONCRETE_TILE_STAIRS);
         //
         Registry.addBlock(LEADED_CONCRETE_STAIRS);
-        Registry.addBlock(CONCRETE_SHEET);
-        Registry.addBlock(CONCRETE_PANEL);
-        Registry.addBlock(CONCRETE_CHUNK);
+        Registry.addBlock(CONCRETE_LAYER);
         Registry.addBlock(TREATED_WOOD_PLANK);//horizontal
         Registry.addBlock(TREATED_WOOD_PLANK_VERTICAL);//vertical
         Registry.addBlock(TREATED_WOOD_PLANK_PACKAGED);//packaged

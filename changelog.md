@@ -16,6 +16,8 @@
   * Copper Wire
 * Added durability to tools 
 * Created a new `openengie:tool_damage_shaped` factory to let recipes like wire crafting damage the tool
+* Replaced Concrete chunk/panel/sheet with one block that has all 8 layers
+
 
 # Dev-11
 * Recreated Steel Ladder
