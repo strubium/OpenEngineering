@@ -6,8 +6,8 @@
     "down": "openengie:blocks/stone_device_allloy_smelter_bottom_2",
     "up": "openengie:blocks/stone_device_allloy_smelter_top_0",
 
-    "north": "openengie:blocks/stone_device_allloy_smelter_off_0",
-    "south": "openengie:block/stone_device_allloy_smelter_side_0",
+    "north": "openengie:blocks/stone_device_allloy_smelter_off_3",
+    "south": "openengie:blocks/stone_device_allloy_smelter_side_2",
 
     "west": "openengie:blocks/stone_device_allloy_smelter_off_3",
     "east": "openengie:blocks/stone_device_allloy_smelter_side_0"
