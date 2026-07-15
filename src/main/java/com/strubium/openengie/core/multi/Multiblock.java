@@ -1,5 +1,6 @@
 package com.strubium.openengie.core.multi;
 
+import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
@@ -23,7 +24,6 @@ public class Multiblock {
     private final int sizeZ; // forward
     private final Predicate<IBlockState> validator;
     private EnumFacing frontSide = EnumFacing.NORTH;
-    private final Block formedBlock;
 
     /**
      * @param sizeX number of blocks along right (x) axis (>=1)
@@ -31,7 +31,7 @@ public class Multiblock {
      * @param sizeZ number of blocks along forward (z) axis (>=1)
      * @param validator predicate that returns true for a valid "component" block at a position
      */
-    public Multiblock(int sizeX, int sizeY, int sizeZ, Block formedBlock, Predicate<IBlockState> validator) {
+    public Multiblock(int sizeX, int sizeY, int sizeZ, Predicate<IBlockState> validator) {
         if (sizeX < 1 || sizeY < 1 || sizeZ < 1) {
             throw new IllegalArgumentException("All dimensions must be >= 1");
         }
@@ -39,7 +39,6 @@ public class Multiblock {
         this.sizeY = sizeY;
         this.sizeZ = sizeZ;
         this.validator = validator;
-        this.formedBlock = formedBlock;
     }
 
     /**
@@ -50,15 +49,36 @@ public class Multiblock {
      * @param flags world.setBlockState flags (e.g. 3)
      * @return true if a multiblock was formed
      */
-    public boolean tryForm(World world, BlockPos clickedPos, EnumFacing playerFacing, int flags) {
+    public boolean tryForm(World world, BlockPos clickedPos, Block formedBlock, EnumFacing playerFacing, int flags) {
+
+        System.out.println("playerFacing = " + playerFacing);
+        System.out.println("formedBlock = " + formedBlock);
+        System.out.println("clickedPos = " + clickedPos);
+
         Match match = findMatch(world, clickedPos);
+
+        if (playerFacing == null) {
+            throw new IllegalStateException("playerFacing is null");
+        }
 
         frontSide = playerFacing.getOpposite();
 
         if (match != null) {
-            fillStructure(world, match.base, match.facing, formedBlock.getDefaultState(), flags);
+            if (formedBlock == null) {
+                throw new IllegalStateException("formedBlock is null");
+            }
+
+            fillStructure(
+                    world,
+                    match.base,
+                    match.facing,
+                    formedBlock.getDefaultState(),
+                    flags
+            );
+
             return true;
         }
+
         return false;
     }
 
@@ -110,10 +130,43 @@ public class Multiblock {
             for (int z = 0; z < sizeZ; z++) {
                 for (int y = 0; y < sizeY; y++) {
                     BlockPos placePos = base.offset(facing, z).offset(right, x).up(y);
-                    world.setBlockState(placePos, state, flags);
-                }
+                    IBlockState placedState;
+
+                    MultiblockPart part = getPart(x, y, z);
+                    placedState = state.withProperty(BlockAlloyKilnFormed.PART, part);
+
+
+                    world.setBlockState(placePos, placedState, flags);                }
             }
         }
+    }
+
+    private MultiblockPart getPart(int x, int y, int z) {
+
+        boolean bottom = y == 0;
+        boolean top = y == sizeY - 1;
+
+        boolean front = z == 0;
+        boolean back = z == sizeZ - 1;
+
+        boolean left = x == 0;
+        boolean right = x == sizeX - 1;
+
+        if (bottom || top) {
+            if (front && left)
+                return bottom ? MultiblockPart.FRONT_LEFT_BOTTOM : MultiblockPart.FRONT_LEFT_TOP;
+
+            if (front && right)
+                return bottom ? MultiblockPart.FRONT_RIGHT_BOTTOM : MultiblockPart.FRONT_RIGHT_TOP;
+
+            if (back && left)
+                return bottom ? MultiblockPart.BACK_LEFT_BOTTOM : MultiblockPart.BACK_LEFT_TOP;
+
+            if (back && right)
+                return bottom ? MultiblockPart.BACK_RIGHT_BOTTOM : MultiblockPart.BACK_RIGHT_TOP;
+        }
+
+        return MultiblockPart.INTERIOR;
     }
 
     /** Small holder for a successful match. */

@@ -316,6 +316,7 @@
     {
       "name":"stone_device_allloy_smelter_side",
       "type": "block",
+      "split": "quarter",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_side.png"
     },
     {

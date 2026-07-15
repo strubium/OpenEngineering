@@ -333,6 +333,8 @@ public class ModBlocks {
         Registry.addBlock(INSULATED_GLASS);
         Registry.addBlock(ALLOY_KILN_BRICK);
         Registry.addOre("blockBrick", ALLOY_KILN_BRICK.getRegistryName());
+        Registry.addBlock(ALLOY_KILN_FORMED);
+
 
         //   Registry.addBlock(COKE_BRICK_SLAB);
        // Registry.addBlock(BLASTBRICK_SLAB);

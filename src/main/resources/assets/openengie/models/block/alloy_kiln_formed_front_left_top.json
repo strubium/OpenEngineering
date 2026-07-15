@@ -1,0 +1,15 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "openengie:block/alloy_smelter_side",
+
+    "down": "openengie:blocks/stone_device_allloy_smelter_bottom_2",
+    "up": "openengie:blocks/stone_device_allloy_smelter_top_0",
+
+    "north": "openengie:blocks/stone_device_allloy_smelter_off_0",
+    "south": "openengie:block/stone_device_allloy_smelter_side_0",
+
+    "west": "openengie:blocks/stone_device_allloy_smelter_off_0",
+    "east": "openengie:blocks/stone_device_allloy_smelter_side_0"
+  }
+}

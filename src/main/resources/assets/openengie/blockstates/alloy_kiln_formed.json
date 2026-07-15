@@ -1,1 +1,33 @@
-{"variants":{"normal":{"model":"openengie:alloy_kiln_formed"}}}
+{
+  "variants": {
+    "part=front_left_bottom": {
+      "model": "openengie:alloy_kiln_formed_front_left_bottom"
+    },
+    "part=front_right_bottom": {
+      "model": "openengie:alloy_kiln_formed_front_right_bottom"
+    },
+    "part=back_left_bottom": {
+      "model": "openengie:alloy_kiln_formed_back_left_bottom"
+    },
+    "part=back_right_bottom": {
+      "model": "openengie:alloy_kiln_formed_back_right_bottom"
+    },
+
+    "part=front_left_top": {
+      "model": "openengie:alloy_kiln_formed_front_left_top"
+    },
+    "part=front_right_top": {
+      "model": "openengie:alloy_kiln_formed_front_right_top"
+    },
+    "part=back_left_top": {
+      "model": "openengie:alloy_kiln_formed_back_left_top"
+    },
+    "part=back_right_top": {
+      "model": "openengie:alloy_kiln_formed_back_right_top"
+    },
+
+    "part=interior": {
+      "model": "openengie:alloy_kiln_formed_interior"
+    }
+  }
+}
