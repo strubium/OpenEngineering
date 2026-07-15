@@ -132,7 +132,6 @@ public class ModItems {
         Registry.addItem(STICK_ALUMINIUM);
         Registry.addOre("stick", STICK_ALUMINIUM.getRegistryName());
         Registry.addOre("stickAluminum", STICK_ALUMINIUM.getRegistryName());
-
         Registry.addOre("stick", new ResourceLocation("minecraft:stick"));
 
 

@@ -17,6 +17,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
@@ -172,7 +173,6 @@ public class ModBlocks {
     public static final Block TREATED_WOOD_CHUTE = createChute(TREATED_WOOD_PLANK);
 
 
-
     public static Block createBlock(Material material, String name){
         Block block = new Block(material)
                 .setCreativeTab(OpenEngineering.CREATIVE_TAB)
@@ -309,17 +309,33 @@ public class ModBlocks {
         //Registry.addBlock(STORAGE_ELECTRUM_SLAB);
         //Registry.addBlock(STORAGE_STEEL_SLAB);
         Registry.addBlock(COKE_BRICK);
+        Registry.addOre("blockBrick", COKE_BRICK.getRegistryName());
         Registry.addBlock(BLASTBRICK);
+        Registry.addOre("blockBrick", BLASTBRICK.getRegistryName());
         Registry.addBlock(BLASTBRICK_REINFORCED);
+        Registry.addOre("blockBrick", BLASTBRICK_REINFORCED.getRegistryName());
+        Registry.addOre("blockBrickReinforced", BLASTBRICK_REINFORCED.getRegistryName());
+        Registry.addOre("blockBrick", new ResourceLocation("minecraft:brick_block"));
+
+
         //
         Registry.addBlock(COKE);
         Registry.addBlock(HEMP_CRETE);
+        Registry.addOre("concrete", HEMP_CRETE.getRegistryName());
         Registry.addBlock(CONCRETE);
+        Registry.addOre("concrete", CONCRETE.getRegistryName());
         Registry.addBlock(CONCRETE_TILE);
+        Registry.addOre("concrete", CONCRETE_TILE.getRegistryName());
+        Registry.addOre("concreteTile", CONCRETE_TILE.getRegistryName());
         Registry.addBlock(LEADED_CONCRETE);
+        Registry.addOre("concrete", LEADED_CONCRETE.getRegistryName());
+        Registry.addOre("concreteReinforced", LEADED_CONCRETE.getRegistryName());
+
         Registry.addBlock(INSULATED_GLASS);
         Registry.addBlock(ALLOY_KILN_BRICK);
-     //   Registry.addBlock(COKE_BRICK_SLAB);
+        Registry.addOre("blockBrick", ALLOY_KILN_BRICK.getRegistryName());
+
+        //   Registry.addBlock(COKE_BRICK_SLAB);
        // Registry.addBlock(BLASTBRICK_SLAB);
         //
         // Registry.addBlock(BLASTBRICK_REINFORCED_SLAB);
