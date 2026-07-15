@@ -1,3 +1,22 @@
+# Dev-12
+* Started to add oredict to blocks and items
+  * Treated Stick and Rods
+    * Also added general `stick` tag to us and vanilla 
+  * Bricks
+    * Also added general `blockBrick` tag to us and vanilla
+  * Steel Scaffolding
+  * Aluminum Scaffolding
+* Stated to add crafting recipes to blocks and items
+  * Sheetmetal chutes
+  * Sheetmetal ladder chutes
+  * Rods
+  * Steel Ladder
+  * Steel Scaffolding
+  * Aluminum Scaffolding
+  * Copper Wire
+* Added durability to tools 
+* Created a new `openengie:tool_damage_shaped` factory to let recipes like wire crafting damage the tool
+
 # Dev-11
 * Recreated Steel Ladder
 * Recreated the Covered Ladder's as Chute Ladders 
