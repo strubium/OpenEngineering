@@ -6,8 +6,10 @@ import com.strubium.openengie.OpenEngineering;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.SimpleReloadableResourceManager;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -109,36 +111,91 @@ public class RuntimeAssets {
     private static void downloadMissingTextures(JsonArray textures) {
         for (JsonElement elem : textures) {
             JsonObject tex = elem.getAsJsonObject();
+
             String name = tex.get("name").getAsString();
             String url = tex.get("url").getAsString();
-            JsonElement typeElement = tex.get("type");
-            if (typeElement == null) {
-                throw new RuntimeException("Texture '" + name + "' is missing a type field.");
+            String type = tex.get("type").getAsString();
+
+            String split = tex.has("split") ? tex.get("split").getAsString() : null;
+
+            String basePath = "textures/" + type + "s/";
+
+            if (split == null) {
+                File file = new File("config/openengie/assets/" + Tags.MOD_ID + "/" + basePath + name + ".png");
+
+                if (!file.exists()) {
+                    file.getParentFile().mkdirs();
+
+                    try (InputStream in = new URL(url).openStream();
+                         FileOutputStream out = new FileOutputStream(file)) {
+
+                        byte[] buffer = new byte[4096];
+                        int bytesRead;
+                        while ((bytesRead = in.read(buffer)) != -1) {
+                            out.write(buffer, 0, bytesRead);
+                        }
+
+                        OpenEngineering.LOGGER.info("Downloaded {}", name);
+
+                    } catch (IOException ex) {
+                        OpenEngineering.LOGGER.error("Failed to download {}", name, ex);
+                    }
+                }
+
+                continue;
             }
-            String type = typeElement.getAsString();
 
-            String path = "textures/"+type +"s/"+name+".png";
+            try (InputStream in = new URL(url).openStream()) {
 
-            File file = new File("config/openengie/assets/" + Tags.MOD_ID + "/" + path);
-            if (!file.exists()) {
-                file.getParentFile().mkdirs();
-                OpenEngineering.LOGGER.info("Downloading {}...", name);
+                BufferedImage image = ImageIO.read(in);
 
-                try (InputStream in = new URL(url).openStream();
-                     FileOutputStream out = new FileOutputStream(file)) {
+                int width = image.getWidth();
+                int height = image.getHeight();
 
-                    byte[] buffer = new byte[4096];
-                    int bytesRead;
-                    while ((bytesRead = in.read(buffer)) != -1) {
-                        out.write(buffer, 0, bytesRead);
+                if ("half".equalsIgnoreCase(split)) {
+
+                    int halfWidth = width / 2;
+
+                    saveTexture(image.getSubimage(0, 0, halfWidth, height),
+                            basePath + name + "_0.png");
+
+                    saveTexture(image.getSubimage(halfWidth, 0, halfWidth, height),
+                            basePath + name + "_1.png");
+
+                } else if ("quarter".equalsIgnoreCase(split)) {
+
+                    int halfWidth = width / 2;
+                    int halfHeight = height / 2;
+
+                    int index = 0;
+                    for (int y = 0; y < 2; y++) {
+                        for (int x = 0; x < 2; x++) {
+                            saveTexture(
+                                    image.getSubimage(
+                                            x * halfWidth,
+                                            y * halfHeight,
+                                            halfWidth,
+                                            halfHeight),
+                                    basePath + name + "_" + index++ + ".png");
+                        }
                     }
 
-                    OpenEngineering.LOGGER.info("Downloaded {} to {}", name, file.getAbsolutePath());
-
-                } catch (IOException ex) {
-                    OpenEngineering.LOGGER.error("Failed to download asset {}", name, ex);
+                } else {
+                    OpenEngineering.LOGGER.warn("Unknown split type '{}'", split);
                 }
+
+            } catch (IOException ex) {
+                OpenEngineering.LOGGER.error("Failed to download {}", name, ex);
             }
+        }
+    }
+
+    private static void saveTexture(BufferedImage image, String relativePath) throws IOException {
+        File file = new File("config/openengie/assets/" + Tags.MOD_ID + "/" + relativePath);
+        file.getParentFile().mkdirs();
+
+        if (!file.exists()) {
+            ImageIO.write(image, "png", file);
         }
     }
 

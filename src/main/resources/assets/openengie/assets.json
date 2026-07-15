@@ -298,16 +298,19 @@
     {
       "name":"stone_device_allloy_smelter_bottom",
       "type": "block",
+      "split": "quarter",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_bottom.png"
     },
     {
       "name":"stone_device_allloy_smelter_off",
       "type": "block",
+      "split": "quarter",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_off.png"
     },
     {
       "name":"stone_device_allloy_smelter_on",
       "type": "block",
+      "split": "quarter",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_on.png"
     },
     {
@@ -318,6 +321,7 @@
     {
       "name":"stone_device_allloy_smelter_top",
       "type": "block",
+      "split": "quarter",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_device_allloy_smelter_top.png"
     },
     {
