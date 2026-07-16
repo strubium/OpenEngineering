@@ -51,10 +51,6 @@ public class Multiblock {
      */
     public boolean tryForm(World world, BlockPos clickedPos, Block formedBlock, EnumFacing playerFacing, int flags) {
 
-        System.out.println("playerFacing = " + playerFacing);
-        System.out.println("formedBlock = " + formedBlock);
-        System.out.println("clickedPos = " + clickedPos);
-
         Match match = findMatch(world, clickedPos);
 
         if (playerFacing == null) {
@@ -88,14 +84,18 @@ public class Multiblock {
      * @return Match with base and facing, or null if none found.
      */
     public Match findMatch(World world, BlockPos clickedPos) {
-        // Iterate all horizontal facings
         for (EnumFacing facing : EnumFacing.Plane.HORIZONTAL) {
-            // Offsets to shift the base such that clickedPos is somewhere inside the box.
-            // For a dimension N we need offsets from -(N-1) .. 0 (inclusive)
+            EnumFacing right = facing.rotateY();
+
             for (int offX = -(sizeX - 1); offX <= 0; offX++) {
                 for (int offZ = -(sizeZ - 1); offZ <= 0; offZ++) {
                     for (int offY = -(sizeY - 1); offY <= 0; offY++) {
-                        BlockPos candidateBase = clickedPos.add(offX, offY, offZ);
+
+                        BlockPos candidateBase = clickedPos
+                                .offset(right, offX)
+                                .offset(facing, offZ)
+                                .up(offY);
+
                         if (structureMatches(world, candidateBase, facing)) {
                             return new Match(candidateBase, facing);
                         }
@@ -103,6 +103,7 @@ public class Multiblock {
                 }
             }
         }
+
         return null;
     }
 
