@@ -136,14 +136,19 @@ public class ModItems {
 
 
 
-        Registry.addItem(INDUSTRIAL_HEMP_FIBERS);
-        Registry.addItem(INDUSTRIAL_HEMP_FABRIC);
+        Registry.addItem(INDUSTRIAL_HEMP_FIBERS); Registry.addOre("fiberHemp", INDUSTRIAL_HEMP_FIBERS.getRegistryName());
+        Registry.addItem(INDUSTRIAL_HEMP_FABRIC); Registry.addOre("fabricHemp", INDUSTRIAL_HEMP_FABRIC.getRegistryName());
         Registry.addItem(COAL_COKE);
         Registry.addItem(SLAG);
 
 
         Registry.addItem(COMPONENT_MECH_IRON);
+        Registry.addOre("component", COMPONENT_MECH_STEEL.getRegistryName());
+        Registry.addOre("componentIron", COMPONENT_MECH_STEEL.getRegistryName());
+
         Registry.addItem(COMPONENT_MECH_STEEL);
+        Registry.addOre("component", COMPONENT_MECH_STEEL.getRegistryName());
+        Registry.addOre("componentSteel", COMPONENT_MECH_STEEL.getRegistryName());
 
         Registry.addItem(WIRE_COPPER);
         Registry.addOre("wire", WIRE_COPPER.getRegistryName());

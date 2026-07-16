@@ -143,9 +143,7 @@ tile.openengie.hemp_crete.name=Hempcrete
 tile.openengie.hemp_crete_stairs.name=Hempcrete Stairs
 tile.openengie.concrete_tile.name=Concrete Tile
 tile.openengie.concrete_tile_stairs.name=Concrete Tile Stairs
-tile.openengie.concrete_sheet.name=Concrete Sheet
-tile.openengie.concrete_panel.name=Concrete Panel
-tile.openengie.concrete_chunk.name=Concrete Chunk
+tile.openengie.concrete_layer.name=Concrete Layer
 
 tile.openengie.insulated_glass.name=Insulated Glass
 
