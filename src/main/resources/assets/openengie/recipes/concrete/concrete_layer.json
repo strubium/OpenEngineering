@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:concrete_layer",
+    "count": 6
+  },
+  "pattern": [
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "openengie:concrete"
+    }
+  }
+}
