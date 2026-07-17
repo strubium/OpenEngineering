@@ -50,6 +50,11 @@ public class RuntimeAssets {
                     throw new RuntimeException("Duplicate texture name found: " + name);
                 }
 
+                // Split textures don't require a single .png file
+                if (tex.has("split")) {
+                    continue;
+                }
+
                 String path = "textures/" + type + "s/" + name + ".png";
 
                 File file = new File("config/openengie/assets/" + Tags.MOD_ID + "/" + path);

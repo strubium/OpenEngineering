@@ -143,8 +143,8 @@ public class ModItems {
 
 
         Registry.addItem(COMPONENT_MECH_IRON);
-        Registry.addOre("component", COMPONENT_MECH_STEEL.getRegistryName());
-        Registry.addOre("componentIron", COMPONENT_MECH_STEEL.getRegistryName());
+        Registry.addOre("component", COMPONENT_MECH_IRON.getRegistryName());
+        Registry.addOre("componentIron", COMPONENT_MECH_IRON.getRegistryName());
 
         Registry.addItem(COMPONENT_MECH_STEEL);
         Registry.addOre("component", COMPONENT_MECH_STEEL.getRegistryName());

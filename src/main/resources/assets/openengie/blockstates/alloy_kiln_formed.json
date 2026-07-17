@@ -27,7 +27,7 @@
     },
 
     "part=interior": {
-      "model": "openengie:alloy_kiln_formed_interior"
+      "model": "openengie:base/base_multi_interior"
     }
   }
 }
