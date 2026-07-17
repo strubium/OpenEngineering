@@ -8,6 +8,8 @@ import net.minecraft.util.ResourceLocation;
 
 
 public class ModItems {
+    public static final Item TOOL_NOVICE_HAMMER = createItem("tool_novice_hammer").setMaxDamage(300).setMaxStackSize(1);
+
     public static final Item TOOL_HAMMER = createItem("tool_hammer").setMaxDamage(500).setMaxStackSize(1);
 
     public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters").setMaxDamage(475).setMaxStackSize(1);
@@ -174,7 +176,11 @@ public class ModItems {
 
         Registry.addItem(GRIT_HOP_GRAPHITE); Registry.addOre("dustHopGraphite", GRIT_HOP_GRAPHITE.getRegistryName());
 
+        Registry.addItem(TOOL_NOVICE_HAMMER);
+        Registry.addOre("toolNoviceHammer", TOOL_NOVICE_HAMMER.getRegistryName());
+        Registry.addOre("toolHammer", TOOL_NOVICE_HAMMER.getRegistryName());
         Registry.addItem(TOOL_HAMMER);
+        Registry.addOre("toolHammer", TOOL_HAMMER.getRegistryName());
         Registry.addItem(TOOL_WIRECUTTERS);
 
         Registry.addItem(VACUUM_TUBE);

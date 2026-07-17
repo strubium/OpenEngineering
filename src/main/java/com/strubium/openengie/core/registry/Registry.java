@@ -26,11 +26,14 @@ import java.util.List;
 @Mod.EventBusSubscriber
 public class Registry {
 
-    /** Holds all registered blocks dynamically */
+    /** Holds all the to-be registered blocks */
     private static final List<Block> BLOCKS = new ArrayList<>();
+    /** Holds all the to-be registered items */
     private static final List<Item> ITEMS = new ArrayList<>();
+    /** Holds all the to-be registered tile entities */
     private static final List<TileEntry> TILE_ENTITIES = new ArrayList<>();
-
+    /** Holds all the to-be applied oredict keys */
+    private static final List<OreEntry> ORES = new ArrayList<>();
 
     /**
      * Add an already-constructed block to the registry list.
@@ -68,8 +71,6 @@ public class Registry {
         Block block = getBlock(name);
         return block != null ? Item.getItemFromBlock(block) : null;
     }
-
-    private static final List<OreEntry> ORES = new ArrayList<>();
 
     public static void addOre(String name, ResourceLocation regName) {
         ORES.add(new OreEntry(name, regName));

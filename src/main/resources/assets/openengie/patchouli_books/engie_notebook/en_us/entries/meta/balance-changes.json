@@ -1,0 +1,28 @@
+{
+  "name": "Balance Changes",
+  "category": "meta",
+  "icon": "openengie:tool_novice_hammer",
+  "pages" : [
+    {
+      "type": "text",
+      "text": "As OpenEngineering is a continuation of IE, we feel it is a good idea to make some changes where it would benefit the player"
+    },
+    {
+      "type": "crafting",
+      "title": "Novice Hammer",
+      "recipe": "openengie:tools/tool_novice_hammer",
+      "text": "The Novice Hammer replaces the Engineer's Hammer as the first hammer you craft. It is made with untreated sticks and iron. Only some multiblocks can be made with this hammer. This change was made to slightly expand the early/mid game progression"
+    },
+    {
+      "type": "crafting",
+      "title": "Engineer's Hammer",
+      "recipe": "openengie:tools/tool_hammer",
+      "text": "The Engineers Hammer has been changed to require treated sticks and steel. All multiblocks can be made with this hammer."
+    },
+    {
+      "type": "text",
+      "text": ""
+    }
+
+  ]
+}

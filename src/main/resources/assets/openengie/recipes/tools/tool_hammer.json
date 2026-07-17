@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:tool_hammer",
+    "count": 1
+  },
+  "pattern": [
+    " IT",
+    " SI",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickTreatedWood"
+    },
+    "T": {
+      "type": "forge:ore_dict",
+      "ore": "string"
+    }
+  }
+}

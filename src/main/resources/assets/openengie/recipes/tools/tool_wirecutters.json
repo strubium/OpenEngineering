@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:tool_wirecutters",
+    "count": 1
+  },
+  "pattern": [
+    "SI",
+    " S"
+
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickTreatedWood"
+    }
+  }
+}

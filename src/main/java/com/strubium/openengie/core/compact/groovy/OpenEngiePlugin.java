@@ -2,12 +2,14 @@ package com.strubium.openengie.core.compact.groovy;
 
 import com.cleanroommc.groovyscript.api.GroovyPlugin;
 import com.cleanroommc.groovyscript.compat.mods.GroovyContainer;
+import com.strubium.openengie.OpenEngineering;
+import com.strubium.openengie.Tags;
 
 public class OpenEngiePlugin implements GroovyPlugin {
 
     @Override
     public String getModId() {
-        return "openengie";
+        return Tags.MOD_ID;
     }
 
     @Override
@@ -22,6 +24,6 @@ public class OpenEngiePlugin implements GroovyPlugin {
 
     @Override
     public void onCompatLoaded(GroovyContainer<?> container) {
-        System.out.println("OpenEngie compat loaded");
+        OpenEngineering.LOGGER.info("OpenEngie GrS compat loaded");
     }
 }
