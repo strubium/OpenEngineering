@@ -78,7 +78,7 @@ minecraft {
     useDependencyAccessTransformers.set(propertyBool('use_dependency_at_files'))
 
     username.set(propertyString('minecraft_username'))
-    
+
     // Add any additional tweaker classes here
     extraTweakClasses.addAll(propertyStringList('extra_tweak_classes'))
 
@@ -148,6 +148,8 @@ dependencies {
     implementation rfg.deobf("curse.maven:multiblocked-604054:6786327")
 
     implementation rfg.deobf("curse.maven:had-enough-items-557549:7515497")
+
+    implementation rfg.deobf("curse.maven:groovyscript-687577:7925117")
 
     implementation rfg.deobf("curse.maven:immersive-engineering-231951:2974106")
 

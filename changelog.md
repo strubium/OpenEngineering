@@ -17,6 +17,9 @@
 * Added durability to tools 
 * Created a new `openengie:tool_damage_shaped` factory to let recipes like wire crafting damage the tool
 * Replaced Concrete chunk/panel/sheet with one block that has all 8 layers
+* Added grooyscript support to `openengie:tool_damage_shaped`. Also serves as the base for when we will need more compatibility.
+* Changed smelting xp values.
+* Texture downloader can now split larger images. 
 
 
 # Dev-11

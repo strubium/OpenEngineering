@@ -8,9 +8,9 @@ import net.minecraft.util.ResourceLocation;
 
 
 public class ModItems {
-    public static final Item TOOL_HAMMER = createItem("tool_hammer").setMaxDamage(500);
+    public static final Item TOOL_HAMMER = createItem("tool_hammer").setMaxDamage(500).setMaxStackSize(1);
 
-    public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters").setMaxDamage(475);
+    public static final Item TOOL_WIRECUTTERS = createItem("tool_wirecutters").setMaxDamage(475).setMaxStackSize(1);
 
     public static final Item INGOT_ALUMINUM = createItem("aluminum_ingot");
     public static final Item INGOT_COPPER = createItem("copper_ingot");
