@@ -1,5 +1,6 @@
-item.openengie.tool_hammer.name=Hammer
-item.openengie.tool_wirecutters.name=Wirecutters
+item.openengie.tool_novice_hammer.name=Novice's Hammer
+item.openengie.tool_hammer.name=Engineer's Hammer
+item.openengie.tool_wirecutters.name=Engineer's Wirecutters
 
 item.openengie.stick_treated_wood.name=Treated Wood Stick
 item.openengie.stick_iron.name=Iron Rod
