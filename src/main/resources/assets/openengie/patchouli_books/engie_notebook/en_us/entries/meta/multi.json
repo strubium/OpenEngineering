@@ -1,0 +1,14 @@
+{
+  "name": "Balance Changes",
+  "category": "meta",
+  "icon": "openengie:tool_novice_hammer",
+  "pages" : [
+    {
+      "type": "multiblock",
+      "name": "Alloy Kiln",
+      "multiblock_id": "openengie:alloy_klin_multiblock"
+
+    }
+
+  ]
+}

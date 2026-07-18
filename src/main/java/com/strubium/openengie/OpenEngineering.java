@@ -3,6 +3,7 @@ package com.strubium.openengie;
 import com.strubium.openengie.assets.RuntimeAssets;
 import com.strubium.openengie.core.*;
 import com.strubium.openengie.core.generated.OreGenerator;
+import com.strubium.openengie.core.multi.patch.AlloyKlinMultiblock;
 import com.strubium.openengie.core.registry.Registry;
 import mcp.MethodsReturnNonnullByDefault;
 import net.minecraft.creativetab.CreativeTabs;
@@ -63,5 +64,8 @@ public class OpenEngineering {
         GameRegistry.addSmelting(ModBlocks.ORE_URANIUM, new ItemStack(ModItems.INGOT_URANIUM), 2.0f);
 
         Registry.registerOreDict();
+
+        AlloyKlinMultiblock.register();
+
     }
 }
