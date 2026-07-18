@@ -1,7 +1,7 @@
 {
-  "name": "Balance Changes",
+  "name": "Multiblock Display",
   "category": "meta",
-  "icon": "openengie:tool_novice_hammer",
+  "icon": "openengie:alloy_klin_brick",
   "pages" : [
     {
       "type": "multiblock",

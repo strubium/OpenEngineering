@@ -1,6 +1,5 @@
 package com.strubium.openengie.core.multi;
 
-import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
@@ -42,14 +41,46 @@ public class Multiblock {
     }
 
     /**
-     * Attempts to find a valid placement that includes clickedPos, and if found fills it with the given state.
+     * Returns true if a valid multiblock structure can be formed
+     * around the clicked position.
      *
      * @param world the world
-     * @param clickedPos the position the player clicked (must be inside the candidate box)
-     * @param flags world.setBlockState flags (e.g. 3)
-     * @return true if a multiblock was formed
+     * @param clickedPos the position the player clicked
+     * @param playerFacing the direction the player is facing
+     * @return true if the multiblock can be formed
      */
-    public boolean tryForm(World world, BlockPos clickedPos, Block formedBlock, EnumFacing playerFacing, int flags) {
+    public boolean canForm(World world,
+                           BlockPos clickedPos,
+                           EnumFacing playerFacing) {
+
+        if (playerFacing == null) {
+            throw new IllegalStateException("playerFacing is null");
+        }
+
+        frontSide = playerFacing.getOpposite();
+
+        return findMatch(world, clickedPos) != null;
+    }
+
+    /**
+     * Attempts to find a valid placement that includes clickedPos,
+     * and if found fills it with the given state.
+     *
+     * @param world the world
+     * @param clickedPos the position the player clicked
+     * @param formedBlock the block to replace the structure with
+     * @param playerFacing the direction the player is facing
+     * @param flags world.setBlockState flags (e.g. 3)
+     */
+    public void tryForm(World world,
+                           BlockPos clickedPos,
+                           Block formedBlock,
+                           EnumFacing playerFacing,
+                           int flags) {
+
+        if (formedBlock == null) {
+            throw new IllegalStateException("formedBlock is null");
+        }
 
         Match match = findMatch(world, clickedPos);
 
@@ -59,11 +90,7 @@ public class Multiblock {
 
         frontSide = playerFacing.getOpposite();
 
-        if (match != null) {
-            if (formedBlock == null) {
-                throw new IllegalStateException("formedBlock is null");
-            }
-
+        if (canForm(world,clickedPos,playerFacing)){
             fillStructure(
                     world,
                     match.base,
@@ -71,11 +98,8 @@ public class Multiblock {
                     formedBlock.getDefaultState(),
                     flags
             );
-
-            return true;
         }
 
-        return false;
     }
 
     /**
@@ -133,11 +157,12 @@ public class Multiblock {
                     BlockPos placePos = base.offset(facing, z).offset(right, x).up(y);
                     IBlockState placedState;
 
-                    MultiblockPart part = getPart(x, y, z);
-                    placedState = state.withProperty(BlockAlloyKilnFormed.PART, part);
+                    //MultiblockPart part = getPart(x, y, z);
+                    //placedState = state.withProperty(BlockAlloyKilnFormed.PART, part);
 
 
-                    world.setBlockState(placePos, placedState, flags);                }
+                    //world.setBlockState(placePos, placedState, flags);
+                    }
             }
         }
     }

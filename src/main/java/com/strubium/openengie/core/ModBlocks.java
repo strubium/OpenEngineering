@@ -5,7 +5,6 @@ import com.strubium.openengie.OpenEngineering;
 import com.strubium.openengie.core.blocks.TransparentBlock;
 import com.strubium.openengie.core.blocks.chute.BlockChute;
 import com.strubium.openengie.core.blocks.alloy.BlockAlloyBrick;
-import com.strubium.openengie.core.blocks.alloy.BlockAlloyKilnFormed;
 import com.strubium.openengie.core.blocks.chute.BlockLadderChute;
 import com.strubium.openengie.core.blocks.concrete.BlockConcreteLayer;
 import com.strubium.openengie.core.blocks.ladder.BlockMetalLadder;
@@ -70,7 +69,7 @@ public class ModBlocks {
 
     public static final BlockAlloyBrick ALLOY_KILN_BRICK = new BlockAlloyBrick();
    // public static final Block ALLOY_KILN_BRICK_SLAB = createStairs(new BlockAlloyBrick());
-    public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
+    //public static final BlockAlloyKilnFormed ALLOY_KILN_FORMED = new BlockAlloyKilnFormed();
 
     public static final Block BLASTBRICK = createBlock(Material.ROCK, "blastbrick");
  //   public static final Block BLASTBRICK_SLAB = createSlab(BLASTBRICK);
@@ -333,7 +332,6 @@ public class ModBlocks {
         Registry.addBlock(INSULATED_GLASS);
         Registry.addBlock(ALLOY_KILN_BRICK);
         Registry.addOre("blockBrick", ALLOY_KILN_BRICK.getRegistryName());
-        Registry.addBlock(ALLOY_KILN_FORMED);
 
 
         //   Registry.addBlock(COKE_BRICK_SLAB);

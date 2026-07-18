@@ -18,23 +18,16 @@ public class AlloyKlinMultiblock {
         return PatchouliAPI.instance.makeMultiblock(
                 new String[][] {
                         {
-                                "AAA",
-                                "AAA",
-                                "AAA"
+                                "AA",
+                                "AA"
                         },
                         {
-                                "AAA",
-                                "A0A",
-                                "AAA"
-                        },
-                        {
-                                "AAA",
-                                "AAA",
-                                "AAA"
+                                "A0",
+                                "AA"
                         }
                 },
-                'A', alloyKlin
-
+                'A', alloyKlin,
+                '0', alloyKlin
         );
     }
 
