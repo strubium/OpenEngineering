@@ -1,0 +1,28 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:concrete",
+    "count": 6
+  },
+  "pattern": [
+    "SCS",
+    "GWG",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "sand"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "gravel"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  }
+}

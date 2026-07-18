@@ -141,7 +141,7 @@ public class ModItems {
         Registry.addItem(INDUSTRIAL_HEMP_FIBERS); Registry.addOre("fiberHemp", INDUSTRIAL_HEMP_FIBERS.getRegistryName());
         Registry.addItem(INDUSTRIAL_HEMP_FABRIC); Registry.addOre("fabricHemp", INDUSTRIAL_HEMP_FABRIC.getRegistryName());
         Registry.addItem(COAL_COKE);
-        Registry.addItem(SLAG);
+        Registry.addItem(SLAG); Registry.addOre("itemSlag", SLAG.getRegistryName());
 
 
         Registry.addItem(COMPONENT_MECH_IRON);
