@@ -1,0 +1,29 @@
+{
+  "name": "Improvements",
+  "category": "meta",
+  "icon": "openengie:chute_sheetmetal_gold",
+  "pages" : [
+    {
+      "type": "text",
+      "text": "As OpenEngineering is a continuation of IE, we feel some improvements should be made to IE where it makes sense"
+    },
+    {
+      "type": "spotlight",
+      "title": "Chutes",
+      "item": "openengie:chute_sheetmetal_gold",
+      "text": "There have been some improvements to Chutes. There are now a chute for each sheetmetal type, and one for treated wood. Under the hood Chutes have been completely separated from Conveyor's"
+    },
+    {
+      "type": "spotlight",
+      "title": "Ladder Chutes",
+      "item": "openengie:chute_sheetmetal_gold",
+      "text": "Ladder Chutes is OpenEngineering's replacement to Covered Ladder's. They work the same way, but again have more types"
+    },
+    {
+      "type": "spotlight",
+      "title": "Concrete Layer",
+      "item": "openengie:concrete_layer",
+      "text": "OpenEngineering has replaced IE's concrete sheet, panel, and chunk with one block that behaves like snow"
+    }
+  ]
+}

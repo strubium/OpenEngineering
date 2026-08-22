@@ -1,3 +1,6 @@
+# Dev-13
+* Added an "Improvements" page to the manual
+
 # Dev-12
 * Started to add oredict to blocks and items
   * Treated Stick and Rods
