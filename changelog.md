@@ -6,7 +6,7 @@
     * Also added general `blockBrick` tag to us and vanilla
   * Steel Scaffolding
   * Aluminum Scaffolding
-* Stated to add crafting recipes to blocks and items
+* Started to add crafting recipes to blocks and items
   * Sheetmetal chutes
   * Sheetmetal ladder chutes
   * Rods
@@ -15,6 +15,8 @@
   * Aluminum Scaffolding
   * Copper Wire
   * Concrete Layer
+  * Treated Wood Fences
+  * Treated Wood Stairs (Normal, Vertical, Packaged)
 * Added durability to tools 
 * Created a new `openengie:tool_damage_shaped` factory to let recipes like wire crafting damage the tool
 * Replaced Concrete chunk/panel/sheet with one block that has all 8 layers

@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:treated_wood_vertical_stairs",
+    "count": 4
+  },
+  "pattern": [
+    "T  ",
+    "TT ",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "openengie:treated_wood_vertical"
+    }
+  }
+}
