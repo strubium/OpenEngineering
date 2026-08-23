@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "openengie:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_aluminum",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "openengie:nickel_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_nickel",
+    "count": 1
+  }
+}

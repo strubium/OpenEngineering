@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "openengie:steel_scaffolding_3"
+    }
+  },
+  "result": {
+    "item": "openengie:steel_scaffolding_3_stairs",
+    "count": 4
+  }
+}

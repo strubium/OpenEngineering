@@ -1,6 +1,10 @@
 # Dev-13
 * Added an "Improvements" page to the manual
 * Fixed Jump Cushion being rock instead of cloth
+* Started to add crafting recipes to blocks and items
+  * All 'storage' blocks
+  * Scaffolding Stairs (Steel, Aluminum)
+
 
 # Dev-12
 * Started to add oredict to blocks and items

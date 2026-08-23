@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "openengie:constantan_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_constantan",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UUU",
+    "UUU",
+    "UUU"
+  ],
+  "key": {
+    "U": {
+      "item": "openengie:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_uranium",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "openengie:electrum_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_electrum",
+    "count": 1
+  }
+}

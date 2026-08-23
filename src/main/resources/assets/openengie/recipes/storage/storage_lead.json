@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "openengie:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_lead",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "openengie:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "openengie:storage_steel",
+    "count": 1
+  }
+}
