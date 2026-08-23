@@ -95,7 +95,7 @@ public class ModBlocks {
    // public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
     public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
 
-    public static final Block JUMP_CUSHION = createBlock(Material.ROCK, "jump_cushion");
+    public static final Block JUMP_CUSHION = createBlock(Material.CLOTH, "jump_cushion");
 
     public static final Block STORAGE_ALUMINUM = createBlockOre(Material.ANVIL, "storage_aluminum", "blockAluminum");
     public static final Block STORAGE_COPPER = createBlockOre(Material.ANVIL, "storage_copper", "blockCopper");

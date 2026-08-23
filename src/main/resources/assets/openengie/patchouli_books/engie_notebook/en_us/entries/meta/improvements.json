@@ -16,7 +16,7 @@
     {
       "type": "spotlight",
       "title": "Ladder Chutes",
-      "item": "openengie:chute_sheetmetal_gold",
+      "item": "openengie:chute_ladder_sheetmetal_gold",
       "text": "Ladder Chutes is OpenEngineering's replacement to Covered Ladder's. They work the same way, but again have more types"
     },
     {
