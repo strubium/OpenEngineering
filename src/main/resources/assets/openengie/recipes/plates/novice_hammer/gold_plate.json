@@ -1,0 +1,25 @@
+{
+  "type": "openengie:tool_damage_shaped",
+
+  "pattern": [
+    "I ",
+    " H"
+  ],
+
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "H": {
+      "item": "openengie:tool_novice_hammer",
+      "data": 32767
+    }
+  },
+
+  "result": {
+    "item": "openengie:plate_gold"
+  },
+
+  "damage": 10
+}

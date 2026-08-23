@@ -1,0 +1,43 @@
+{
+  "name": "Ores",
+  "category": "guide",
+  "icon": "openengie:ore_copper",
+  "pages" : [
+    {
+      "type": "spotlight",
+      "title": "Copper Ore",ore_bauxite
+      "item": "openengie:ore_copper",
+      "text": "Cooper Ore is smelted into copper ingots, used to craft basic wires, coils, and other important pieces"
+    },
+    {
+      "type": "spotlight",
+      "title": "Aluminum Ore",
+      "item": "openengie:ore_aluminum",
+      "text": "Aluminum Ore is smelted into aluminium ingots which, when used with steel, create high-voltage wires"
+    },
+    {
+      "type": "spotlight",
+      "title": "Lead Ore",
+      "item": "openengie:ore_lead",
+      "text": "Lead Ore is smelted into lead ingots which are used to create capacitors"
+    },
+    {
+      "type": "spotlight",
+      "title": "Silver Ore",
+      "item": "openengie:ore_silver",
+      "text": "Silver Ore is smelted into silver ingots which alloy with gold to form electrum, a effective conductor"
+    },
+    {
+      "type": "spotlight",
+      "title": "Nickel Ore",
+      "item": "openengie:ore_nickel",
+      "text": "Nickel Ore is smelted into nickel ingots which alloy with copper to form constantan, a head resistant conductor"
+    },
+    {
+      "type": "spotlight",
+      "title": "Uranium Ore",
+      "item": "openengie:ore_uranium",
+      "text": "Uranium Ore is smelted into uranium ingots, but there is not many uses for it"
+    }
+  ]
+}

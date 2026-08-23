@@ -5,6 +5,7 @@
 * Started to add crafting recipes to blocks and items
   * All 'storage' blocks
   * Scaffolding Stairs (Steel, Aluminum)
+  * Novice Hammer can now make plates
 
 
 # Dev-12
