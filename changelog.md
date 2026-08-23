@@ -1,6 +1,7 @@
 # Dev-13
 * Added an "Improvements" page to the manual
 * Fixed Jump Cushion being rock instead of cloth
+* Changed id of coke to storage_coke
 * Started to add crafting recipes to blocks and items
   * All 'storage' blocks
   * Scaffolding Stairs (Steel, Aluminum)

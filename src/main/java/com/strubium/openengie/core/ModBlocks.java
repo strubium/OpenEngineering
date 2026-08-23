@@ -75,7 +75,6 @@ public class ModBlocks {
  //   public static final Block BLASTBRICK_SLAB = createSlab(BLASTBRICK);
     public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
  //   public static final Block BLASTBRICK_REINFORCED_SLAB = createSlab(BLASTBRICK_REINFORCED);
-    public static final Block COKE = createBlock(Material.ROCK, "coke");
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
    // public static final Block COKE_BRICK_SLAB = createSlab(COKE_BRICK);
 
@@ -106,6 +105,7 @@ public class ModBlocks {
     public static final Block STORAGE_URANIUM = createBlockOre(Material.ANVIL, "storage_uranium", "blockUranium");
     public static final Block STORAGE_CONSTANTAN = createBlockOre(Material.ANVIL, "storage_constantan", "blockConstantan");
     public static final Block STORAGE_ELECTRUM = createBlockOre(Material.ANVIL, "storage_electrum", "blockElectrum");
+    public static final Block COKE = createBlockOre(Material.ROCK, "storage_coke", "blockFuelCoke");
 
    /* public static final Block STORAGE_ALUMINUM_SLAB = createSlab(STORAGE_ALUMINUM);
     public static final Block STORAGE_COPPER_SLAB = createSlab(STORAGE_COPPER);
