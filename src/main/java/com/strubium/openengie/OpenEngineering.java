@@ -63,6 +63,9 @@ public class OpenEngineering {
         GameRegistry.addSmelting(ModBlocks.ORE_SILVER, new ItemStack(ModItems.INGOT_SILVER), 0.8f);
         GameRegistry.addSmelting(ModBlocks.ORE_URANIUM, new ItemStack(ModItems.INGOT_URANIUM), 2.0f);
 
+        GameRegistry.addSmelting(ModItems.COKE_KILN_BRICK_MIX, new ItemStack(ModItems.COKE_KILN_BRICK), 0.6f);
+
+
         Registry.registerOreDict();
 
         AlloyKlinMultiblock.register();

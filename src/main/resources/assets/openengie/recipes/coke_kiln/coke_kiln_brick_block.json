@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:coke_brick",
+    "count": 2
+  },
+  "pattern": [
+    " S ",
+    "S S",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "openengie:coke_kiln_brick"
+    }
+  }
+}

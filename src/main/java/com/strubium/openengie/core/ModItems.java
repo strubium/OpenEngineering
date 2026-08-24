@@ -76,6 +76,8 @@ public class ModItems {
     public static final Item INDUSTRIAL_HEMP_FIBERS = createItem("industrial_hemp_fibers");
     public static final Item INDUSTRIAL_HEMP_FABRIC = createItem("industrial_hemp_fabric");
 
+    public static final Item COKE_KILN_BRICK = createItem("coke_kiln_brick");
+    public static final Item COKE_KILN_BRICK_MIX = createItem("coke_kiln_brick_mix");
     public static final Item COAL_COKE = createItem("coal_coke");
     public static final Item SLAG = createItem("slag");
 
@@ -141,6 +143,9 @@ public class ModItems {
         Registry.addItem(INDUSTRIAL_HEMP_FIBERS); Registry.addOre("fiberHemp", INDUSTRIAL_HEMP_FIBERS.getRegistryName());
         Registry.addItem(INDUSTRIAL_HEMP_FABRIC); Registry.addOre("fabricHemp", INDUSTRIAL_HEMP_FABRIC.getRegistryName());
         Registry.addItem(COAL_COKE);
+        Registry.addItem(COKE_KILN_BRICK);
+        Registry.addItem(COKE_KILN_BRICK_MIX);
+
         Registry.addItem(SLAG); Registry.addOre("itemSlag", SLAG.getRegistryName());
 
 

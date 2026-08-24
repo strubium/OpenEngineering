@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:coke_kiln_brick_mix",
+    "count": 1
+  },
+  "pattern": [
+    "CSC",
+    "S S",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "sand"
+    }
+  }
+}
