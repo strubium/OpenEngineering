@@ -6,6 +6,7 @@
   * All 'storage' blocks
   * Scaffolding Stairs (Steel, Aluminum)
   * Novice Hammer can now make plates
+  * Wirecoil Blocks (LV, MV, HV)
 
 
 # Dev-12
