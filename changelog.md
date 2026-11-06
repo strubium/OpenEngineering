@@ -1,6 +1,8 @@
 # Dev-14
 * Continued to add crafting recipes to blocks and items
-  *  Wire's
+  * Wire's
+  * Treated Wood Scaffolding
+  * Iron Mech Component
 
 # Dev-13
 * Updated buildscript to use latest ForgeDevEnv template

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "openengie:treated_wood_scaffolding"
+    }
+  },
+  "result": {
+    "item": "openengie:treated_wood_scaffolding_stairs",
+    "count": 4
+  }
+}
