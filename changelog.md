@@ -1,3 +1,7 @@
+# Dev-14
+* Continued to add crafting recipes to blocks and items
+  *  Wire's
+
 # Dev-13
 * Updated buildscript to use latest ForgeDevEnv template
 * Added an "Improvements" page to the manual

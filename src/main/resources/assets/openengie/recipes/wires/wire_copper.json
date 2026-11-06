@@ -8,7 +8,8 @@
 
   "key": {
     "I": {
-      "item": "openengie:plate_copper"
+      "type": "forge:ore_dict",
+      "ore": "plateCopper"
     },
     "H": {
       "item": "openengie:tool_wirecutters",

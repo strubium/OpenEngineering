@@ -1,0 +1,26 @@
+{
+  "type": "openengie:tool_damage_shaped",
+
+  "pattern": [
+    "I ",
+    " H"
+  ],
+
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "plateAluminum"
+    },
+    "H": {
+      "item": "openengie:tool_wirecutters",
+      "data": 32767
+    }
+  },
+
+  "result": {
+    "item": "openengie:wire_aluminum",
+    "count": 2
+  },
+
+  "damage": 7
+}
