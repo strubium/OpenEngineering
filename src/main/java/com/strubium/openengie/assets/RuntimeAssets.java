@@ -223,33 +223,21 @@ public class RuntimeAssets {
     /** Inject the generated resource pack into Minecraft */
     public static void registerGeneratedResourcePack() {
         if (runtimePack == null) {
-            runtimePack = new GeneratedResourcePack(new File(ASSETS_DIR));
+            runtimePack = new GeneratedResourcePack(new File("config/openengie"));
         }
-        Minecraft mc = Minecraft.getMinecraft();
-        addToDefaultResourcePacks(mc, runtimePack);
-        ((SimpleReloadableResourceManager) mc.getResourceManager()).reloadResourcePack(runtimePack);
-        OpenEngineering.LOGGER.info("Injected runtime resource pack from {}", new File(ASSETS_DIR).getAbsolutePath());
-    }
 
-    @SuppressWarnings("unchecked")
-    private static void addToDefaultResourcePacks(Minecraft mc, IResourcePack pack) {
-        for (Field field : Minecraft.class.getDeclaredFields()) {
-            if (!List.class.isAssignableFrom(field.getType())) continue;
-            field.setAccessible(true);
-            try {
-                Object value = field.get(mc);
-                if (value instanceof List) {
-                    List<?> list = (List<?>) value;
-                    if (!list.isEmpty() && list.get(0) instanceof IResourcePack) {
-                        if (!list.contains(pack)) {
-                            ((List<IResourcePack>) list).add(pack);
-                        }
-                        return;
-                    }
-                }
-            } catch (IllegalAccessException ignored) {
-            }
+        Minecraft mc = Minecraft.getMinecraft();
+
+        if (!mc.defaultResourcePacks.contains(runtimePack)) {
+            mc.defaultResourcePacks.add(runtimePack);
         }
-        OpenEngineering.LOGGER.warn("Could not locate defaultResourcePacks");
+
+        ((SimpleReloadableResourceManager) mc.getResourceManager())
+                .reloadResourcePack(runtimePack);
+
+        OpenEngineering.LOGGER.info(
+                "Injected runtime resource pack from {}",
+                new File("config/openengie").getAbsolutePath()
+        );
     }
 }

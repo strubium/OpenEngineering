@@ -1,4 +1,7 @@
 # Dev-14
+* Improved RuntimeAssets
+  * 0xNull12 provided a fix for the resource pack breaking on reload
+  * Added an Access Transformer to allow us to directly use mc.defaultResourcePacks 
 * Continued to add crafting recipes to blocks and items
   * Wire's
   * Treated Wood Scaffolding
