@@ -5,6 +5,7 @@ import com.strubium.openengie.Tags;
 import com.strubium.openengie.OpenEngineering;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.SimpleReloadableResourceManager;
+import net.minecraft.client.resources.IResourcePack;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -16,8 +17,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.List;
+import java.lang.reflect.Field;
 
 public class RuntimeAssets {
+    private static GeneratedResourcePack runtimePack;
 
     /** Load assets.json from inside the JAR */
     private static JsonObject loadAssetsJson() throws IOException {
@@ -218,9 +222,34 @@ public class RuntimeAssets {
 
     /** Inject the generated resource pack into Minecraft */
     public static void registerGeneratedResourcePack() {
-        File resourceBase = new File("config/openengie");
-        SimpleReloadableResourceManager resourceManager = (SimpleReloadableResourceManager) Minecraft.getMinecraft().getResourceManager();
-        resourceManager.reloadResourcePack(new GeneratedResourcePack(resourceBase));
-        OpenEngineering.LOGGER.info("Injected runtime resource pack from {}", resourceBase.getAbsolutePath());
+        if (runtimePack == null) {
+            runtimePack = new GeneratedResourcePack(new File(ASSETS_DIR));
+        }
+        Minecraft mc = Minecraft.getMinecraft();
+        addToDefaultResourcePacks(mc, runtimePack);
+        ((SimpleReloadableResourceManager) mc.getResourceManager()).reloadResourcePack(runtimePack);
+        OpenEngineering.LOGGER.info("Injected runtime resource pack from {}", new File(ASSETS_DIR).getAbsolutePath());
+    }
+
+    @SuppressWarnings("unchecked")
+    private static void addToDefaultResourcePacks(Minecraft mc, IResourcePack pack) {
+        for (Field field : Minecraft.class.getDeclaredFields()) {
+            if (!List.class.isAssignableFrom(field.getType())) continue;
+            field.setAccessible(true);
+            try {
+                Object value = field.get(mc);
+                if (value instanceof List) {
+                    List<?> list = (List<?>) value;
+                    if (!list.isEmpty() && list.get(0) instanceof IResourcePack) {
+                        if (!list.contains(pack)) {
+                            ((List<IResourcePack>) list).add(pack);
+                        }
+                        return;
+                    }
+                }
+            } catch (IllegalAccessException ignored) {
+            }
+        }
+        OpenEngineering.LOGGER.warn("Could not locate defaultResourcePacks");
     }
 }
