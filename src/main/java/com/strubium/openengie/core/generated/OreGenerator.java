@@ -1,5 +1,6 @@
 package com.strubium.openengie.core.generated;
 
+import com.strubium.openengie.config.ModConfig;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -11,13 +12,6 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import java.util.Random;
 
 public class OreGenerator implements IWorldGenerator {
-    public static final int copperSpawnsPerChunk = 10;
-    public static final int aluminumSpawnsPerChunk = 10;
-    public static final int leadSpawnsPerChunk = 10;
-    public static final int nickelSpawnsPerChunk = 10;
-    public static final int uraniumSpawnsPerChunk = 10;
-    public static final int silverSpawnsPerChunk = 10;
-
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -28,29 +22,27 @@ public class OreGenerator implements IWorldGenerator {
         int x = chunkX * 16;
         int z = chunkZ * 16;
 
-        addOreSpawn(ModBlocks.ORE_COPPER, world, copperSpawnsPerChunk, random, x, z, 9, 9, 6 + random.nextInt(4), 2, 110);
-
-        addOreSpawn(ModBlocks.ORE_ALUMINUM, world,aluminumSpawnsPerChunk, random, x, z, 13, 13, 6 + random.nextInt(7), 5, 90);
-
-        addOreSpawn(ModBlocks.ORE_LEAD, world,leadSpawnsPerChunk, random, x, z, 9, 9, 6 + random.nextInt(4), 2, 80);
-
-        addOreSpawn(ModBlocks.ORE_NICKEL, world, nickelSpawnsPerChunk, random, x, z, 9, 9, 6 + random.nextInt(4), 2, 80);
-
-        addOreSpawn(ModBlocks.ORE_URANIUM, world, uraniumSpawnsPerChunk, random, x, z, 9, 9, 6 + random.nextInt(4), 2, 80);
-
-        addOreSpawn(ModBlocks.ORE_SILVER, world, silverSpawnsPerChunk, random, x, z, 9, 9, 6 + random.nextInt(4), 2, 80);
+        generateOre(ModBlocks.ORE_COPPER, ModConfig.worldGen.copper, world, random, x, z);
+        generateOre(ModBlocks.ORE_ALUMINUM, ModConfig.worldGen.aluminum, world, random, x, z);
+        generateOre(ModBlocks.ORE_LEAD, ModConfig.worldGen.lead, world, random, x, z);
+        generateOre(ModBlocks.ORE_NICKEL, ModConfig.worldGen.nickel, world, random, x, z);
+        generateOre(ModBlocks.ORE_URANIUM, ModConfig.worldGen.uranium, world, random, x, z);
+        generateOre(ModBlocks.ORE_SILVER, ModConfig.worldGen.silver, world, random, x, z);
     }
 
-    public void addOreSpawn(Block block, World world, int chancesToSpawn, Random random, int blockXPos, int blockZPos, int maxX, int maxZ, int maxVeinSize, int minY, int maxY) {
+    private void generateOre(Block block, ModConfig.WorldGen.OreConfig config, World world, Random random, int blockXPos, int blockZPos) {
+        int maxX = 16;
+        int maxZ = 16;
 
-        int diffBetweenMinMaxY = maxY - minY;
+        int diffBetweenMinMaxY = config.maxY - config.minY;
+        if (diffBetweenMinMaxY <= 0) return;
 
-        for (int x = 0; x < chancesToSpawn; x++) {
+        for (int i = 0; i < config.spawnsPerChunk; i++) {
             int posX = blockXPos + random.nextInt(maxX);
-            int posY = minY + random.nextInt(diffBetweenMinMaxY);
+            int posY = config.minY + random.nextInt(diffBetweenMinMaxY);
             int posZ = blockZPos + random.nextInt(maxZ);
 
-            new WorldGenMinable(block.getDefaultState(), maxVeinSize).generate(world, random, new BlockPos(posX, posY, posZ));
+            new WorldGenMinable(block.getDefaultState(), config.maxVeinSize).generate(world, random, new BlockPos(posX, posY, posZ));
         }
     }
 }

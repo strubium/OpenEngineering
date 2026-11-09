@@ -1,4 +1,9 @@
 # Dev-14
+* Added config system. Currently, has configs for each ore
+  * spawnsPerChunk
+  * maxVeinSize 
+  * minY
+  * maxY
 * Improved RuntimeAssets
   * 0xNull12 provided a fix for the resource pack breaking on reload
   * Added an Access Transformer to allow us to directly use mc.defaultResourcePacks 
