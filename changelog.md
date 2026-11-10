@@ -7,6 +7,10 @@
 * Improved RuntimeAssets
   * 0xNull12 provided a fix for the resource pack breaking on reload
   * Added an Access Transformer to allow us to directly use mc.defaultResourcePacks 
+* Improved Leaded Concrete
+  * Replaced the leaded outline with new `leaded_outline.png` made by me
+  * Created a `base/base_leaded.json` as well
+  * These changes will allow more items to be made leaded should that be needed in the future
 * Continued to add crafting recipes to blocks and items
   * Wire's
   * Treated Wood Scaffolding

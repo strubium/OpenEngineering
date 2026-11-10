@@ -476,11 +476,6 @@
       "type":"block"
     },
     {
-      "name":"leaded_concrete",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_concrete_leaded.png",
-      "type":"block"
-    },
-    {
       "name":"concrete_tile",
       "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_concrete_tile.png",
       "type":"block"

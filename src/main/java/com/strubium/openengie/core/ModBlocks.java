@@ -90,7 +90,7 @@ public class ModBlocks {
     public static final Block CONCRETE_TILE = createBlock(Material.ROCK, "concrete_tile");
     //public static final Block CONCRETE_TILE_SLAB = createBlock(Material.ROCK, "concrete_tile_slab");
     public static final Block CONCRETE_TILE_STAIRS = createStairs(CONCRETE_TILE);
-    public static final Block LEADED_CONCRETE = createBlock(Material.ROCK, "leaded_concrete");
+    public static final Block LEADED_CONCRETE = createTransparentBlock(Material.ROCK, "leaded_concrete");
    // public static final Block LEADED_CONCRETE_SLAB = createSlab(LEADED_CONCRETE);
     public static final Block LEADED_CONCRETE_STAIRS = createStairs(LEADED_CONCRETE);
 
