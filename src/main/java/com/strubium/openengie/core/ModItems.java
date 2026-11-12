@@ -103,11 +103,11 @@ public class ModItems {
     public static final Item STICK_TREATED_WOOD = createItem("stick_treated_wood");
     public static final Item STICK_IRON = createItem("stick_iron");
     public static final Item STICK_STEEL = createItem("stick_steel");
-    public static final Item STICK_ALUMINIUM = createItem("stick_aluminium");
+    public static final Item STICK_ALUMINIUM = createItem("stick_aluminum");
 
     public static final Item WIRE_COPPER = createItem("wire_copper");
     public static final Item WIRE_ELECTRUM = createItem("wire_electrum");
-    public static final Item WIRE_ALUMINIUM = createItem("wire_aluminium");
+    public static final Item WIRE_ALUMINIUM = createItem("wire_aluminum");
     public static final Item WIRE_STEEL = createItem("wire_steel");
 
 
