@@ -191,7 +191,7 @@ tile.openengie.coke_brick.name=Coke Brick
 
 tile.openengie.alloy_kiln_brick.name=Alloy Kiln Brick
 tile.openengie.blastbrick.name=Blast Furnace Brick
-tile.openengie.blastbrick_reinforced.name=Reinforced Blast Furnace Brick
+tile.openengie.leaded_blastbrick.name=Leaded Blast Furnace Brick
 
 tile.openengie.steel_scaffolding_1.name=Steel Scaffolding
 tile.openengie.steel_scaffolding_1_stairs.name=Steel Scaffolding Stairs

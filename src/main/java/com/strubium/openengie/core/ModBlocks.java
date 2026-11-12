@@ -73,7 +73,7 @@ public class ModBlocks {
 
     public static final Block BLASTBRICK = createBlock(Material.ROCK, "blastbrick");
  //   public static final Block BLASTBRICK_SLAB = createSlab(BLASTBRICK);
-    public static final Block BLASTBRICK_REINFORCED = createBlock(Material.ROCK, "blastbrick_reinforced");
+    public static final Block BLASTBRICK_REINFORCED = createTransparentBlock(Material.ROCK, "leaded_blastbrick");
  //   public static final Block BLASTBRICK_REINFORCED_SLAB = createSlab(BLASTBRICK_REINFORCED);
     public static final Block COKE_BRICK = createBlock(Material.ROCK, "coke_brick");
    // public static final Block COKE_BRICK_SLAB = createSlab(COKE_BRICK);

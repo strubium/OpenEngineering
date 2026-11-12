@@ -1,0 +1,6 @@
+{
+  "parent": "openengie:block/base/base_leaded",
+  "textures": {
+    "base": "openengie:blocks/blastbrick"
+  }
+}

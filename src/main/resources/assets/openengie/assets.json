@@ -291,11 +291,6 @@
       "type":"block"
     },
     {
-      "name":"blastbrick_reinforced",
-      "url":"https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.13pre/src/main/resources/assets/immersiveengineering/textures/blocks/stone_decoration_blastbrick_reinforced.png",
-      "type":"block"
-    },
-    {
       "name":"stone_device_allloy_smelter_bottom",
       "type": "block",
       "split": "quarter",

@@ -1,3 +1,6 @@
+# Dev-15
+* Changed `blastbrick_reinforced` to use the leaded outline system.  
+
 # Dev-14
 * Added config system. Currently, has configs for each ore
   * spawnsPerChunk
