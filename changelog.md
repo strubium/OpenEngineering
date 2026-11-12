@@ -15,6 +15,7 @@
   * Wire's
   * Treated Wood Scaffolding
   * Iron Mech Component
+  * Fences
 
 # Dev-13
 * Updated buildscript to use latest ForgeDevEnv template

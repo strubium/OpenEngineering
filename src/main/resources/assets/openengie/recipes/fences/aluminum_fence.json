@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "openengie:storage_aluminum_fence",
+    "count": 3
+  },
+  "pattern": [
+    "TST",
+    "TST"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickAluminum"
+    },
+    "T": {
+      "type": "forge:ore_dict",
+      "ore": "ingotAluminum"
+    }
+  }
+}
