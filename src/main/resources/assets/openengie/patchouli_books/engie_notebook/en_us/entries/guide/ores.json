@@ -5,7 +5,7 @@
   "pages" : [
     {
       "type": "spotlight",
-      "title": "Copper Ore",ore_bauxite
+      "title": "Copper Ore",
       "item": "openengie:ore_copper",
       "text": "Cooper Ore is smelted into copper ingots, used to craft basic wires, coils, and other important pieces"
     },

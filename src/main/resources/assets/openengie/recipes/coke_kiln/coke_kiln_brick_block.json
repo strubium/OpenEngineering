@@ -2,7 +2,7 @@
   "type": "forge:ore_shaped",
   "result": {
     "item": "openengie:coke_brick",
-    "count": 2
+    "count": 3
   },
   "pattern": [
     " S ",
